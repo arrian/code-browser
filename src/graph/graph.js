@@ -1,4 +1,5 @@
 var mkdirp = require('mkdirp'),
+	fs = require('fs'),
 	_ = require('lodash');
 
 class Graph {
@@ -33,6 +34,19 @@ class Graph {
 			nodes: _.values(this.nodes),
 			links: _.values(this.links)
 		};
+	}
+
+	save(target) {
+		return new Promise((resolve, reject) => {
+			fs.writeFile(target, this.toJSON(), err => {
+				if(err) {
+					reject(err);
+					return console.log(err);
+				}
+
+				resolve();
+			});
+		});
 	}
 
 	addNode(name, type, data) {
