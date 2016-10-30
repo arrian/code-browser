@@ -10,26 +10,6 @@ var esprima = require('esprima'),
 class YUIGraph extends Graph {
 	constructor(name, src, version) {
 		super(name, 'yui', src, version);
-
-		this.docOutput = this.getWorkingDirectory() + '/doc';
-		this.parseOutput = this.getWorkingDirectory() + '/parse';
-		this.dependencyOutput = this.getWorkingDirectory() + '/dependencies';
-
-		this.docFile = this.docOutput + '/data.json';
-		this.dependencyFiles = this.dependencyOutput + '/*.json';
-
-		mkdirp.sync(this.docOutput);
-		mkdirp.sync(this.parseOutput);
-		mkdirp.sync(this.dependencyOutput);
-
-		this.addNode('Base', 'class');
-		this.addNode('App.Base', 'class', { extend: 'Base' });
-		this.addNode('Model', 'class', { extend: 'Base' });
-		this.addNode('ModelList', 'class', { extend: 'Base' });
-		this.addNode('View', 'class', { extend: 'Base' });
-		this.addNode('Widget', 'class', { extend: 'Base' });
-		this.addNode('App', 'class', { uses: ['View'], extend: 'App.Base' });
-		this.addNode('Plugin.Base', 'class', { extend: 'Base' });
 	}
 
 	addNode(name, type, data) {
@@ -38,10 +18,19 @@ class YUIGraph extends Graph {
 
 	parse() {
 		return this.collect().then(analysis => {
+			this.addNode('Base', 'class');
+			this.addNode('App.Base', 'class', { extend: 'Base' });
+			this.addNode('Model', 'class', { extend: 'Base' });
+			this.addNode('ModelList', 'class', { extend: 'Base' });
+			this.addNode('View', 'class', { extend: 'Base' });
+			this.addNode('Widget', 'class', { extend: 'Base' });
+			this.addNode('App', 'class', { uses: ['View'], extend: 'App.Base' });
+			this.addNode('Plugin.Base', 'class', { extend: 'Base' });
+
 			this.createNodes(analysis);
 			this.createLinks(analysis);
 			console.log('done');
-		}).catch(error => console.log('Error: ' + error));
+		}).catch(error => console.log('Error: ' + (error.stack || error)));
 	}
 
 	collect() {
@@ -49,7 +38,6 @@ class YUIGraph extends Graph {
 			var walker = walk.walk(this.src, { followLinks: false }),
 				yuidoc = (new yuidocjs.YUIDoc({
 					paths: [ this.src ],
-					outdir: this.docOutput,
 					quiet: true
 				})).run(),
 				parsed = {},
@@ -62,11 +50,7 @@ class YUIGraph extends Graph {
 					parsed[stat.name] = JSON.stringify(esprima.parse(fs.readFileSync(filename).toString()));					
 				} else if (this.endsWith(filename, '.json') && !this.endsWith(filename, 'build.json')) {
 					dependencies[stat.name] = JSON.parse(fs.readFileSync(filename).toString());
-				} else {
-					// console.log('no action: ' + stat.name);
 				}
-
-				// console.log(stat.name);
 
 				next();
 			});
@@ -131,7 +115,7 @@ class YUIGraph extends Graph {
 			});
 		});
 
-		_.each(this.nodes, node => {
+		_.each(this.getNodes(), node => {
 			if(node.uses) _.each(node.uses, use => this.addLink('uses', node.name, use));
 			if(node.depends) _.each(node.depends, depend => this.addLink('dependencies', node.name, depend));
 			if(node.extend) this.addLink('extends', node.name, node.extend);
