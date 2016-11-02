@@ -1,3 +1,5 @@
+"use strict";
+
 var fs = require('fs'),
 	_ = require('lodash');
 
@@ -51,6 +53,10 @@ class Node {
 		this.type = type;
 		this.links = [];
 
+		this.merge(data);
+	}
+
+	merge(data) {
 		merge(this, data);
 	}
 
@@ -154,19 +160,19 @@ class Graph {
 
 	addNode(name, type, data) {
 		if(this.nodes[name]) {
-			if(type !== this.nodes[name].type) throw new Error('Attempted to merge nodes with different types');
+			if(this.nodes[name].type && type !== this.nodes[name].type) throw new Error('Attempted to merge nodes with different types');
 			this.nodes[name].merge(data);
+			this.nodes[name].type = type;
 		} else {
 			this.nodes[name] = new Node(name, type, data);
 		}
+
+		return this.nodes[name];
 	}
 
 	addLink(relationship, sourceName, targetName, data) {
-		var sourceNode = this.nodes[sourceName],
-			targetNode = this.nodes[targetName];
-
-		if(!sourceNode) throw new Error('Source node for add link invalid');
-		if(!targetNode) throw new Error('Target node for add link invalid');
+		var sourceNode = this.nodes[sourceName] || this.addNode(sourceName),
+			targetNode = this.nodes[targetName] || this.addNode(targetName);
 
 		sourceNode.addLink(relationship, data, targetNode);
 	}
