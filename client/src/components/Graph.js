@@ -47,31 +47,35 @@ class Graph extends React.Component {
   }
 
   updateSimulation(nodes, links) {
+    let entering;
+
     this.nodes = nodes;
     this.links = links;
 
     this.nodeElements = this.nodeElements.data(nodes, d => d.name);
     this.nodeElements.exit().remove();
-    this.nodeElements = this.nodeElements.enter().append('g').attr('class', 'node').merge(this.nodeElements);
+    entering = this.nodeElements.enter().append('g').attr('class', 'node');
 
-    this.nodeElements
+    entering
       .call(d3.drag()
         .on('start', d => this.dragStart(d))
         .on('drag', d => this.dragging(d))
         .on('end', d => this.dragEnd(d)));
 
-    this.nodeElements
+    entering
       .append('circle')
       .attr('fill', d => this.colour(d.name))
       .attr('r', d => 10)//d.linkCount * 2 + 1)
       .attr('cursor', 'pointer');
 
-    this.nodeElements
+    entering
       .append('text')
       .attr('class', 'textClass')
       .attr('x', 10)
       .attr('y', '.31em')
       .text(d => d.name);
+
+    this.nodeElements = entering.merge(this.nodeElements);
     
     this.linkElements = this.linkElements.data(links, d => d.name);
     this.linkElements.exit().remove();
