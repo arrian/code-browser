@@ -1,5 +1,5 @@
 {
-  "name": "code-graph-client",
+  "name": "code-graph",
   "version": "0.1.0",
   "description": "Code graph app",
   "main": "index.js",
@@ -7,11 +7,13 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "eject": "react-scripts eject",
-    "test": "mocha"
+    "test": "mocha",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/arrian/code-graph-client.git"
+    "url": "git+https://github.com/arrian/code-graph.git"
   },
   "keywords": [
     "counter"
@@ -19,9 +21,9 @@
   "author": "Arrian Purcell <arrian.purcell@gmail.com> (arrian.github.io)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/arrian/code-graph-client/issues"
+    "url": "https://github.com/arrian/code-graph/issues"
   },
-  "homepage": "https://github.com/arrian/code-graph-client#readme",
+  "homepage": "https://arrian.github.io/code-graph",
   "dependencies": {
     "d3": "^4.9.1",
     "elasticlunr": "^0.9.5",
@@ -39,6 +41,7 @@
     "uuid4": "^1.0.0"
   },
   "devDependencies": {
+    "gh-pages": "^1.0.0",
     "depcheck": "^0.6.7",
     "react-scripts": "^0.9.0",
     "redux-devtools-extension": "^2.13.2"
