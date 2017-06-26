@@ -6,11 +6,11 @@ import { composeWithDevTools } from 'redux-devtools-extension'
 import { Provider } from 'react-redux'
 import App from './components/App'
 import reducer from './reducers'
-import { loadGraph } from './actions'
+import { loadProjects } from './actions'
 
 const store = createStore(reducer, composeWithDevTools(applyMiddleware(thunkMiddleware)));
 
-store.dispatch(loadGraph('./yui.json'));
+store.dispatch(loadProjects());
 
 render(
   <Provider store={store}>

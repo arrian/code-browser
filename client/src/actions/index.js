@@ -1,10 +1,37 @@
 import elasticlunr from 'elasticlunr'
 
+export const refreshProjects = (projects) => ({
+	type: 'REFRESH_PROJECTS',
+	projects
+});
+
+export function loadProjects() {
+  return (dispatch, getState) => {
+  	let codeGraph = { text: 'Code Graph 0.1', value: './code-graph.json' },
+  		yuiGraph = { text: 'YUI 3', value: './yui.json' },
+  		fhirValidatorGraph = { text: 'FHIR Validator  0.5', value: './fhir-validator.json' };
+
+  	dispatch(refreshProjects([
+  		codeGraph,
+  		fhirValidatorGraph,
+  		yuiGraph
+  	]));
+
+  	dispatch(loadGraph(codeGraph));
+  }
+};
+
+export const selectProject = (project) => ({
+	type: 'SELECT_PROJECT',
+	project: { value: project }
+});
+
+
 function createIndex() {
 	elasticlunr.clearStopWords();	
 	return elasticlunr(function () {
 		this.addField('name');
-		this.setRef('name');
+		this.setRef('id');
 	});
 }
 
@@ -12,22 +39,21 @@ var index = createIndex();
 
 export const refreshGraph = (nodes, links) => {
 	index = createIndex();
-	nodes.forEach(node => index.addDoc({ name: node.name }));
 
 	let nodeMap = {};
 	let linkMap = {};
 
 	nodes.forEach(node => {
 		node.linkCount = 0;
-		nodeMap[node.name] = node;
+		nodeMap[node.id] = node;
 	});
 	links.forEach(link => {
 		nodeMap[link.source].linkCount++;
 		nodeMap[link.target].linkCount++;
-
-		link.name = link.source + ' -> ' + link.target;
-		linkMap[link.name] = link;
+		linkMap[link.id] = link;
 	});
+
+	nodes.forEach(node => index.addDoc(node));
 
 	return {
 		type: 'REFRESH_GRAPH',
@@ -36,12 +62,17 @@ export const refreshGraph = (nodes, links) => {
 	}
 };
 
-export function loadGraph(json) {
+export function loadGraph(project) {
   return (dispatch, getState) => {
-  	return fetch(json).then(response => response.json()).then(json => {
-  		dispatch(refreshGraph(json.nodes, json.links));
-  		dispatch(searchGraph(getState().graph.query));
-  	});
+  	if(project) {
+	  	dispatch(selectProject(project.value));
+	  	return fetch(project.value).then(response => response.json()).then(json => {
+	  		dispatch(refreshGraph(json.nodes, json.links));
+	  		dispatch(searchGraph(getState().graph.query));
+	  	});
+  	} else {
+  		dispatch(selectProject(null));
+  	}
   }
 };
 

@@ -3,7 +3,7 @@ import { connect } from 'react-redux'
 import { selectNode, expandNode, collapseNode, zoom, move } from '../actions'
 import { Loader } from 'semantic-ui-react'
 import * as d3 from 'd3'
-import { keyBy } from 'lodash'
+import { keyBy, isEqual } from 'lodash'
 
 class Graph extends React.Component {
   constructor(props) {
@@ -13,6 +13,15 @@ class Graph extends React.Component {
   }
 
   componentWillReceiveProps(props) {
+    if(!isEqual(props.results, this.props.results)) {
+      this.updateGraph(props);
+    }
+    
+    if(this.props.selection && this.props.selection.id) this.nodeElements.select('#node-' + this.props.selection.id + ' circle').attr('fill', this.getNodeColour(this.props.selection)).attr('stroke-width', '0').attr('class', '');
+    if(props.selection && props.selection.id) this.nodeElements.select('#node-' + props.selection.id + ' circle').attr('fill', 'red').attr('stroke', 'black').attr('stroke-width', '2').attr('class', 'selection');
+  }
+
+  updateGraph(props) {
     let oldItem,
         newItem,
         oldNodeMap = this.nodeMap || {},
@@ -25,7 +34,6 @@ class Graph extends React.Component {
       oldItem = oldNodeMap[key] || {};
       newItem = props.nodes[key];
       this.nodeMap[key] = Object.assign({}, newItem, {
-        // identifier: oldItem.identifier,
         x: oldItem.x,
         y: oldItem.y,
         vx: oldItem.vx,
@@ -35,26 +43,31 @@ class Graph extends React.Component {
     });
 
     const resultLinks = Object.keys(props.links).map(key => props.links[key]).filter(link => this.nodeMap[link.source] && this.nodeMap[link.target]).map(link => {
-      oldItem = oldLinkMap[link.name] || {};
-      this.linkMap[link.name] = Object.assign({}, link, {
+      oldItem = oldLinkMap[link.id] || {};
+      this.linkMap[link.id] = Object.assign({}, link, {
         source: this.nodeMap[link.source],
         target: this.nodeMap[link.target]
       });
-      return this.linkMap[link.name];
+      return this.linkMap[link.id];
     });
 
-    this.updateSimulation(resultNodes, resultLinks);
+    this.updateSimulation(resultNodes, resultLinks, props.selectNode);
   }
 
-  updateSimulation(nodes, links) {
+  updateSimulation(nodes, links, selectNode) {
     let entering;
 
     this.nodes = nodes;
     this.links = links;
 
-    this.nodeElements = this.nodeElements.data(nodes, d => d.name);
+    this.nodeElements = this.nodeElements.data(nodes, d => d.id);
     this.nodeElements.exit().remove();
-    entering = this.nodeElements.enter().append('g').attr('class', 'node');
+    entering = this.nodeElements.enter().append('g');
+
+    entering
+      .attr('class', 'node')
+      .attr('title', d => d.name)
+      .attr('id', d => 'node-' + d.id);
 
     entering
       .call(d3.drag()
@@ -64,22 +77,24 @@ class Graph extends React.Component {
 
     entering
       .append('circle')
-      .attr('fill', d => this.colour(d.name))
+      .attr('fill', d => this.getNodeColour(d))
       .attr('r', d => 10)//d.linkCount * 2 + 1)
-      .attr('cursor', 'pointer');
+      .attr('cursor', 'pointer')
+      .on('click', selectNode);
 
     entering
       .append('text')
       .attr('class', 'textClass')
       .attr('x', 10)
       .attr('y', '.31em')
-      .text(d => d.name);
+      .attr('pointer-events', 'none')
+      .text(d => d.name.split("/").pop());
 
     this.nodeElements = entering.merge(this.nodeElements);
     
-    this.linkElements = this.linkElements.data(links, d => d.name);
+    this.linkElements = this.linkElements.data(links, d => d.id);
     this.linkElements.exit().remove();
-    this.linkElements = this.linkElements.enter().append('line').merge(this.linkElements);
+    this.linkElements = this.linkElements.enter().append('line').attr('id', d => 'link-' + d.id).merge(this.linkElements);
 
     this.simulation.nodes(nodes);
     this.simulation.force('link').links(links);
@@ -103,6 +118,10 @@ class Graph extends React.Component {
     d.fy = null;
   }
 
+  getNodeColour(node) {
+    return this.colour(node.name);
+  }
+
   componentDidMount() {
     const svg = d3.select(this.refs.graph);
     const content = svg.append('g');
@@ -111,14 +130,12 @@ class Graph extends React.Component {
       .force('collide', d3.forceCollide(d => 50).iterations(16))
       // .force('center', d3.forceCenter(500, 500))
       // .force('charge', d3.forceManyBody())
-      .force('link', d3.forceLink(this.links).id(d => d.name).distance(100).strength(1))
+      .force('link', d3.forceLink(this.links).id(d => d.id).distance(100).strength(1))
       .force('y', d3.forceY(0))
       .force('x', d3.forceX(0))
       .on('tick', () => this.tick());
 
     svg.call(d3.zoom().scaleExtent([0.1, 8]).on('zoom', () => content.attr("transform", d3.event.transform)))
-
-    this.color = d3.scaleOrdinal(d3.schemeCategory20c);
 
     this.linkElements = content.append('g')
       .attr('class', 'links')
@@ -165,7 +182,8 @@ Graph.propTypes = {
 const mapStateToProps = (state) => ({
   nodes: state.graph.nodes,
   links: state.graph.links,
-  results: state.graph.results
+  results: state.graph.results,
+  selection: state.graph.selection
 })
 
 const mapDispatchToProps = ({

@@ -1,8 +1,10 @@
 
-const graph = (state = { nodes: {}, links: {}, query: '', results: [], error: false, loading: true, selection: null, scale: 1.0, colourMethod: null, zoom: 1.0, x: 0, y: 0 }, action) => {
+const graph = (state = { project: {}, nodes: {}, links: {}, query: '', results: [], error: false, loading: true, selection: null, scale: 1.0, colourMethod: null, zoom: 1.0, x: 0, y: 0 }, action) => {
 	switch(action.type) {
+	case 'SELECT_PROJECT':
+		return Object.assign({}, state, { project: action.project });
 	case 'REFRESH_GRAPH':
-		return Object.assign({}, state, { nodes: action.nodes, links: action.links, results: [], loading: false, isMore: false });
+		return Object.assign({}, state, { nodes: action.nodes, links: action.links, results: [], loading: false });
 	case 'QUERY_GRAPH':
 		return Object.assign({}, state, { query: action.query, loading: true });
 	case 'RESULT_GRAPH':
@@ -10,6 +12,8 @@ const graph = (state = { nodes: {}, links: {}, query: '', results: [], error: fa
 		return state;
 	case 'ERROR_GRAPH':
 		return Object.assign({}, state, { error: true, loading: false });
+	case 'SELECT_NODE':
+		return Object.assign({}, state, { selection: action.selection });
 	case 'EXPAND_NODE':
 		return state;
 	case 'COLLAPSE_NODE':
