@@ -1,0 +1,4633 @@
+{
+    "name": "YUI 3",
+    "src": "/Users/arrian/Dev/yui/yui3-master/src",
+    "version": "3.18.2",
+    "nodes": [
+        {
+            "id": "e1311a57-2e26-49a9-b704-62e87af7bace",
+            "name": "Base",
+            "type": "class"
+        },
+        {
+            "id": "72e2a440-3d82-4abd-8b53-e1ed2838a385",
+            "name": "App.Base",
+            "type": "class"
+        },
+        {
+            "id": "ce704ba8-0c2b-453a-8103-ca035673763a",
+            "name": "Model",
+            "type": "class"
+        },
+        {
+            "id": "e3811626-5e7f-4aae-ac5d-900e6408a557",
+            "name": "ModelList",
+            "type": "class"
+        },
+        {
+            "id": "7a7817c7-1f09-49d5-b915-e8dcc9cc253d",
+            "name": "View",
+            "type": "class"
+        },
+        {
+            "id": "c5aa8028-b44c-491d-beed-2f914c74c056",
+            "name": "Widget",
+            "type": "class"
+        },
+        {
+            "id": "4404f251-1861-481a-8b6f-703bc266c280",
+            "name": "App",
+            "type": "class"
+        },
+        {
+            "id": "b1e0336d-a3f0-4980-88ba-3eeb467e1cbd",
+            "name": "Plugin.Base",
+            "type": "class"
+        },
+        {
+            "id": "921c3511-7556-4e13-a91d-a3df9ee4b8fa",
+            "name": "Anim",
+            "type": "class"
+        },
+        {
+            "id": "e984d0ec-22b8-4ade-99a6-373386319e38",
+            "name": "Easing",
+            "type": "class"
+        },
+        {
+            "id": "a02097f0-c26c-4d30-852f-82542066a78b",
+            "name": "Plugin.NodeFX",
+            "type": "class"
+        },
+        {
+            "id": "742940fc-4bc0-418d-b01a-ccf30113bba5",
+            "name": "PjaxContent",
+            "type": "class"
+        },
+        {
+            "id": "d10b5930-f3ab-4714-987a-c3f73d042651",
+            "name": "App.Content",
+            "type": "class"
+        },
+        {
+            "id": "69d8c095-c32e-491a-b081-5a045ca9afe4",
+            "name": "App.TransitionsNative",
+            "type": "class"
+        },
+        {
+            "id": "7e898464-b558-4391-afa4-fac36078b7b2",
+            "name": "App.Transitions",
+            "type": "class"
+        },
+        {
+            "id": "bc27b564-69c8-43b9-92fe-a912b0e124d3",
+            "name": "ModelSync.Local",
+            "type": "class"
+        },
+        {
+            "id": "7ad21c64-d83f-447d-8582-4a8c43a55774",
+            "name": "ModelSync.REST",
+            "type": "class"
+        },
+        {
+            "id": "611a9ac6-af1d-4dc1-bd88-28430db1a1fb",
+            "name": "View.NodeMap",
+            "type": "class"
+        },
+        {
+            "id": "3a42ab7d-8fe5-4449-adce-cae34a934677",
+            "name": "Router",
+            "type": "class"
+        },
+        {
+            "id": "0cec1769-794c-4e2e-b8f2-3de567fcef87",
+            "name": "PjaxBase",
+            "type": "class"
+        },
+        {
+            "id": "20a72b64-39c8-4419-9dac-aa5e820d4534",
+            "name": "LazyModelList",
+            "type": "class"
+        },
+        {
+            "id": "2fd904bb-fb16-4a8e-a678-c31425d10724",
+            "name": "ArrayList",
+            "type": "class"
+        },
+        {
+            "id": "db809a62-cf47-47ed-a868-6ea78d1f3116",
+            "name": "Controller",
+            "type": "class"
+        },
+        {
+            "id": "4ca7993d-1eeb-4401-9a8d-ea7107a2c3ef",
+            "name": "ArraySort",
+            "type": "class"
+        },
+        {
+            "id": "84978e2e-aae2-4196-9aae-2a6ab6c6463e",
+            "name": "EventTarget",
+            "type": "class"
+        },
+        {
+            "id": "018607b0-0c87-4837-8241-d31c6c902545",
+            "name": "AsyncQueue",
+            "type": "class"
+        },
+        {
+            "id": "16ef8f46-1880-4961-a3f9-692bdf454eb6",
+            "name": "AttributeCore",
+            "type": "class"
+        },
+        {
+            "id": "9ddffa01-0da9-4ab3-bca5-a005a5103b3f",
+            "name": "AttributeObservable",
+            "type": "class"
+        },
+        {
+            "id": "b05f1827-0be9-4f4a-ad30-6aa3d7fcc744",
+            "name": "AttributeExtras",
+            "type": "class"
+        },
+        {
+            "id": "96ada99b-c128-4f2a-bdb1-667d688cdc53",
+            "name": "Attribute",
+            "type": "class"
+        },
+        {
+            "id": "6e2d5b88-394d-4c49-aa99-7384082249d7",
+            "name": "AttributeEvents",
+            "type": "class"
+        },
+        {
+            "id": "95168787-0c41-4e8e-9d7b-64195d2922c4",
+            "name": "State",
+            "type": "class"
+        },
+        {
+            "id": "9b2d3500-6cf1-4308-9e32-b652da84c3fe",
+            "name": "AutoCompleteBase",
+            "type": "class"
+        },
+        {
+            "id": "a6581753-92e9-4c4a-8f77-22180cb0dc08",
+            "name": "AutoCompleteFilters",
+            "type": "class"
+        },
+        {
+            "id": "383b5f3e-65dd-410c-9afa-cd9d2daa935c",
+            "name": "AutoCompleteHighlighters",
+            "type": "class"
+        },
+        {
+            "id": "7772c23d-7d8e-457e-bdda-abbecd8daa39",
+            "name": "WidgetPosition",
+            "type": "class"
+        },
+        {
+            "id": "e9984602-9de6-4ce9-9594-5d1bf9608012",
+            "name": "WidgetPositionAlign",
+            "type": "class"
+        },
+        {
+            "id": "8db44b10-d2ab-4aa3-88e6-07449d783ad3",
+            "name": "AutoCompleteList",
+            "type": "class"
+        },
+        {
+            "id": "8be815ca-0132-4085-be02-b83943e7a6e4",
+            "name": "AutoComplete",
+            "type": "class"
+        },
+        {
+            "id": "3f8ca949-e649-4e1b-9900-68989ce57df4",
+            "name": "Plugin.AutoComplete",
+            "type": "class"
+        },
+        {
+            "id": "07421c03-d1f8-4783-8016-329363799d8c",
+            "name": "BaseCore",
+            "type": "class"
+        },
+        {
+            "id": "fea6434f-b4e5-489c-8904-e557533ac0c5",
+            "name": "BaseObservable",
+            "type": "class"
+        },
+        {
+            "id": "dad2cca6-50c9-4a6f-8c38-cd5c1adceee7",
+            "name": "ButtonCore",
+            "type": "class"
+        },
+        {
+            "id": "bc7a4a78-9e16-405c-aab5-b9d78b9dd4cf",
+            "name": "Button",
+            "type": "class"
+        },
+        {
+            "id": "64e7f447-7b76-4edb-92a8-35d456af3d17",
+            "name": "ToggleButton",
+            "type": "class"
+        },
+        {
+            "id": "b7460d90-ebfb-403d-b8a8-c5f9de57615c",
+            "name": "ButtonGroup",
+            "type": "class"
+        },
+        {
+            "id": "58e06b09-36e0-4ca6-ab28-9a2d94bfaac8",
+            "name": "Plugin.Button",
+            "type": "class"
+        },
+        {
+            "id": "4b71cd31-153d-4b18-93cd-5d249eb3be67",
+            "name": "Cache",
+            "type": "class"
+        },
+        {
+            "id": "fb72e1cf-b3d2-41d9-a1e5-9c24f973e637",
+            "name": "CacheOffline",
+            "type": "class"
+        },
+        {
+            "id": "4d4ef57e-540b-4cf0-a93d-87b759766fec",
+            "name": "Plugin.Cache",
+            "type": "class"
+        },
+        {
+            "id": "78e31571-6392-4fee-adea-a5a34c35c676",
+            "name": "CalendarBase",
+            "type": "class"
+        },
+        {
+            "id": "88d3461e-bd52-4124-a3f5-1739eb54d48b",
+            "name": "Calendar",
+            "type": "class"
+        },
+        {
+            "id": "bae5e1c3-e0a9-472a-9272-9014e5c18936",
+            "name": "Plugin.CalendarNavigator",
+            "type": "class"
+        },
+        {
+            "id": "8b2827d9-bfe8-4c6b-8076-e11aabd9f5f2",
+            "name": "Fills",
+            "type": "class"
+        },
+        {
+            "id": "a4453580-7aff-4f0d-93dd-b9def876276b",
+            "name": "CartesianSeries",
+            "type": "class"
+        },
+        {
+            "id": "4ff2790d-3ba5-4789-811e-119ac0e99975",
+            "name": "AreaSeries",
+            "type": "class"
+        },
+        {
+            "id": "65013beb-7220-4fc5-86a9-83d6d013c9df",
+            "name": "CurveUtil",
+            "type": "class"
+        },
+        {
+            "id": "fe81a620-ee91-4f74-86e5-f17bde788103",
+            "name": "AreaSplineSeries",
+            "type": "class"
+        },
+        {
+            "id": "9911b55d-4e31-4b76-a281-616e7e12a525",
+            "name": "AxisBase",
+            "type": "class"
+        },
+        {
+            "id": "4403d620-3d7b-471c-9f18-da2697fbe097",
+            "name": "TopAxisLayout",
+            "type": "class"
+        },
+        {
+            "id": "0066b8ca-7bb2-42d7-9509-d18abdb0cbd0",
+            "name": "RightAxisLayout",
+            "type": "class"
+        },
+        {
+            "id": "c8aa40e7-3333-4419-8976-83252a44cb94",
+            "name": "BottomAxisLayout",
+            "type": "class"
+        },
+        {
+            "id": "b6bbd8a1-d5f9-40f9-b36b-2e0275e887b3",
+            "name": "LeftAxisLayout",
+            "type": "class"
+        },
+        {
+            "id": "3e723164-6a01-4a6a-87ca-f7b6d388d8db",
+            "name": "Axis",
+            "type": "class"
+        },
+        {
+            "id": "4752b617-541d-487c-9852-3830546e839d",
+            "name": "Renderer",
+            "type": "class"
+        },
+        {
+            "id": "ac305f2e-ac50-49e6-b467-dc24bdd064c5",
+            "name": "Histogram",
+            "type": "class"
+        },
+        {
+            "id": "8aba398e-3954-48b2-b641-68b2774d2b58",
+            "name": "MarkerSeries",
+            "type": "class"
+        },
+        {
+            "id": "6cb352fb-c55d-4483-a558-22f696730e2a",
+            "name": "BarSeries",
+            "type": "class"
+        },
+        {
+            "id": "3cd2f9bc-ddb4-409f-ade6-38efe2c22ab7",
+            "name": "RangeSeries",
+            "type": "class"
+        },
+        {
+            "id": "53443bb7-036e-4ce7-91aa-5fb2f07825c8",
+            "name": "CandlestickSeries",
+            "type": "class"
+        },
+        {
+            "id": "1a5cd7b7-8805-4f6f-98b4-9a248b00899b",
+            "name": "ChartBase",
+            "type": "class"
+        },
+        {
+            "id": "df7e2443-d763-4d34-a840-a9374f38b6db",
+            "name": "CartesianChart",
+            "type": "class"
+        },
+        {
+            "id": "883fecef-6422-4df4-bbd4-ff0dd1aa2b1d",
+            "name": "HorizontalLegendLayout",
+            "type": "class"
+        },
+        {
+            "id": "cfc7f16a-08de-482f-895a-9a5f16d61ff9",
+            "name": "VerticalLegendLayout",
+            "type": "class"
+        },
+        {
+            "id": "396381e2-5b4a-4b54-b787-f0ff771d4d89",
+            "name": "SeriesBase",
+            "type": "class"
+        },
+        {
+            "id": "30a6aee4-d8f6-4ecb-9e99-596a97612628",
+            "name": "CategoryImpl",
+            "type": "class"
+        },
+        {
+            "id": "d5fc5be3-3d3f-47d1-abe5-ccbff595e408",
+            "name": "CategoryAxis",
+            "type": "class"
+        },
+        {
+            "id": "a2e1a79a-c67e-4338-9fe0-ce7a50115314",
+            "name": "CategoryAxisBase",
+            "type": "class"
+        },
+        {
+            "id": "574d3582-88ee-40a8-8ac2-582b4642b53a",
+            "name": "Chart",
+            "type": "class"
+        },
+        {
+            "id": "42441d58-bf78-45fe-ad53-901b31070079",
+            "name": "ChartLegend",
+            "type": "class"
+        },
+        {
+            "id": "2edce479-e9d9-4d25-b911-c83e8fb56c49",
+            "name": "ColumnSeries",
+            "type": "class"
+        },
+        {
+            "id": "9f89f1cf-e6b5-41aa-96ee-2a0e1a8bf222",
+            "name": "Lines",
+            "type": "class"
+        },
+        {
+            "id": "633214a5-21e5-4bf8-92c8-3ec8f0d40eaf",
+            "name": "Plots",
+            "type": "class"
+        },
+        {
+            "id": "55c67a9f-33c7-434d-8996-f32f13ff0aad",
+            "name": "ComboSeries",
+            "type": "class"
+        },
+        {
+            "id": "22c46e00-af5f-4570-966e-aa9f646b97d8",
+            "name": "ComboSplineSeries",
+            "type": "class"
+        },
+        {
+            "id": "6cfba0cf-0a08-41c3-b5b1-70b5419eeaba",
+            "name": "Graph",
+            "type": "class"
+        },
+        {
+            "id": "7c9203ef-d3c9-450a-a9c0-1c0eda5e1eed",
+            "name": "Gridlines",
+            "type": "class"
+        },
+        {
+            "id": "2502eaba-85eb-41f8-bf89-5e03c84ae159",
+            "name": "LineSeries",
+            "type": "class"
+        },
+        {
+            "id": "8b5fbecd-6d78-45f4-b973-e22c43a1f68f",
+            "name": "NumericImpl",
+            "type": "class"
+        },
+        {
+            "id": "10a1208e-21de-4db1-b925-f54528b61c8b",
+            "name": "NumericAxis",
+            "type": "class"
+        },
+        {
+            "id": "ce54dcbc-6ffa-4596-b80a-bb4c99cc5718",
+            "name": "NumericAxisBase",
+            "type": "class"
+        },
+        {
+            "id": "581a3911-b66a-466a-9cfd-9ef17040ad2c",
+            "name": "OHLCSeries",
+            "type": "class"
+        },
+        {
+            "id": "5f530282-8432-4aaa-95dc-7d80afed091b",
+            "name": "PieChart",
+            "type": "class"
+        },
+        {
+            "id": "131fd537-9b74-454e-8bf7-26d384ed90ed",
+            "name": "PieSeries",
+            "type": "class"
+        },
+        {
+            "id": "846d2afd-1bff-4481-95cd-989dded45c57",
+            "name": "SplineSeries",
+            "type": "class"
+        },
+        {
+            "id": "93bc5541-8ec6-4de9-9206-f526f2e5d425",
+            "name": "StackingUtil",
+            "type": "class"
+        },
+        {
+            "id": "42b1265e-0d74-4b2b-8e54-ab28fbb4ffea",
+            "name": "StackedAreaSeries",
+            "type": "class"
+        },
+        {
+            "id": "c680bd4b-fd5f-4aa8-acde-d1d4ceb55619",
+            "name": "StackedAreaSplineSeries",
+            "type": "class"
+        },
+        {
+            "id": "8d3eca0e-8e4f-4bdf-be77-26854fd671df",
+            "name": "StackedImpl",
+            "type": "class"
+        },
+        {
+            "id": "a670bad2-eada-4a17-9abf-dee3ba6874e7",
+            "name": "StackedAxis",
+            "type": "class"
+        },
+        {
+            "id": "2ac57f76-15c5-4704-b1f6-292dfe550d58",
+            "name": "StackedAxisBase",
+            "type": "class"
+        },
+        {
+            "id": "81d5a0f0-a8e2-4bb0-8750-894dc5c310f5",
+            "name": "StackedBarSeries",
+            "type": "class"
+        },
+        {
+            "id": "c26d15cb-1b95-46bd-afd5-431d72b3be6d",
+            "name": "StackedColumnSeries",
+            "type": "class"
+        },
+        {
+            "id": "2e66a394-1ef2-4a8f-b5e6-57ca2d496541",
+            "name": "StackedComboSeries",
+            "type": "class"
+        },
+        {
+            "id": "193a5e7b-0924-49b5-93bf-640ef77e6739",
+            "name": "StackedComboSplineSeries",
+            "type": "class"
+        },
+        {
+            "id": "9c4dfd8e-40d4-459f-82c2-7c55ac20f9f4",
+            "name": "StackedLineSeries",
+            "type": "class"
+        },
+        {
+            "id": "40a3f524-82ee-437d-ad10-1327d87d15ab",
+            "name": "StackedMarkerSeries",
+            "type": "class"
+        },
+        {
+            "id": "7edd8515-6f3a-45c9-855f-fea773e9d99f",
+            "name": "StackedSplineSeries",
+            "type": "class"
+        },
+        {
+            "id": "b1ab67b1-2c7f-42c8-af8e-985bf8f2ebaa",
+            "name": "TimeImpl",
+            "type": "class"
+        },
+        {
+            "id": "20f98743-9844-498f-92fe-66071ffe75b3",
+            "name": "TimeAxis",
+            "type": "class"
+        },
+        {
+            "id": "17c1de74-9810-4573-9bc2-a62eac18d234",
+            "name": "TimeAxisBase",
+            "type": "class"
+        },
+        {
+            "id": "067af72a-5ae6-463c-b221-2420e4e29464",
+            "name": "ClassNameManager",
+            "type": "class"
+        },
+        {
+            "id": "598fbbde-277f-4bca-9fc4-ae27972bf3b8",
+            "name": "Array",
+            "type": "class"
+        },
+        {
+            "id": "fa8d7218-92db-44e5-bd1a-ffe22c6ae86a",
+            "name": "Color",
+            "type": "class"
+        },
+        {
+            "id": "8b99c253-6de6-4392-99e5-05ff62daddba",
+            "name": "Color.Harmony",
+            "type": "class"
+        },
+        {
+            "id": "05c98c97-d00f-472c-9af0-4eaafc2d6f30",
+            "name": "Color.HSL",
+            "type": "class"
+        },
+        {
+            "id": "94154f2d-9cee-47f5-ac56-aaef90c7ea54",
+            "name": "Color.HSV",
+            "type": "class"
+        },
+        {
+            "id": "f80367b8-89f3-4743-a9fd-6a4244f8b1bd",
+            "name": "Console",
+            "type": "class"
+        },
+        {
+            "id": "b1ce2de5-a126-4241-83ef-fcd7f8810837",
+            "name": "Plugin.ConsoleFilters",
+            "type": "class"
+        },
+        {
+            "id": "5ecd7b7e-0081-4639-81c1-674ac2404a22",
+            "name": "Cookie",
+            "type": "class"
+        },
+        {
+            "id": "548697d4-3e8e-458c-8ac4-56a42c05cf6f",
+            "name": "DataSchema.Base",
+            "type": "class"
+        },
+        {
+            "id": "bae22eb1-97b1-45f3-a1ad-0befbfeebe4a",
+            "name": "DataSchema.Array",
+            "type": "class"
+        },
+        {
+            "id": "a083c903-bfe0-4b67-8957-bc61adcdd56a",
+            "name": "DataSchema.JSON",
+            "type": "class"
+        },
+        {
+            "id": "d760eec8-e456-4388-9f8a-b0a8fe9be4c7",
+            "name": "DataSchema.Text",
+            "type": "class"
+        },
+        {
+            "id": "88ce357c-3379-4e1d-bfa1-f519786a9621",
+            "name": "DataSchema.XML",
+            "type": "class"
+        },
+        {
+            "id": "704f0052-9afa-426c-b7dc-24e64c0b93ce",
+            "name": "DataSourceArraySchema",
+            "type": "class"
+        },
+        {
+            "id": "7f9acb3e-8c05-410e-b1ff-df6f0a513c22",
+            "name": "DataSourceCacheExtension",
+            "type": "class"
+        },
+        {
+            "id": "94ad1161-f7ed-48e3-a071-6e0e3831a951",
+            "name": "DataSourceCachePlugin",
+            "type": "class"
+        },
+        {
+            "id": "55e3713b-b3be-4859-a972-7a6b8dea293e",
+            "name": "DataSourceCache",
+            "type": "class"
+        },
+        {
+            "id": "120a9c57-7725-47c8-8f29-b38704bf9a38",
+            "name": "DataSource.Local",
+            "type": "class"
+        },
+        {
+            "id": "df252ad2-00f7-4a0b-8cf5-abdaecdfca34",
+            "name": "DataSource.Function",
+            "type": "class"
+        },
+        {
+            "id": "69941911-9315-461f-b6a4-0a7c0eca8297",
+            "name": "DataSource.Get",
+            "type": "class"
+        },
+        {
+            "id": "5dd0c911-8e29-4266-9c25-48028d3c87aa",
+            "name": "DataSource.IO",
+            "type": "class"
+        },
+        {
+            "id": "6b9f5458-3224-44d7-9138-e02574ba5912",
+            "name": "DataSourceJSONSchema",
+            "type": "class"
+        },
+        {
+            "id": "bc631821-91df-4f38-858b-70d27b8b9f01",
+            "name": "Pollable",
+            "type": "class"
+        },
+        {
+            "id": "e1838aa6-ddf2-444e-bec4-f22a46f48cdb",
+            "name": "DataSourceTextSchema",
+            "type": "class"
+        },
+        {
+            "id": "757b9c3f-13c3-439a-adad-a3c9808d1591",
+            "name": "DataSourceXMLSchema",
+            "type": "class"
+        },
+        {
+            "id": "1f07f067-ca34-4d8d-a861-09433bf72e7e",
+            "name": "DataTable.Base",
+            "type": "class"
+        },
+        {
+            "id": "06bb35e7-0790-4f82-b362-384cd6fb62c7",
+            "name": "DataTable",
+            "type": "class"
+        },
+        {
+            "id": "aa0c0f4c-c180-4157-a173-163b11cb131d",
+            "name": "DataTable.Core",
+            "type": "class"
+        },
+        {
+            "id": "30a065b1-08e0-41b2-b816-4649a30cd9dd",
+            "name": "DataTable.BodyView",
+            "type": "class"
+        },
+        {
+            "id": "e148bb1d-8d28-44dd-a005-b3eb25c286c6",
+            "name": "DataTable.ColumnWidths",
+            "type": "class"
+        },
+        {
+            "id": "a500de1d-2fef-4ea7-9bac-86cc84d721e2",
+            "name": "DataTable.Column",
+            "type": "class"
+        },
+        {
+            "id": "660d2fb7-3448-4d79-9af8-ee7270df98f8",
+            "name": "Plugin.DataTableDataSource",
+            "type": "class"
+        },
+        {
+            "id": "abdd5b5b-9d76-48ce-a48e-f20ad3d5b5fc",
+            "name": "DataTable.BodyView.Formatters",
+            "type": "class"
+        },
+        {
+            "id": "94c1a764-05bb-4010-8a30-472415258c69",
+            "name": "DataTable.HeaderView",
+            "type": "class"
+        },
+        {
+            "id": "81ff8712-36f0-4d48-aeec-65cb73881e2b",
+            "name": "DataTable.Highlight",
+            "type": "class"
+        },
+        {
+            "id": "b7d9cf9c-3754-45f9-8c6d-2a6667603fa8",
+            "name": "DataTable.KeyNav",
+            "type": "class"
+        },
+        {
+            "id": "8520d712-05b6-43aa-9481-3f68ec59ea57",
+            "name": "DataTable.Message",
+            "type": "class"
+        },
+        {
+            "id": "728f97e1-2446-43c1-acf0-7cec16bf08e4",
+            "name": "DataTable.Mutable",
+            "type": "class"
+        },
+        {
+            "id": "98dd4cc5-bfdf-4ec8-be1c-bd75b1082249",
+            "name": "DataTable.Paginator.Model",
+            "type": "class"
+        },
+        {
+            "id": "644e7da9-b4b8-4ccb-99da-5531844ab67f",
+            "name": "DataTable.Paginator.View",
+            "type": "class"
+        },
+        {
+            "id": "39d4d347-4e43-495f-8c01-1329cc0d9742",
+            "name": "DataTable.Paginator",
+            "type": "class"
+        },
+        {
+            "id": "fca510d3-5a4f-4187-ba99-78eccd070ebe",
+            "name": "DataTable.Scrollable",
+            "type": "class"
+        },
+        {
+            "id": "19b41bf0-a40d-496a-9ab0-fdf73a4b6ce1",
+            "name": "DataTable.Sortable",
+            "type": "class"
+        },
+        {
+            "id": "7bf66e61-7f4c-44af-b7a0-e1250139e4ce",
+            "name": "DataTable.TableView",
+            "type": "class"
+        },
+        {
+            "id": "e2520afe-9b48-4ecf-ae67-3a4c4b9ca19d",
+            "name": "Date",
+            "type": "class"
+        },
+        {
+            "id": "807fbdfa-db32-45b8-a76f-52ff9a167698",
+            "name": "Plugin.DDConstrained",
+            "type": "class"
+        },
+        {
+            "id": "a1cc1b06-021a-405d-b936-acdaf54e8edc",
+            "name": "DD.DDM",
+            "type": "class"
+        },
+        {
+            "id": "f403e276-c428-4de2-9461-fc2c82448706",
+            "name": "DD.Drop",
+            "type": "class"
+        },
+        {
+            "id": "ff36b794-cf1c-4bc8-ba5b-21f2e6a3bfd1",
+            "name": "Plugin.Drop",
+            "type": "class"
+        },
+        {
+            "id": "6af46da7-38c1-41f9-b4cd-95ded8fcf583",
+            "name": "DD.Drag",
+            "type": "class"
+        },
+        {
+            "id": "94155b28-bb01-4334-adc5-ba218443605c",
+            "name": "Plugin.Drag",
+            "type": "class"
+        },
+        {
+            "id": "4eefe9b4-38ce-4a14-b1f8-ceb7bb050b15",
+            "name": "DD.Delegate",
+            "type": "class"
+        },
+        {
+            "id": "3ddd9035-6afc-481b-a13d-d2f559f31a90",
+            "name": "Plugin.DDProxy",
+            "type": "class"
+        },
+        {
+            "id": "864f6624-d728-4b5c-a9a1-0911b9c614ac",
+            "name": "DD.Scroll",
+            "type": "class"
+        },
+        {
+            "id": "a842e5c6-0023-4ec1-b575-50eae00a2dd1",
+            "name": "Scroll",
+            "type": "class"
+        },
+        {
+            "id": "5ac683c5-f977-4975-a2d2-6ea237011672",
+            "name": "Plugin.DDWindowScroll",
+            "type": "class"
+        },
+        {
+            "id": "5b849366-7170-4dc2-b277-3f2efad47a45",
+            "name": "Plugin.DDNodeScroll",
+            "type": "class"
+        },
+        {
+            "id": "8616e2e6-9247-4162-a57b-7e345c2d0ebb",
+            "name": "Dial",
+            "type": "class"
+        },
+        {
+            "id": "8f49de9e-5738-4efb-8b81-91c9769cad2c",
+            "name": "DOM",
+            "type": "class"
+        },
+        {
+            "id": "37f1e9c7-0427-49d9-9871-b2bf09a1e98f",
+            "name": "Selector",
+            "type": "class"
+        },
+        {
+            "id": "cf7e2f4a-6a8c-43e5-88d1-c721922fbf96",
+            "name": "YUI",
+            "type": "class"
+        },
+        {
+            "id": "5127e14e-677e-40ce-9bcb-b054d25097be",
+            "name": "ContentEditable",
+            "type": "class"
+        },
+        {
+            "id": "90e2195e-bbac-4d7d-a182-09c5b0272bab",
+            "name": "Plugin.CreateLinkBase",
+            "type": "class"
+        },
+        {
+            "id": "4f3db510-7f66-4d90-a3a6-48ba83dde22e",
+            "name": "Plugin.ExecCommand.COMMANDS",
+            "type": "class"
+        },
+        {
+            "id": "029de246-e3c0-4f92-9185-1a189c1f70c1",
+            "name": "EditorBase",
+            "type": "class"
+        },
+        {
+            "id": "c33d615b-2a7f-4236-9aa7-26660503ce06",
+            "name": "Plugin.EditorBidi",
+            "type": "class"
+        },
+        {
+            "id": "edd530be-dba8-45a3-b4e3-0f277d7a753f",
+            "name": "Plugin.ExecCommand",
+            "type": "class"
+        },
+        {
+            "id": "24b881d1-6a4c-4767-af69-e66196a8a3fc",
+            "name": "Plugin.EditorBR",
+            "type": "class"
+        },
+        {
+            "id": "62133428-f707-4470-a3f8-07b773d0cfb8",
+            "name": "InlineEditor",
+            "type": "class"
+        },
+        {
+            "id": "11fd69a6-c4d0-4b06-bc42-9e420b96a0a8",
+            "name": "Plugin.EditorParaBase",
+            "type": "class"
+        },
+        {
+            "id": "49272601-a89e-4adc-a012-af47a980960f",
+            "name": "Plugin.EditorParaIE",
+            "type": "class"
+        },
+        {
+            "id": "78ae467e-7d8a-4478-bed9-d435aadcfb42",
+            "name": "Plugin.EditorPara",
+            "type": "class"
+        },
+        {
+            "id": "d4abfecb-1f1e-4524-8c7d-b05652be207b",
+            "name": "EditorSelection",
+            "type": "class"
+        },
+        {
+            "id": "4e30b805-7e8f-4ec9-9c82-a28d18f9ce31",
+            "name": "Plugin.EditorTab",
+            "type": "class"
+        },
+        {
+            "id": "39fd4671-3b5d-4162-b262-f9be75d01ff9",
+            "name": "Frame",
+            "type": "class"
+        },
+        {
+            "id": "55ce9cb5-6dbf-44bd-b20f-6a36d5a138be",
+            "name": "Plugin.EditorLists",
+            "type": "class"
+        },
+        {
+            "id": "40d3bd87-3889-4c08-a0d8-2faf4264a6d4",
+            "name": "Escape",
+            "type": "class"
+        },
+        {
+            "id": "482dbb8e-6995-4769-9f56-cf8f331ea0d7",
+            "name": "Event",
+            "type": "class"
+        },
+        {
+            "id": "c263c304-57d6-4557-84e0-8efaffa45f31",
+            "name": "DOMEventFacade",
+            "type": "class"
+        },
+        {
+            "id": "ab831057-45fb-4672-a242-90b6a5091970",
+            "name": "SyntheticEvent.Notifier",
+            "type": "class"
+        },
+        {
+            "id": "53cc9003-96e9-4032-9924-43ef1c3dc73d",
+            "name": "SynthRegistry",
+            "type": "class"
+        },
+        {
+            "id": "27085d40-cf1f-4c0b-aa5a-b3523021510f",
+            "name": "SyntheticEvent",
+            "type": "class"
+        },
+        {
+            "id": "fdebb913-f6a3-4e71-8d3f-0fde4649e8aa",
+            "name": "CustomEvent",
+            "type": "class"
+        },
+        {
+            "id": "2fb5d512-b510-4310-9f6a-384e5ed22816",
+            "name": "Do",
+            "type": "class"
+        },
+        {
+            "id": "ae2ee395-5e1e-45fd-aefe-745fb75d8581",
+            "name": "Do.Method",
+            "type": "class"
+        },
+        {
+            "id": "89fef3eb-6da7-4aef-986c-cb0fe65440d3",
+            "name": "Do.AlterArgs",
+            "type": "class"
+        },
+        {
+            "id": "27f02dd3-bb30-4fd4-a43d-ab48afe3071a",
+            "name": "Do.AlterReturn",
+            "type": "class"
+        },
+        {
+            "id": "256f63f9-c2bf-4721-8898-e6a2c9e9304a",
+            "name": "Do.Halt",
+            "type": "class"
+        },
+        {
+            "id": "e7ff9b72-02a8-4325-9ef8-d2b432aa8916",
+            "name": "Do.Prevent",
+            "type": "class"
+        },
+        {
+            "id": "9204e4d5-f165-4f7c-944e-f5207cad8fac",
+            "name": "Do.Error",
+            "type": "class"
+        },
+        {
+            "id": "4067cdae-6c83-482a-af6d-c84e9bf81e29",
+            "name": "EventFacade",
+            "type": "class"
+        },
+        {
+            "id": "b1efc4ec-de4c-4bc7-bd0a-62fde7fb454f",
+            "name": "EventHandle",
+            "type": "class"
+        },
+        {
+            "id": "ce8134e3-4fc6-455b-9d87-6ef5b4b352c7",
+            "name": "Subscriber",
+            "type": "class"
+        },
+        {
+            "id": "6369be21-26d1-4f7c-99bf-41d9dea1c52c",
+            "name": "ValueChange",
+            "type": "class"
+        },
+        {
+            "id": "d25fba4f-e91e-4001-aa5e-1c46364579c6",
+            "name": "FileFlash",
+            "type": "class"
+        },
+        {
+            "id": "523e5e72-a380-4886-9256-ad8ddcd71867",
+            "name": "FileHTML5",
+            "type": "class"
+        },
+        {
+            "id": "cab1a69c-79c5-4ce4-ad71-89289cdc3b78",
+            "name": "File",
+            "type": "class"
+        },
+        {
+            "id": "6fc7c916-39e5-4c32-918f-9597169b44e8",
+            "name": "GetNodeJS",
+            "type": "class"
+        },
+        {
+            "id": "460b3397-01e3-49d1-aa06-25747d00a925",
+            "name": "Get",
+            "type": "class"
+        },
+        {
+            "id": "bdc7d500-8756-4e43-9bf8-04e6959993ac",
+            "name": "Get.Transaction",
+            "type": "class"
+        },
+        {
+            "id": "b5cc3bf8-2cc4-48d4-b78a-218c2671f4c8",
+            "name": "CanvasCircle",
+            "type": "class"
+        },
+        {
+            "id": "a3139e0d-51a3-42f4-bc40-06dbcc6d722a",
+            "name": "CanvasDrawing",
+            "type": "class"
+        },
+        {
+            "id": "56d11ac9-db19-4630-a4eb-710f99ea8b7c",
+            "name": "CanvasEllipse",
+            "type": "class"
+        },
+        {
+            "id": "8a4a07d8-5c07-4477-9d69-1de9407e14ec",
+            "name": "CanvasGraphic",
+            "type": "class"
+        },
+        {
+            "id": "0d7af642-58ba-4e47-a40d-204b24c4bdef",
+            "name": "CanvasPath",
+            "type": "class"
+        },
+        {
+            "id": "40612316-3282-41e7-b75b-d4f4f671b00d",
+            "name": "CanvasPieSlice",
+            "type": "class"
+        },
+        {
+            "id": "be8a572e-a66c-43b2-9bf4-bc7e7970d044",
+            "name": "CanvasRect",
+            "type": "class"
+        },
+        {
+            "id": "1ce6db6c-7fd6-4478-9be1-558a6a7d9b31",
+            "name": "CanvasShape",
+            "type": "class"
+        },
+        {
+            "id": "8db6a3a8-ff6d-47c5-ac2e-be0107307032",
+            "name": "CircleGroup",
+            "type": "class"
+        },
+        {
+            "id": "f01cbb53-ff51-40d1-a6d6-b9bd255fdb2b",
+            "name": "GroupDiamond",
+            "type": "class"
+        },
+        {
+            "id": "8f490c44-f8b4-4864-a935-429c08d15a52",
+            "name": "EllipseGroup",
+            "type": "class"
+        },
+        {
+            "id": "d4b72e09-edd1-4546-a535-2948a8c5c6fa",
+            "name": "AttributeLite",
+            "type": "class"
+        },
+        {
+            "id": "dca8ac85-4f14-4320-a6bc-2aaefa53d89d",
+            "name": "GraphicBase",
+            "type": "class"
+        },
+        {
+            "id": "49d1c7c2-33af-4bb1-b71e-992576e6b02b",
+            "name": "Drawing",
+            "type": "class"
+        },
+        {
+            "id": "f3bb5ae5-29de-46a7-a1f4-4675c13c50ba",
+            "name": "Shape",
+            "type": "class"
+        },
+        {
+            "id": "ef5682be-8b95-4e6a-bf34-a67611299800",
+            "name": "Circle",
+            "type": "class"
+        },
+        {
+            "id": "1c5fc5d4-ec0e-4c02-a164-d92ae80c3652",
+            "name": "Ellipse",
+            "type": "class"
+        },
+        {
+            "id": "4bc51f9b-5b6d-48b0-a771-05348d3e411d",
+            "name": "Rect",
+            "type": "class"
+        },
+        {
+            "id": "5717f75a-621a-4349-8593-a48f38066046",
+            "name": "Path",
+            "type": "class"
+        },
+        {
+            "id": "a0be49c9-5ed6-400b-a5b9-b2eae3b40761",
+            "name": "Graphic",
+            "type": "class"
+        },
+        {
+            "id": "fc53daf6-8117-4823-854c-c3721cd27551",
+            "name": "GroupRect",
+            "type": "class"
+        },
+        {
+            "id": "f68695a7-de8b-4d10-b77a-8cc2ddd8251f",
+            "name": "SVGCircle",
+            "type": "class"
+        },
+        {
+            "id": "4a951854-d5a6-4c99-bba4-37d0d4720f0e",
+            "name": "SVGDrawing",
+            "type": "class"
+        },
+        {
+            "id": "cd89a1fc-549f-46db-8660-07f51731acee",
+            "name": "SVGEllipse",
+            "type": "class"
+        },
+        {
+            "id": "75e18897-9382-498f-b79f-30dd891bb62f",
+            "name": "SVGGraphic",
+            "type": "class"
+        },
+        {
+            "id": "cd5412f2-88d7-4f1d-b321-3882dd224796",
+            "name": "SVGPath",
+            "type": "class"
+        },
+        {
+            "id": "4ced5808-6308-4901-830f-9fd1bc9da6eb",
+            "name": "SVGPieSlice",
+            "type": "class"
+        },
+        {
+            "id": "4db68c94-3cdf-4b6c-ba81-1b8431ce706c",
+            "name": "SVGRect",
+            "type": "class"
+        },
+        {
+            "id": "7c5631c7-4b67-448b-bc07-a789f1fbc7cc",
+            "name": "SVGShape",
+            "type": "class"
+        },
+        {
+            "id": "c2f31d64-4990-4653-a339-311e5efbd118",
+            "name": "ShapeGroup",
+            "type": "class"
+        },
+        {
+            "id": "ba0d0e3c-cf69-4916-9138-70bfd339840b",
+            "name": "VMLCircle",
+            "type": "class"
+        },
+        {
+            "id": "3b5c8849-3a8b-4f10-aac9-a69eac1cea80",
+            "name": "VMLDrawing",
+            "type": "class"
+        },
+        {
+            "id": "7bdd1be5-a70d-4b61-b2b3-3157f8de0679",
+            "name": "VMLEllipse",
+            "type": "class"
+        },
+        {
+            "id": "c0994e3c-8c81-43ae-8855-310822c97da2",
+            "name": "VMLGraphic",
+            "type": "class"
+        },
+        {
+            "id": "164723dc-65c4-4027-a9bb-325efed434b8",
+            "name": "VMLPath",
+            "type": "class"
+        },
+        {
+            "id": "4d8ed7d8-9445-4fad-a808-b2477584b802",
+            "name": "VMLPieSlice",
+            "type": "class"
+        },
+        {
+            "id": "222c39fa-e71f-4236-a602-e4de58fed417",
+            "name": "VMLRect",
+            "type": "class"
+        },
+        {
+            "id": "b1da6c3f-8442-4717-85b7-5672e48e1a90",
+            "name": "VMLShape",
+            "type": "class"
+        },
+        {
+            "id": "683d1dcf-f2c8-4f81-bdb5-c85d54671971",
+            "name": "Handlebars",
+            "type": "class"
+        },
+        {
+            "id": "e5950b52-32c5-4bc8-ac22-c74189ded67b",
+            "name": "Highlight",
+            "type": "class"
+        },
+        {
+            "id": "dde86f93-ce1d-46ce-a03e-eaf4d2c9169c",
+            "name": "HistoryBase",
+            "type": "class"
+        },
+        {
+            "id": "5f66c312-5a34-425b-86eb-a2b31e9046bc",
+            "name": "HistoryHash",
+            "type": "class"
+        },
+        {
+            "id": "fc3c51b0-2dec-44c5-82e8-ecc1476b60a1",
+            "name": "HistoryHTML5",
+            "type": "class"
+        },
+        {
+            "id": "96943a04-ef99-499e-82b0-16200bb750fe",
+            "name": "config",
+            "type": "class"
+        },
+        {
+            "id": "f4194165-04e4-4038-b5e4-89b6577ec0e5",
+            "name": "ImgLoadGroup",
+            "type": "class"
+        },
+        {
+            "id": "13816fd7-120b-40cc-b7b4-4e3eb71f3e95",
+            "name": "ImgLoadImgObj",
+            "type": "class"
+        },
+        {
+            "id": "e850d9d2-3ba7-4688-959f-18629508a0d0",
+            "name": "Intl",
+            "type": "class"
+        },
+        {
+            "id": "f4d60084-d075-4aac-9dd3-6515aa40a6b7",
+            "name": "IO",
+            "type": "class"
+        },
+        {
+            "id": "a79344ad-213d-4ec7-ab8f-cb06d5423652",
+            "name": "JSON",
+            "type": "class"
+        },
+        {
+            "id": "d77e040b-dc7e-4557-b974-68e048678b00",
+            "name": "JSONPRequest",
+            "type": "class"
+        },
+        {
+            "id": "e01f3e7e-5c5b-4eba-aa01-9c6968ab0607",
+            "name": "Loader",
+            "type": "class"
+        },
+        {
+            "id": "1667fc51-8b20-4c9e-ab35-9dc5562c02ab",
+            "name": "Matrix",
+            "type": "class"
+        },
+        {
+            "id": "e34092df-3353-4964-8b5b-0ade23c0c00c",
+            "name": "MatrixUtil",
+            "type": "class"
+        },
+        {
+            "id": "3d0165d4-5318-4609-99e3-d7c21d884d71",
+            "name": "Plugin.Align",
+            "type": "class"
+        },
+        {
+            "id": "3b75238d-a7e7-4e5c-9c4f-8e0bab0912f0",
+            "name": "Node",
+            "type": "class"
+        },
+        {
+            "id": "8b4fffb2-b6c4-4dda-95a5-ea75ef5ede86",
+            "name": "NodeList",
+            "type": "class"
+        },
+        {
+            "id": "086a7670-9947-4e6e-8494-81ea8f4d7fdd",
+            "name": "Plugin.Shim",
+            "type": "class"
+        },
+        {
+            "id": "f528bf0f-52a8-421b-9154-460d854b61a6",
+            "name": "Plugin.Flick",
+            "type": "class"
+        },
+        {
+            "id": "0ca745cb-9cc3-4e74-b733-35f4c09ae5f2",
+            "name": "plugin.NodeFocusManager",
+            "type": "class"
+        },
+        {
+            "id": "952d7cab-5d82-4930-8bbc-04a5e3b73c2d",
+            "name": "plugin.NodeMenuNav",
+            "type": "class"
+        },
+        {
+            "id": "0a6ba9ad-b0ef-4381-aa66-5815c3ccf433",
+            "name": "Plugin.ScrollInfo",
+            "type": "class"
+        },
+        {
+            "id": "39897338-d99f-42cf-be25-9513de16ea3b",
+            "name": "Number",
+            "type": "class"
+        },
+        {
+            "id": "de56e78f-b757-44a7-81fe-d8627b8f2a18",
+            "name": "WidgetStdMod",
+            "type": "class"
+        },
+        {
+            "id": "b22333d3-5045-4cbe-b3d9-9559541645d3",
+            "name": "WidgetStack",
+            "type": "class"
+        },
+        {
+            "id": "8b5d5018-00d3-4f13-96ab-a81e7e36b58b",
+            "name": "WidgetPositionConstrain",
+            "type": "class"
+        },
+        {
+            "id": "5e2867c4-51f4-4e5c-957d-c94726c3bc7a",
+            "name": "Overlay",
+            "type": "class"
+        },
+        {
+            "id": "2c04f90c-5a2e-4075-b39d-7305bfe3d231",
+            "name": "Paginator.Core",
+            "type": "class"
+        },
+        {
+            "id": "9960cde2-8ab7-40e5-83bc-989505fc8d18",
+            "name": "Paginator",
+            "type": "class"
+        },
+        {
+            "id": "81e615a4-998c-4097-adaa-b509211442d6",
+            "name": "Paginator.Url",
+            "type": "class"
+        },
+        {
+            "id": "486c7555-5180-46a1-bbf5-b148e378424d",
+            "name": "WidgetAutohide",
+            "type": "class"
+        },
+        {
+            "id": "975d06bc-0a8b-4634-84b6-195b7f0740e6",
+            "name": "WidgetButtons",
+            "type": "class"
+        },
+        {
+            "id": "6cf59ffa-9282-4517-9d16-327eb3ea30cc",
+            "name": "WidgetModality",
+            "type": "class"
+        },
+        {
+            "id": "e99369a0-2794-43e5-8092-7ff855ac3d76",
+            "name": "Panel",
+            "type": "class"
+        },
+        {
+            "id": "6e3cbeb5-f5aa-4a9b-a835-9f1af5ad4be2",
+            "name": "Parallel",
+            "type": "class"
+        },
+        {
+            "id": "64107f07-cf65-4023-aed9-614bae55fa67",
+            "name": "Pjax",
+            "type": "class"
+        },
+        {
+            "id": "f39993ef-4f3c-4ce9-8898-001ff7d6315a",
+            "name": "Plugin.Pjax",
+            "type": "class"
+        },
+        {
+            "id": "e6f16633-c9cf-492e-a66b-21752c4a22e9",
+            "name": "Plugin.Host",
+            "type": "class"
+        },
+        {
+            "id": "43861f4a-ebfc-4631-bfd1-f60ebf3bb546",
+            "name": "Promise",
+            "type": "class"
+        },
+        {
+            "id": "b5a2305c-bf8b-4057-9eb9-4c1d750685e3",
+            "name": "Promise.Resolver",
+            "type": "class"
+        },
+        {
+            "id": "43d931d1-df1d-4335-8497-cf87d570c455",
+            "name": "QueryString",
+            "type": "class"
+        },
+        {
+            "id": "74752f5e-cdbd-4e80-80a2-711d6c18bd7e",
+            "name": "Queue",
+            "type": "class"
+        },
+        {
+            "id": "0ffb6d8c-ba5e-48e7-a2cc-807497677ff4",
+            "name": "Record",
+            "type": "class"
+        },
+        {
+            "id": "933c371c-83e7-4aca-81a5-321bc1dacab7",
+            "name": "Recordset",
+            "type": "class"
+        },
+        {
+            "id": "8416171a-a4b0-43cd-9ae3-56734f34e9af",
+            "name": "RecordsetFilter",
+            "type": "class"
+        },
+        {
+            "id": "0c51407d-f15d-45bb-9e47-231ee3fc9efc",
+            "name": "RecordsetIndexer",
+            "type": "class"
+        },
+        {
+            "id": "41797301-d1b3-4b9e-9f21-1e9605182774",
+            "name": "RecordsetSort",
+            "type": "class"
+        },
+        {
+            "id": "6701f6f6-6cff-4b17-8dc1-050882265d3a",
+            "name": "Resize",
+            "type": "class"
+        },
+        {
+            "id": "3774a03e-20fe-45a4-a586-e52f8cd6ff2d",
+            "name": "Plugin.ResizeConstrained",
+            "type": "class"
+        },
+        {
+            "id": "3b4574ad-375b-4ab4-a3ab-7458581945a8",
+            "name": "Plugin.Resize",
+            "type": "class"
+        },
+        {
+            "id": "1a25fbae-a2d1-4af6-b312-4dd77a613e11",
+            "name": "Plugin.ResizeProxy",
+            "type": "class"
+        },
+        {
+            "id": "2e72a433-46db-4ccc-8836-44fabe5b70a1",
+            "name": "ScrollView",
+            "type": "class"
+        },
+        {
+            "id": "7010fe52-7bb9-42f1-a9ae-9ea115494b0f",
+            "name": "Plugin.ScrollViewList",
+            "type": "class"
+        },
+        {
+            "id": "abe412d6-f1bf-40f3-be75-47c9af7654c0",
+            "name": "Plugin.ScrollViewPaginator",
+            "type": "class"
+        },
+        {
+            "id": "17d8837c-c74c-41a8-a205-e8e1b6fec1cb",
+            "name": "Plugin.ScrollViewScrollbars",
+            "type": "class"
+        },
+        {
+            "id": "f409fe3e-77a1-431d-94f9-51f7f0ea29c1",
+            "name": "ClickableRail",
+            "type": "class"
+        },
+        {
+            "id": "110a95e6-be04-4264-ac53-88ff434729b5",
+            "name": "SliderValueRange",
+            "type": "class"
+        },
+        {
+            "id": "6733ca2f-f944-4dcb-9025-3bd9f384ad87",
+            "name": "SliderBase",
+            "type": "class"
+        },
+        {
+            "id": "ea0de901-0e16-42c6-927b-596d3de34daf",
+            "name": "Slider",
+            "type": "class"
+        },
+        {
+            "id": "2c1bbabf-611b-46c7-9ba7-9fb19c8984d8",
+            "name": "Plugin.SortScroll",
+            "type": "class"
+        },
+        {
+            "id": "10ea1b7a-e32e-464d-857f-f71b32e65786",
+            "name": "Sortable",
+            "type": "class"
+        },
+        {
+            "id": "6c729bfb-3afc-4875-a576-c1ae5ab21896",
+            "name": "StyleSheet",
+            "type": "class"
+        },
+        {
+            "id": "09cf9ae1-4e63-4ce2-a2eb-1fd363626cd4",
+            "name": "YUI~substitute",
+            "type": "class"
+        },
+        {
+            "id": "c3c30add-53ca-4184-9a98-f0d2559d7b52",
+            "name": "Event.Target",
+            "type": "class"
+        },
+        {
+            "id": "38798616-41f0-4273-b7b7-a1a9109d5400",
+            "name": "SWF",
+            "type": "class"
+        },
+        {
+            "id": "1b38acad-e6bc-4df3-85e7-1b0a6b7af6b9",
+            "name": "SWFDetect",
+            "type": "class"
+        },
+        {
+            "id": "511270ad-9dd0-4ec9-97d8-ce182984dd3d",
+            "name": "WidgetChild",
+            "type": "class"
+        },
+        {
+            "id": "433c3c5f-314f-47ea-bc6e-7d547c4d02b4",
+            "name": "Tab",
+            "type": "class"
+        },
+        {
+            "id": "d40bde7f-46a1-441f-888d-a46fc59e4902",
+            "name": "WidgetParent",
+            "type": "class"
+        },
+        {
+            "id": "fc8a2f32-f6c6-4fdd-9ecc-328611fc60f5",
+            "name": "TabView",
+            "type": "class"
+        },
+        {
+            "id": "d5325bb5-ca43-4c69-b5d9-4d4052971959",
+            "name": "Template",
+            "type": "class"
+        },
+        {
+            "id": "f1084bc0-ae31-4af3-a046-68ebc5d88020",
+            "name": "Template.Micro",
+            "type": "class"
+        },
+        {
+            "id": "3264ef41-0042-40fe-89ae-c0b805b94b9b",
+            "name": "Test.ArrayAssert",
+            "type": "class"
+        },
+        {
+            "id": "bccc0b9d-3e16-4d58-831c-05ba1a21fb25",
+            "name": "Test.Assert",
+            "type": "class"
+        },
+        {
+            "id": "db345901-809a-49cc-81e9-6d431c0dc002",
+            "name": "Test.AssertionError",
+            "type": "class"
+        },
+        {
+            "id": "caf0606f-941f-4116-8200-326400b3ab05",
+            "name": "AssertionError",
+            "type": "class"
+        },
+        {
+            "id": "0eb1fead-2a8e-43c3-a6fd-ec5db3e09571",
+            "name": "Test.ComparisonFailure",
+            "type": "class"
+        },
+        {
+            "id": "9c0bba7a-65bc-40ad-b9ba-1d40a13e2ac4",
+            "name": "Test.CoverageFormat",
+            "type": "class"
+        },
+        {
+            "id": "242ec2c2-8277-4feb-a1a1-6fbaad7692fa",
+            "name": "Test.DateAssert",
+            "type": "class"
+        },
+        {
+            "id": "c873bbbd-92fd-4f24-9f5e-5f998f0b7e05",
+            "name": "Test.EventTarget",
+            "type": "class"
+        },
+        {
+            "id": "33f4f7a5-3132-4b0f-ae41-85915a0737f7",
+            "name": "Test.Mock",
+            "type": "class"
+        },
+        {
+            "id": "46f42b8b-6615-4554-a342-efead8c42fa5",
+            "name": "Test.Mock.Value",
+            "type": "class"
+        },
+        {
+            "id": "4533e587-f78a-40fc-96dc-c63264d48d37",
+            "name": "Test.ObjectAssert",
+            "type": "class"
+        },
+        {
+            "id": "5f77fb17-6ea1-4564-9e15-9bc52fa61c6b",
+            "name": "Test.Reporter",
+            "type": "class"
+        },
+        {
+            "id": "9cc2d13d-b70c-44dd-8b19-ed90375ea791",
+            "name": "Test.Results",
+            "type": "class"
+        },
+        {
+            "id": "5cb22c9f-3c1d-4804-95a6-7ad0033cf760",
+            "name": "Test.ShouldError",
+            "type": "class"
+        },
+        {
+            "id": "1c614c5f-8b0f-45cc-9ae9-df9608ff3b81",
+            "name": "YUITest.AssertionError",
+            "type": "class"
+        },
+        {
+            "id": "426651b5-0ff6-4490-aaf6-b62d013d3ec4",
+            "name": "Test.ShouldFail",
+            "type": "class"
+        },
+        {
+            "id": "55be7463-12f2-431b-9f03-141750dd496d",
+            "name": "Test.TestCase",
+            "type": "class"
+        },
+        {
+            "id": "b1a1823a-9a02-4b86-931d-e7053f51b78f",
+            "name": "Test.TestFormat",
+            "type": "class"
+        },
+        {
+            "id": "9357f253-e672-4dfd-9aa5-d5518f23ce07",
+            "name": "Test.TestRunner",
+            "type": "class"
+        },
+        {
+            "id": "10d1ebd0-cc21-42c3-b47e-538666127356",
+            "name": "Test.TestNode",
+            "type": "class"
+        },
+        {
+            "id": "2affbce6-5271-4988-b3ee-1fcff7bc9488",
+            "name": "Test.Runner",
+            "type": "class"
+        },
+        {
+            "id": "b85d7208-55c8-4cdc-9262-7627c8f26293",
+            "name": "Test.TestSuite",
+            "type": "class"
+        },
+        {
+            "id": "874ffefa-d90c-48eb-9048-565eaf6eecbd",
+            "name": "Test.UnexpectedError",
+            "type": "class"
+        },
+        {
+            "id": "94603c87-0a5b-4422-b1e6-25d4bfd0e48a",
+            "name": "Test.UnexpectedValue",
+            "type": "class"
+        },
+        {
+            "id": "f8913605-66c5-4eea-9b8b-47619cb15ba0",
+            "name": "Test.Wait",
+            "type": "class"
+        },
+        {
+            "id": "86323e4a-59a5-4005-8e39-d3d334a05376",
+            "name": "Test.Console",
+            "type": "class"
+        },
+        {
+            "id": "5221a7f6-58ad-42be-9a1c-ac84d4972d72",
+            "name": "Text.AccentFold",
+            "type": "class"
+        },
+        {
+            "id": "13596d59-b583-4411-b84e-497d17bd4286",
+            "name": "Text.WordBreak",
+            "type": "class"
+        },
+        {
+            "id": "6e9962f9-713e-470f-8ffe-d941108295ac",
+            "name": "Transition",
+            "type": "class"
+        },
+        {
+            "id": "760bdbca-a6d0-45c7-a11d-7dab97d8b0ff",
+            "name": "Tree.Labelable",
+            "type": "class"
+        },
+        {
+            "id": "a81bbf6b-4755-482e-828b-76af03c53ff0",
+            "name": "Tree.Node.Labelable",
+            "type": "class"
+        },
+        {
+            "id": "f2a80d47-340c-4154-927e-7296763dbcdf",
+            "name": "Tree.Node.Openable",
+            "type": "class"
+        },
+        {
+            "id": "175823f2-3da6-41b1-8831-b903a0af9a0b",
+            "name": "Tree.Node.Selectable",
+            "type": "class"
+        },
+        {
+            "id": "721bf818-d1bc-405b-b287-40336596a753",
+            "name": "Tree.Node.Sortable",
+            "type": "class"
+        },
+        {
+            "id": "87acde4d-f395-47f9-9e81-26a50b255b08",
+            "name": "Tree.Openable",
+            "type": "class"
+        },
+        {
+            "id": "5ac44473-8a41-4a4d-a1a5-c133437a1097",
+            "name": "Tree.Selectable",
+            "type": "class"
+        },
+        {
+            "id": "7fbe32a5-6b6a-4213-8cbf-0c1e17045bae",
+            "name": "Tree.Sortable",
+            "type": "class"
+        },
+        {
+            "id": "6292395c-a5ee-4b5c-9efe-76a841e80a16",
+            "name": "Plugin.Tree.Lazy",
+            "type": "class"
+        },
+        {
+            "id": "4eec69ff-5f68-40f3-b5c3-835cd10a2735",
+            "name": "Tree.Node",
+            "type": "class"
+        },
+        {
+            "id": "a61f3bba-1ccb-40ce-94d7-32ecd6b57cd6",
+            "name": "Tree",
+            "type": "class"
+        },
+        {
+            "id": "f6faf2a4-1a99-4b87-89a4-b5d959dd9804",
+            "name": "UploaderFlash",
+            "type": "class"
+        },
+        {
+            "id": "84f3653e-9097-4955-aa2e-2616eca9c016",
+            "name": "UploaderHTML5",
+            "type": "class"
+        },
+        {
+            "id": "eddee122-931c-42ac-bebe-e92c3bc313b2",
+            "name": "Uploader.Queue",
+            "type": "class"
+        },
+        {
+            "id": "722bde4d-e4e0-4241-9ae1-12d3940c4c93",
+            "name": "Uploader",
+            "type": "class"
+        },
+        {
+            "id": "3a60fd03-6200-4879-a7ba-bd46ff39be37",
+            "name": "Plugin.WidgetAnim",
+            "type": "class"
+        },
+        {
+            "id": "a99661ca-14d7-45c3-9f1d-1a2215f430ac",
+            "name": "XML",
+            "type": "class"
+        },
+        {
+            "id": "10d606a1-5f38-4ec5-adfa-12e5e3078c30",
+            "name": "YQLRequest",
+            "type": "class"
+        },
+        {
+            "id": "de966bef-aafb-4375-ae61-376ce6a24047",
+            "name": "YQL",
+            "type": "class"
+        },
+        {
+            "id": "ce0d6f3f-18c3-4a5f-b79b-ae2091a1eea5",
+            "name": "Features",
+            "type": "class"
+        },
+        {
+            "id": "9dd3341e-f777-401a-91b4-3d2ef29a7d48",
+            "name": "Lang",
+            "type": "class"
+        },
+        {
+            "id": "51b57fc4-c965-42f6-8c4d-753bc483141f",
+            "name": "Object",
+            "type": "class"
+        },
+        {
+            "id": "4b579853-829b-4a4d-827a-b24e45995442",
+            "name": "UA",
+            "type": "class"
+        },
+        {
+            "id": "44bd6986-c289-4d95-8c7f-f24c21d47846",
+            "name": "Plugin",
+            "type": "class"
+        }
+    ],
+    "links": [
+        {
+            "id": "1ba8ae11-3361-4496-b1a7-54408f199f00",
+            "relationship": "uses",
+            "source": "e1311a57-2e26-49a9-b704-62e87af7bace",
+            "target": "07421c03-d1f8-4783-8016-329363799d8c",
+            "name": "Base -> BaseCore"
+        },
+        {
+            "id": "611dbf94-6130-4933-b1b4-c5c8508ef3c6",
+            "relationship": "uses",
+            "source": "e1311a57-2e26-49a9-b704-62e87af7bace",
+            "target": "fea6434f-b4e5-489c-8904-e557533ac0c5",
+            "name": "Base -> BaseObservable"
+        },
+        {
+            "id": "3eda1e0b-bead-4e9e-bb28-cb38b7a80bed",
+            "relationship": "uses",
+            "source": "e1311a57-2e26-49a9-b704-62e87af7bace",
+            "target": "16ef8f46-1880-4961-a3f9-692bdf454eb6",
+            "name": "Base -> AttributeCore"
+        },
+        {
+            "id": "ef272789-5d8b-4e4b-94b5-903aebc6da6e",
+            "relationship": "uses",
+            "source": "e1311a57-2e26-49a9-b704-62e87af7bace",
+            "target": "9ddffa01-0da9-4ab3-bca5-a005a5103b3f",
+            "name": "Base -> AttributeObservable"
+        },
+        {
+            "id": "1b335fbf-d97c-4a3c-b148-a37ff48d0331",
+            "relationship": "uses",
+            "source": "e1311a57-2e26-49a9-b704-62e87af7bace",
+            "target": "b05f1827-0be9-4f4a-ad30-6aa3d7fcc744",
+            "name": "Base -> AttributeExtras"
+        },
+        {
+            "id": "df98e3ce-00d0-4e9d-a934-b72d27484ee6",
+            "relationship": "uses",
+            "source": "e1311a57-2e26-49a9-b704-62e87af7bace",
+            "target": "84978e2e-aae2-4196-9aae-2a6ab6c6463e",
+            "name": "Base -> EventTarget"
+        },
+        {
+            "id": "a15116a0-68b4-4243-8cb4-a6bdcf77e1c8",
+            "relationship": "uses",
+            "source": "72e2a440-3d82-4abd-8b53-e1ed2838a385",
+            "target": "7a7817c7-1f09-49d5-b915-e8dcc9cc253d",
+            "name": "App.Base -> View"
+        },
+        {
+            "id": "6c81bcaa-e506-4338-a16f-5232deb3d1fb",
+            "relationship": "uses",
+            "source": "72e2a440-3d82-4abd-8b53-e1ed2838a385",
+            "target": "3a42ab7d-8fe5-4449-adce-cae34a934677",
+            "name": "App.Base -> Router"
+        },
+        {
+            "id": "78302138-6c08-49ae-b76b-2a860282746b",
+            "relationship": "uses",
+            "source": "72e2a440-3d82-4abd-8b53-e1ed2838a385",
+            "target": "0cec1769-794c-4e2e-b8f2-3de567fcef87",
+            "name": "App.Base -> PjaxBase"
+        },
+        {
+            "id": "dec07a5f-2e53-46e9-a594-c3ed4bf61447",
+            "relationship": "dependencies",
+            "source": "72e2a440-3d82-4abd-8b53-e1ed2838a385",
+            "target": "7a7817c7-1f09-49d5-b915-e8dcc9cc253d",
+            "name": "App.Base -> View"
+        },
+        {
+            "id": "29d56723-fb48-44c9-9110-f83e09f799cb",
+            "relationship": "dependencies",
+            "source": "72e2a440-3d82-4abd-8b53-e1ed2838a385",
+            "target": "3a42ab7d-8fe5-4449-adce-cae34a934677",
+            "name": "App.Base -> Router"
+        },
+        {
+            "id": "07e38706-304d-49ee-835c-08e4f37debe8",
+            "relationship": "dependencies",
+            "source": "72e2a440-3d82-4abd-8b53-e1ed2838a385",
+            "target": "db809a62-cf47-47ed-a868-6ea78d1f3116",
+            "name": "App.Base -> Controller"
+        },
+        {
+            "id": "e5484ca8-1139-48de-bd9c-2db30876d1b4",
+            "relationship": "dependencies",
+            "source": "72e2a440-3d82-4abd-8b53-e1ed2838a385",
+            "target": "0cec1769-794c-4e2e-b8f2-3de567fcef87",
+            "name": "App.Base -> PjaxBase"
+        },
+        {
+            "id": "1268dea9-a4ce-484a-be37-bd099e077d62",
+            "relationship": "dependencies",
+            "source": "72e2a440-3d82-4abd-8b53-e1ed2838a385",
+            "target": "067af72a-5ae6-463c-b221-2420e4e29464",
+            "name": "App.Base -> ClassNameManager"
+        },
+        {
+            "id": "34b7b1bc-3623-4960-a4de-946f675d0bc5",
+            "relationship": "extends",
+            "source": "72e2a440-3d82-4abd-8b53-e1ed2838a385",
+            "target": "e1311a57-2e26-49a9-b704-62e87af7bace",
+            "name": "App.Base -> Base"
+        },
+        {
+            "id": "999d6531-3920-429e-80a1-264068aabf6f",
+            "relationship": "dependencies",
+            "source": "ce704ba8-0c2b-453a-8103-ca035673763a",
+            "target": "40d3bd87-3889-4c08-a0d8-2faf4264a6d4",
+            "name": "Model -> Escape"
+        },
+        {
+            "id": "15f5f631-f130-4120-9309-0e14ba83d828",
+            "relationship": "extends",
+            "source": "ce704ba8-0c2b-453a-8103-ca035673763a",
+            "target": "e1311a57-2e26-49a9-b704-62e87af7bace",
+            "name": "Model -> Base"
+        },
+        {
+            "id": "79604312-ccff-48c8-9eac-56162ab3c258",
+            "relationship": "uses",
+            "source": "e3811626-5e7f-4aae-ac5d-900e6408a557",
+            "target": "2fd904bb-fb16-4a8e-a678-c31425d10724",
+            "name": "ModelList -> ArrayList"
+        },
+        {
+            "id": "cbf2b724-c9da-43bd-888b-225331dcb5a3",
+            "relationship": "dependencies",
+            "source": "e3811626-5e7f-4aae-ac5d-900e6408a557",
+            "target": "ce704ba8-0c2b-453a-8103-ca035673763a",
+            "name": "ModelList -> Model"
+        },
+        {
+            "id": "9b8cfecd-84cc-4906-95de-b7ba99f73ee1",
+            "relationship": "dependencies",
+            "source": "e3811626-5e7f-4aae-ac5d-900e6408a557",
+            "target": "40d3bd87-3889-4c08-a0d8-2faf4264a6d4",
+            "name": "ModelList -> Escape"
+        },
+        {
+            "id": "652b22e3-2937-448a-ba05-af19de86db57",
+            "relationship": "dependencies",
+            "source": "e3811626-5e7f-4aae-ac5d-900e6408a557",
+            "target": "2fd904bb-fb16-4a8e-a678-c31425d10724",
+            "name": "ModelList -> ArrayList"
+        },
+        {
+            "id": "312b1e86-90ac-4085-bb55-53c2ac77860a",
+            "relationship": "extends",
+            "source": "e3811626-5e7f-4aae-ac5d-900e6408a557",
+            "target": "e1311a57-2e26-49a9-b704-62e87af7bace",
+            "name": "ModelList -> Base"
+        },
+        {
+            "id": "5a169daf-ab94-4ac7-b073-fecd850d741c",
+            "relationship": "extends",
+            "source": "7a7817c7-1f09-49d5-b915-e8dcc9cc253d",
+            "target": "e1311a57-2e26-49a9-b704-62e87af7bace",
+            "name": "View -> Base"
+        },
+        {
+            "id": "3a852951-c39e-4d0c-9cff-027e6f27c72e",
+            "relationship": "extends",
+            "source": "c5aa8028-b44c-491d-beed-2f914c74c056",
+            "target": "e1311a57-2e26-49a9-b704-62e87af7bace",
+            "name": "Widget -> Base"
+        },
+        {
+            "id": "d710efce-804a-4f00-a57d-dc8d629dee6c",
+            "relationship": "uses",
+            "source": "4404f251-1861-481a-8b6f-703bc266c280",
+            "target": "d10b5930-f3ab-4714-987a-c3f73d042651",
+            "name": "App -> App.Content"
+        },
+        {
+            "id": "53b04b83-8b01-42f9-9cd0-43d4e931a278",
+            "relationship": "uses",
+            "source": "4404f251-1861-481a-8b6f-703bc266c280",
+            "target": "7e898464-b558-4391-afa4-fac36078b7b2",
+            "name": "App -> App.Transitions"
+        },
+        {
+            "id": "cab8803a-8133-4171-89db-aa19a3ffffab",
+            "relationship": "uses",
+            "source": "4404f251-1861-481a-8b6f-703bc266c280",
+            "target": "742940fc-4bc0-418d-b01a-ccf30113bba5",
+            "name": "App -> PjaxContent"
+        },
+        {
+            "id": "05925898-22ad-4b1c-9df0-f45725cfa6f1",
+            "relationship": "uses",
+            "source": "4404f251-1861-481a-8b6f-703bc266c280",
+            "target": "7a7817c7-1f09-49d5-b915-e8dcc9cc253d",
+            "name": "App -> View"
+        },
+        {
+            "id": "5b06cfd4-ca49-43b0-9c44-9a6cbd0d76e7",
+            "relationship": "dependencies",
+            "source": "4404f251-1861-481a-8b6f-703bc266c280",
+            "target": "7a7817c7-1f09-49d5-b915-e8dcc9cc253d",
+            "name": "App -> View"
+        },
+        {
+            "id": "848d50c1-379e-4fee-842a-a6a13341b872",
+            "relationship": "dependencies",
+            "source": "4404f251-1861-481a-8b6f-703bc266c280",
+            "target": "3a42ab7d-8fe5-4449-adce-cae34a934677",
+            "name": "App -> Router"
+        },
+        {
+            "id": "18b49593-c774-4e9b-9e38-b96c5b25835a",
+            "relationship": "dependencies",
+            "source": "4404f251-1861-481a-8b6f-703bc266c280",
+            "target": "db809a62-cf47-47ed-a868-6ea78d1f3116",
+            "name": "App -> Controller"
+        },
+        {
+            "id": "3befe32b-46ae-4ab6-a764-4e56723ac51f",
+            "relationship": "dependencies",
+            "source": "4404f251-1861-481a-8b6f-703bc266c280",
+            "target": "0cec1769-794c-4e2e-b8f2-3de567fcef87",
+            "name": "App -> PjaxBase"
+        },
+        {
+            "id": "1a8a70a8-7fe0-48d3-83e6-7796566bee43",
+            "relationship": "dependencies",
+            "source": "4404f251-1861-481a-8b6f-703bc266c280",
+            "target": "067af72a-5ae6-463c-b221-2420e4e29464",
+            "name": "App -> ClassNameManager"
+        },
+        {
+            "id": "6c669943-2a3d-47cf-81a0-4b8a08e5977a",
+            "relationship": "extends",
+            "source": "4404f251-1861-481a-8b6f-703bc266c280",
+            "target": "72e2a440-3d82-4abd-8b53-e1ed2838a385",
+            "name": "App -> App.Base"
+        },
+        {
+            "id": "c7d5647c-5c6c-4014-a4a9-4f1ccec0c562",
+            "relationship": "extends",
+            "source": "b1e0336d-a3f0-4980-88ba-3eeb467e1cbd",
+            "target": "e1311a57-2e26-49a9-b704-62e87af7bace",
+            "name": "Plugin.Base -> Base"
+        },
+        {
+            "id": "0869ebda-701e-4569-ab29-f73e0ca3cd55",
+            "relationship": "extends",
+            "source": "921c3511-7556-4e13-a91d-a3df9ee4b8fa",
+            "target": "e1311a57-2e26-49a9-b704-62e87af7bace",
+            "name": "Anim -> Base"
+        },
+        {
+            "id": "cd894158-059b-4d6b-adc3-c4e3ebc78529",
+            "relationship": "extends",
+            "source": "a02097f0-c26c-4d30-852f-82542066a78b",
+            "target": "921c3511-7556-4e13-a91d-a3df9ee4b8fa",
+            "name": "Plugin.NodeFX -> Anim"
+        },
+        {
+            "id": "f7ea5e04-5f97-4e12-ba56-c9ede126b5d3",
+            "relationship": "dependencies",
+            "source": "742940fc-4bc0-418d-b01a-ccf30113bba5",
+            "target": "3a42ab7d-8fe5-4449-adce-cae34a934677",
+            "name": "PjaxContent -> Router"
+        },
+        {
+            "id": "60dc2ed8-ddd6-40ae-90d6-251910c1dfa9",
+            "relationship": "dependencies",
+            "source": "742940fc-4bc0-418d-b01a-ccf30113bba5",
+            "target": "db809a62-cf47-47ed-a868-6ea78d1f3116",
+            "name": "PjaxContent -> Controller"
+        },
+        {
+            "id": "b276c877-65eb-471f-8f4b-bd6546c3cf4e",
+            "relationship": "dependencies",
+            "source": "742940fc-4bc0-418d-b01a-ccf30113bba5",
+            "target": "f4d60084-d075-4aac-9dd3-6515aa40a6b7",
+            "name": "PjaxContent -> IO"
+        },
+        {
+            "id": "724c6287-3c2f-40a4-8f4d-02f96d6df7ad",
+            "relationship": "uses",
+            "source": "d10b5930-f3ab-4714-987a-c3f73d042651",
+            "target": "742940fc-4bc0-418d-b01a-ccf30113bba5",
+            "name": "App.Content -> PjaxContent"
+        },
+        {
+            "id": "f71fa169-4947-4312-8b12-da70b79fb7a7",
+            "relationship": "dependencies",
+            "source": "d10b5930-f3ab-4714-987a-c3f73d042651",
+            "target": "742940fc-4bc0-418d-b01a-ccf30113bba5",
+            "name": "App.Content -> PjaxContent"
+        },
+        {
+            "id": "3906055e-81b2-4fa2-bc75-70e466f18bba",
+            "relationship": "dependencies",
+            "source": "d10b5930-f3ab-4714-987a-c3f73d042651",
+            "target": "72e2a440-3d82-4abd-8b53-e1ed2838a385",
+            "name": "App.Content -> App.Base"
+        },
+        {
+            "id": "328cb810-9069-4531-a87d-7dd9e1646226",
+            "relationship": "dependencies",
+            "source": "d10b5930-f3ab-4714-987a-c3f73d042651",
+            "target": "4404f251-1861-481a-8b6f-703bc266c280",
+            "name": "App.Content -> App"
+        },
+        {
+            "id": "e2d258c2-f2a4-47ab-9d55-9b04c1b79703",
+            "relationship": "dependencies",
+            "source": "69d8c095-c32e-491a-b081-5a045ca9afe4",
+            "target": "6e9962f9-713e-470f-8ffe-d941108295ac",
+            "name": "App.TransitionsNative -> Transition"
+        },
+        {
+            "id": "aa8f1301-3b4d-461a-9316-9894451255bb",
+            "relationship": "dependencies",
+            "source": "69d8c095-c32e-491a-b081-5a045ca9afe4",
+            "target": "6e3cbeb5-f5aa-4a9b-a835-9f1af5ad4be2",
+            "name": "App.TransitionsNative -> Parallel"
+        },
+        {
+            "id": "c5918a62-f3c3-430e-9b46-9069103bb823",
+            "relationship": "dependencies",
+            "source": "69d8c095-c32e-491a-b081-5a045ca9afe4",
+            "target": "7e898464-b558-4391-afa4-fac36078b7b2",
+            "name": "App.TransitionsNative -> App.Transitions"
+        },
+        {
+            "id": "c9834c2f-9326-4b0e-84a3-1669c584b1dd",
+            "relationship": "uses",
+            "source": "7e898464-b558-4391-afa4-fac36078b7b2",
+            "target": "69d8c095-c32e-491a-b081-5a045ca9afe4",
+            "name": "App.Transitions -> App.TransitionsNative"
+        },
+        {
+            "id": "aca3e3e3-3ca7-411c-b85a-b2dbf1819a83",
+            "relationship": "dependencies",
+            "source": "7e898464-b558-4391-afa4-fac36078b7b2",
+            "target": "72e2a440-3d82-4abd-8b53-e1ed2838a385",
+            "name": "App.Transitions -> App.Base"
+        },
+        {
+            "id": "69432657-71d6-406e-9b82-36efc44ccfd3",
+            "relationship": "dependencies",
+            "source": "7e898464-b558-4391-afa4-fac36078b7b2",
+            "target": "4404f251-1861-481a-8b6f-703bc266c280",
+            "name": "App.Transitions -> App"
+        },
+        {
+            "id": "c3d999cd-e9be-4199-be92-9f49cd0dd08d",
+            "relationship": "dependencies",
+            "source": "bc27b564-69c8-43b9-92fe-a912b0e124d3",
+            "target": "ce704ba8-0c2b-453a-8103-ca035673763a",
+            "name": "ModelSync.Local -> Model"
+        },
+        {
+            "id": "74ac896c-9aa9-454d-bf57-90aa3af6a394",
+            "relationship": "dependencies",
+            "source": "7ad21c64-d83f-447d-8582-4a8c43a55774",
+            "target": "f4d60084-d075-4aac-9dd3-6515aa40a6b7",
+            "name": "ModelSync.REST -> IO"
+        },
+        {
+            "id": "2396ed5c-baa1-4d6b-98c6-1908cec0f5d3",
+            "relationship": "dependencies",
+            "source": "7ad21c64-d83f-447d-8582-4a8c43a55774",
+            "target": "ce704ba8-0c2b-453a-8103-ca035673763a",
+            "name": "ModelSync.REST -> Model"
+        },
+        {
+            "id": "c412f61e-1008-479a-a3d9-eed4e059929d",
+            "relationship": "dependencies",
+            "source": "611a9ac6-af1d-4dc1-bd88-28430db1a1fb",
+            "target": "7a7817c7-1f09-49d5-b915-e8dcc9cc253d",
+            "name": "View.NodeMap -> View"
+        },
+        {
+            "id": "319cd136-b47e-41c2-ad5b-13b415982df4",
+            "relationship": "extends",
+            "source": "3a42ab7d-8fe5-4449-adce-cae34a934677",
+            "target": "e1311a57-2e26-49a9-b704-62e87af7bace",
+            "name": "Router -> Base"
+        },
+        {
+            "id": "b2a11377-f10d-4a71-9a89-df4abbfe1685",
+            "relationship": "dependencies",
+            "source": "0cec1769-794c-4e2e-b8f2-3de567fcef87",
+            "target": "3a42ab7d-8fe5-4449-adce-cae34a934677",
+            "name": "PjaxBase -> Router"
+        },
+        {
+            "id": "ab587070-072e-46f7-b01c-86d64ebc0895",
+            "relationship": "dependencies",
+            "source": "0cec1769-794c-4e2e-b8f2-3de567fcef87",
+            "target": "db809a62-cf47-47ed-a868-6ea78d1f3116",
+            "name": "PjaxBase -> Controller"
+        },
+        {
+            "id": "20a3c60a-a4e3-488e-a341-9073608f4401",
+            "relationship": "dependencies",
+            "source": "0cec1769-794c-4e2e-b8f2-3de567fcef87",
+            "target": "067af72a-5ae6-463c-b221-2420e4e29464",
+            "name": "PjaxBase -> ClassNameManager"
+        },
+        {
+            "id": "edf0727e-d0af-45fd-9f9c-79248cc2b94f",
+            "relationship": "dependencies",
+            "source": "20a72b64-39c8-4419-9dac-aa5e820d4534",
+            "target": "e3811626-5e7f-4aae-ac5d-900e6408a557",
+            "name": "LazyModelList -> ModelList"
+        },
+        {
+            "id": "666678ef-5788-4ea1-9acd-41c1f37ba03e",
+            "relationship": "extends",
+            "source": "20a72b64-39c8-4419-9dac-aa5e820d4534",
+            "target": "e3811626-5e7f-4aae-ac5d-900e6408a557",
+            "name": "LazyModelList -> ModelList"
+        },
+        {
+            "id": "02b1d4a6-d8d3-41a2-aea3-7d9554a313f6",
+            "relationship": "extends",
+            "source": "db809a62-cf47-47ed-a868-6ea78d1f3116",
+            "target": "e1311a57-2e26-49a9-b704-62e87af7bace",
+            "name": "Controller -> Base"
+        },
+        {
+            "id": "b018f597-ba96-40be-a092-5c05618459e1",
+            "relationship": "dependencies",
+            "source": "018607b0-0c87-4837-8241-d31c6c902545",
+            "target": "fdebb913-f6a3-4e71-8d3f-0fde4649e8aa",
+            "name": "AsyncQueue -> CustomEvent"
+        },
+        {
+            "id": "ca771510-5f23-4714-8c89-ec38670d029e",
+            "relationship": "extends",
+            "source": "018607b0-0c87-4837-8241-d31c6c902545",
+            "target": "84978e2e-aae2-4196-9aae-2a6ab6c6463e",
+            "name": "AsyncQueue -> EventTarget"
+        },
+        {
+            "id": "8f8ef676-073d-4415-ab78-51d8de33daf5",
+            "relationship": "uses",
+            "source": "9ddffa01-0da9-4ab3-bca5-a005a5103b3f",
+            "target": "84978e2e-aae2-4196-9aae-2a6ab6c6463e",
+            "name": "AttributeObservable -> EventTarget"
+        },
+        {
+            "id": "a550949b-042e-4857-9ec8-70015da8c124",
+            "relationship": "uses",
+            "source": "96ada99b-c128-4f2a-bdb1-667d688cdc53",
+            "target": "16ef8f46-1880-4961-a3f9-692bdf454eb6",
+            "name": "Attribute -> AttributeCore"
+        },
+        {
+            "id": "ffd5f7fb-986a-4f5e-bbd6-6a1405645ddd",
+            "relationship": "uses",
+            "source": "96ada99b-c128-4f2a-bdb1-667d688cdc53",
+            "target": "9ddffa01-0da9-4ab3-bca5-a005a5103b3f",
+            "name": "Attribute -> AttributeObservable"
+        },
+        {
+            "id": "d352b083-19d1-44bc-8991-6fb916731df1",
+            "relationship": "uses",
+            "source": "96ada99b-c128-4f2a-bdb1-667d688cdc53",
+            "target": "84978e2e-aae2-4196-9aae-2a6ab6c6463e",
+            "name": "Attribute -> EventTarget"
+        },
+        {
+            "id": "c7df15e5-40df-42eb-b40e-7db3ce37ab25",
+            "relationship": "uses",
+            "source": "96ada99b-c128-4f2a-bdb1-667d688cdc53",
+            "target": "b05f1827-0be9-4f4a-ad30-6aa3d7fcc744",
+            "name": "Attribute -> AttributeExtras"
+        },
+        {
+            "id": "db247985-9b0b-4883-94c4-04fe01f4d87f",
+            "relationship": "uses",
+            "source": "6e2d5b88-394d-4c49-aa99-7384082249d7",
+            "target": "84978e2e-aae2-4196-9aae-2a6ab6c6463e",
+            "name": "AttributeEvents -> EventTarget"
+        },
+        {
+            "id": "a7260908-cf21-4b51-9920-aedb111f1012",
+            "relationship": "dependencies",
+            "source": "9b2d3500-6cf1-4308-9e32-b652da84c3fe",
+            "target": "6369be21-26d1-4f7c-99bf-41d9dea1c52c",
+            "name": "AutoCompleteBase -> ValueChange"
+        },
+        {
+            "id": "c47a008e-b410-4d80-9f4c-417b874a9dc1",
+            "relationship": "dependencies",
+            "source": "9b2d3500-6cf1-4308-9e32-b652da84c3fe",
+            "target": "40d3bd87-3889-4c08-a0d8-2faf4264a6d4",
+            "name": "AutoCompleteBase -> Escape"
+        },
+        {
+            "id": "9edc188b-e490-4604-8c1e-a2823d011dc6",
+            "relationship": "dependencies",
+            "source": "a6581753-92e9-4c4a-8f77-22180cb0dc08",
+            "target": "13596d59-b583-4411-b84e-497d17bd4286",
+            "name": "AutoCompleteFilters -> Text.WordBreak"
+        },
+        {
+            "id": "d8cd63c0-06c6-4b32-8e36-5585219252a9",
+            "relationship": "dependencies",
+            "source": "383b5f3e-65dd-410c-9afa-cd9d2daa935c",
+            "target": "e5950b52-32c5-4bc8-ac22-c74189ded67b",
+            "name": "AutoCompleteHighlighters -> Highlight"
+        },
+        {
+            "id": "bd224953-4a7f-4721-a595-45bb307914d9",
+            "relationship": "uses",
+            "source": "8db44b10-d2ab-4aa3-88e6-07449d783ad3",
+            "target": "9b2d3500-6cf1-4308-9e32-b652da84c3fe",
+            "name": "AutoCompleteList -> AutoCompleteBase"
+        },
+        {
+            "id": "d1696ea8-1132-4920-b8f6-c3e01c92c882",
+            "relationship": "uses",
+            "source": "8db44b10-d2ab-4aa3-88e6-07449d783ad3",
+            "target": "7772c23d-7d8e-457e-bdda-abbecd8daa39",
+            "name": "AutoCompleteList -> WidgetPosition"
+        },
+        {
+            "id": "8010911c-ddd8-47d5-903e-8a08e308bf05",
+            "relationship": "uses",
+            "source": "8db44b10-d2ab-4aa3-88e6-07449d783ad3",
+            "target": "e9984602-9de6-4ce9-9594-5d1bf9608012",
+            "name": "AutoCompleteList -> WidgetPositionAlign"
+        },
+        {
+            "id": "7c8d99de-f435-4b04-a9ba-1eed8234ca48",
+            "relationship": "dependencies",
+            "source": "8db44b10-d2ab-4aa3-88e6-07449d783ad3",
+            "target": "086a7670-9947-4e6e-8494-81ea8f4d7fdd",
+            "name": "AutoCompleteList -> Plugin.Shim"
+        },
+        {
+            "id": "9c804c7a-747c-4518-87fe-fb65a12eeee3",
+            "relationship": "dependencies",
+            "source": "8db44b10-d2ab-4aa3-88e6-07449d783ad3",
+            "target": "9b2d3500-6cf1-4308-9e32-b652da84c3fe",
+            "name": "AutoCompleteList -> AutoCompleteBase"
+        },
+        {
+            "id": "8a118884-12cf-4341-b33c-008cf9184902",
+            "relationship": "extends",
+            "source": "8db44b10-d2ab-4aa3-88e6-07449d783ad3",
+            "target": "c5aa8028-b44c-491d-beed-2f914c74c056",
+            "name": "AutoCompleteList -> Widget"
+        },
+        {
+            "id": "8dc295cb-a9c7-4eef-b607-712b5c860d44",
+            "relationship": "dependencies",
+            "source": "8be815ca-0132-4085-be02-b83943e7a6e4",
+            "target": "086a7670-9947-4e6e-8494-81ea8f4d7fdd",
+            "name": "AutoComplete -> Plugin.Shim"
+        },
+        {
+            "id": "c3f43db7-b1ec-4fe3-8693-200165d7bf90",
+            "relationship": "dependencies",
+            "source": "8be815ca-0132-4085-be02-b83943e7a6e4",
+            "target": "9b2d3500-6cf1-4308-9e32-b652da84c3fe",
+            "name": "AutoComplete -> AutoCompleteBase"
+        },
+        {
+            "id": "bcd4adde-6bc1-4cd2-b042-9e9cd2621178",
+            "relationship": "dependencies",
+            "source": "3f8ca949-e649-4e1b-9900-68989ce57df4",
+            "target": "8db44b10-d2ab-4aa3-88e6-07449d783ad3",
+            "name": "Plugin.AutoComplete -> AutoCompleteList"
+        },
+        {
+            "id": "48397959-6acc-473b-b559-07f8dbe70b51",
+            "relationship": "dependencies",
+            "source": "3f8ca949-e649-4e1b-9900-68989ce57df4",
+            "target": "8be815ca-0132-4085-be02-b83943e7a6e4",
+            "name": "Plugin.AutoComplete -> AutoComplete"
+        },
+        {
+            "id": "a9d7f797-b28a-46a0-a4f0-4df779abfaea",
+            "relationship": "extends",
+            "source": "3f8ca949-e649-4e1b-9900-68989ce57df4",
+            "target": "8db44b10-d2ab-4aa3-88e6-07449d783ad3",
+            "name": "Plugin.AutoComplete -> AutoCompleteList"
+        },
+        {
+            "id": "42e73cef-6e97-441b-8729-4c150c12db13",
+            "relationship": "uses",
+            "source": "07421c03-d1f8-4783-8016-329363799d8c",
+            "target": "16ef8f46-1880-4961-a3f9-692bdf454eb6",
+            "name": "BaseCore -> AttributeCore"
+        },
+        {
+            "id": "06b1122f-2ade-4850-a448-f78d0ef3fe1a",
+            "relationship": "uses",
+            "source": "fea6434f-b4e5-489c-8904-e557533ac0c5",
+            "target": "9ddffa01-0da9-4ab3-bca5-a005a5103b3f",
+            "name": "BaseObservable -> AttributeObservable"
+        },
+        {
+            "id": "52895ee7-ce1b-4de5-b15d-e36042b7285d",
+            "relationship": "uses",
+            "source": "fea6434f-b4e5-489c-8904-e557533ac0c5",
+            "target": "84978e2e-aae2-4196-9aae-2a6ab6c6463e",
+            "name": "BaseObservable -> EventTarget"
+        },
+        {
+            "id": "b31bd625-47d1-47ba-b7d7-09a7ba05b703",
+            "relationship": "uses",
+            "source": "dad2cca6-50c9-4a6f-8c38-cd5c1adceee7",
+            "target": "16ef8f46-1880-4961-a3f9-692bdf454eb6",
+            "name": "ButtonCore -> AttributeCore"
+        },
+        {
+            "id": "12552a0e-2bf2-413c-8f3d-cd40534fc3e5",
+            "relationship": "uses",
+            "source": "bc7a4a78-9e16-405c-aab5-b9d78b9dd4cf",
+            "target": "dad2cca6-50c9-4a6f-8c38-cd5c1adceee7",
+            "name": "Button -> ButtonCore"
+        },
+        {
+            "id": "2f9bd26c-1d35-4167-b555-104108a83337",
+            "relationship": "extends",
+            "source": "bc7a4a78-9e16-405c-aab5-b9d78b9dd4cf",
+            "target": "c5aa8028-b44c-491d-beed-2f914c74c056",
+            "name": "Button -> Widget"
+        },
+        {
+            "id": "46fedb6c-3ed3-4f5b-9e2a-4b7056efb004",
+            "relationship": "extends",
+            "source": "64e7f447-7b76-4edb-92a8-35d456af3d17",
+            "target": "bc7a4a78-9e16-405c-aab5-b9d78b9dd4cf",
+            "name": "ToggleButton -> Button"
+        },
+        {
+            "id": "20411fb7-1625-41a7-9b18-29efc66b58ce",
+            "relationship": "extends",
+            "source": "b7460d90-ebfb-403d-b8a8-c5f9de57615c",
+            "target": "c5aa8028-b44c-491d-beed-2f914c74c056",
+            "name": "ButtonGroup -> Widget"
+        },
+        {
+            "id": "9d111ec0-5c15-41b0-8dd6-c5764724a185",
+            "relationship": "extends",
+            "source": "58e06b09-36e0-4ca6-ab28-9a2d94bfaac8",
+            "target": "dad2cca6-50c9-4a6f-8c38-cd5c1adceee7",
+            "name": "Plugin.Button -> ButtonCore"
+        },
+        {
+            "id": "399e3295-9573-4c44-bb10-34445adfe69d",
+            "relationship": "dependencies",
+            "source": "4b71cd31-153d-4b18-93cd-5d249eb3be67",
+            "target": "e1311a57-2e26-49a9-b704-62e87af7bace",
+            "name": "Cache -> Base"
+        },
+        {
+            "id": "4b53cc84-f318-4049-8232-8eec41511ba1",
+            "relationship": "extends",
+            "source": "4b71cd31-153d-4b18-93cd-5d249eb3be67",
+            "target": "e1311a57-2e26-49a9-b704-62e87af7bace",
+            "name": "Cache -> Base"
+        },
+        {
+            "id": "172cb48c-880d-4622-8fcd-61a8dfdfb581",
+            "relationship": "dependencies",
+            "source": "fb72e1cf-b3d2-41d9-a1e5-9c24f973e637",
+            "target": "4b71cd31-153d-4b18-93cd-5d249eb3be67",
+            "name": "CacheOffline -> Cache"
+        },
+        {
+            "id": "3b9384df-8465-4d04-9744-a7129e22304e",
+            "relationship": "extends",
+            "source": "fb72e1cf-b3d2-41d9-a1e5-9c24f973e637",
+            "target": "4b71cd31-153d-4b18-93cd-5d249eb3be67",
+            "name": "CacheOffline -> Cache"
+        },
+        {
+            "id": "0ff7e6cc-29d9-46a3-a920-c7a0f2e405c5",
+            "relationship": "uses",
+            "source": "4d4ef57e-540b-4cf0-a93d-87b759766fec",
+            "target": "b1e0336d-a3f0-4980-88ba-3eeb467e1cbd",
+            "name": "Plugin.Cache -> Plugin.Base"
+        },
+        {
+            "id": "bd9ffdb3-a4ce-452d-8c70-60918292a340",
+            "relationship": "dependencies",
+            "source": "4d4ef57e-540b-4cf0-a93d-87b759766fec",
+            "target": "4b71cd31-153d-4b18-93cd-5d249eb3be67",
+            "name": "Plugin.Cache -> Cache"
+        },
+        {
+            "id": "473fa0cb-bf01-4441-8a1c-db5a566ae18b",
+            "relationship": "dependencies",
+            "source": "4d4ef57e-540b-4cf0-a93d-87b759766fec",
+            "target": "44bd6986-c289-4d95-8c7f-f24c21d47846",
+            "name": "Plugin.Cache -> Plugin"
+        },
+        {
+            "id": "ee257918-428c-4b30-8fcb-9707102c94f4",
+            "relationship": "extends",
+            "source": "4d4ef57e-540b-4cf0-a93d-87b759766fec",
+            "target": "4b71cd31-153d-4b18-93cd-5d249eb3be67",
+            "name": "Plugin.Cache -> Cache"
+        },
+        {
+            "id": "4657660a-0b80-44c1-b1c1-38a0eb065c43",
+            "relationship": "extends",
+            "source": "78e31571-6392-4fee-adea-a5a34c35c676",
+            "target": "c5aa8028-b44c-491d-beed-2f914c74c056",
+            "name": "CalendarBase -> Widget"
+        },
+        {
+            "id": "1a330595-83ee-4327-9b64-1429af659898",
+            "relationship": "dependencies",
+            "source": "88d3461e-bd52-4124-a3f5-1739eb54d48b",
+            "target": "bae5e1c3-e0a9-472a-9272-9014e5c18936",
+            "name": "Calendar -> Plugin.CalendarNavigator"
+        },
+        {
+            "id": "93e30c21-9f54-4ff9-b82a-d12d31520b34",
+            "relationship": "dependencies",
+            "source": "88d3461e-bd52-4124-a3f5-1739eb54d48b",
+            "target": "78e31571-6392-4fee-adea-a5a34c35c676",
+            "name": "Calendar -> CalendarBase"
+        },
+        {
+            "id": "6d262e61-c98a-44b2-be1e-2c95c1ed7746",
+            "relationship": "extends",
+            "source": "88d3461e-bd52-4124-a3f5-1739eb54d48b",
+            "target": "78e31571-6392-4fee-adea-a5a34c35c676",
+            "name": "Calendar -> CalendarBase"
+        },
+        {
+            "id": "ac0f8567-7eb4-44ea-8e9b-3e0510cff22a",
+            "relationship": "dependencies",
+            "source": "bae5e1c3-e0a9-472a-9272-9014e5c18936",
+            "target": "067af72a-5ae6-463c-b221-2420e4e29464",
+            "name": "Plugin.CalendarNavigator -> ClassNameManager"
+        },
+        {
+            "id": "3c0e48f2-062e-4fcc-8e15-2c7aa33bc941",
+            "relationship": "dependencies",
+            "source": "bae5e1c3-e0a9-472a-9272-9014e5c18936",
+            "target": "44bd6986-c289-4d95-8c7f-f24c21d47846",
+            "name": "Plugin.CalendarNavigator -> Plugin"
+        },
+        {
+            "id": "e5aab81e-3c09-47e4-b84b-95fc3274dbe8",
+            "relationship": "extends",
+            "source": "bae5e1c3-e0a9-472a-9272-9014e5c18936",
+            "target": "b1e0336d-a3f0-4980-88ba-3eeb467e1cbd",
+            "name": "Plugin.CalendarNavigator -> Plugin.Base"
+        },
+        {
+            "id": "d3a525c7-fc95-4667-af26-837292a03466",
+            "relationship": "extends",
+            "source": "a4453580-7aff-4f0d-93dd-b9def876276b",
+            "target": "396381e2-5b4a-4b54-b787-f0ff771d4d89",
+            "name": "CartesianSeries -> SeriesBase"
+        },
+        {
+            "id": "d8ceea50-9469-4cf9-917d-80f42b04c205",
+            "relationship": "uses",
+            "source": "4ff2790d-3ba5-4789-811e-119ac0e99975",
+            "target": "8b2827d9-bfe8-4c6b-8076-e11aabd9f5f2",
+            "name": "AreaSeries -> Fills"
+        },
+        {
+            "id": "612ae746-79f7-4920-a74f-06165804a5da",
+            "relationship": "extends",
+            "source": "4ff2790d-3ba5-4789-811e-119ac0e99975",
+            "target": "a4453580-7aff-4f0d-93dd-b9def876276b",
+            "name": "AreaSeries -> CartesianSeries"
+        },
+        {
+            "id": "4a52dcc2-efc7-4da7-9ade-4954a5f201cb",
+            "relationship": "uses",
+            "source": "fe81a620-ee91-4f74-86e5-f17bde788103",
+            "target": "65013beb-7220-4fc5-86a9-83d6d013c9df",
+            "name": "AreaSplineSeries -> CurveUtil"
+        },
+        {
+            "id": "f7a956d4-47e0-4835-b42a-729b15cc0abd",
+            "relationship": "extends",
+            "source": "fe81a620-ee91-4f74-86e5-f17bde788103",
+            "target": "4ff2790d-3ba5-4789-811e-119ac0e99975",
+            "name": "AreaSplineSeries -> AreaSeries"
+        },
+        {
+            "id": "dbe46cfa-69cb-4f2c-9b7a-4753155a906a",
+            "relationship": "uses",
+            "source": "9911b55d-4e31-4b76-a281-616e7e12a525",
+            "target": "4752b617-541d-487c-9852-3830546e839d",
+            "name": "AxisBase -> Renderer"
+        },
+        {
+            "id": "02cbfdcf-b914-4d3f-bfed-38eba85710b5",
+            "relationship": "extends",
+            "source": "9911b55d-4e31-4b76-a281-616e7e12a525",
+            "target": "e1311a57-2e26-49a9-b704-62e87af7bace",
+            "name": "AxisBase -> Base"
+        },
+        {
+            "id": "9b7bbef5-f735-4199-8f0d-b6821ad92d87",
+            "relationship": "uses",
+            "source": "3e723164-6a01-4a6a-87ca-f7b6d388d8db",
+            "target": "9911b55d-4e31-4b76-a281-616e7e12a525",
+            "name": "Axis -> AxisBase"
+        },
+        {
+            "id": "ac7fe7fb-4cb1-498c-9387-9ede9effcd74",
+            "relationship": "uses",
+            "source": "3e723164-6a01-4a6a-87ca-f7b6d388d8db",
+            "target": "4403d620-3d7b-471c-9f18-da2697fbe097",
+            "name": "Axis -> TopAxisLayout"
+        },
+        {
+            "id": "996d8158-5dc3-43ad-9ba3-6b23f82a6062",
+            "relationship": "uses",
+            "source": "3e723164-6a01-4a6a-87ca-f7b6d388d8db",
+            "target": "0066b8ca-7bb2-42d7-9509-d18abdb0cbd0",
+            "name": "Axis -> RightAxisLayout"
+        },
+        {
+            "id": "8f32d6d8-b147-43ef-a75a-c043c096a358",
+            "relationship": "uses",
+            "source": "3e723164-6a01-4a6a-87ca-f7b6d388d8db",
+            "target": "c8aa40e7-3333-4419-8976-83252a44cb94",
+            "name": "Axis -> BottomAxisLayout"
+        },
+        {
+            "id": "22004c83-8f2a-488b-85af-c7cf5d88c120",
+            "relationship": "uses",
+            "source": "3e723164-6a01-4a6a-87ca-f7b6d388d8db",
+            "target": "b6bbd8a1-d5f9-40f9-b36b-2e0275e887b3",
+            "name": "Axis -> LeftAxisLayout"
+        },
+        {
+            "id": "ac9e7584-0e86-417a-894e-be577f99150f",
+            "relationship": "extends",
+            "source": "3e723164-6a01-4a6a-87ca-f7b6d388d8db",
+            "target": "c5aa8028-b44c-491d-beed-2f914c74c056",
+            "name": "Axis -> Widget"
+        },
+        {
+            "id": "346b39ca-6431-459d-924f-bb2e25573d20",
+            "relationship": "uses",
+            "source": "8aba398e-3954-48b2-b641-68b2774d2b58",
+            "target": "633214a5-21e5-4bf8-92c8-3ec8f0d40eaf",
+            "name": "MarkerSeries -> Plots"
+        },
+        {
+            "id": "b0e04fb7-5461-446f-9de4-0c8f75f38be7",
+            "relationship": "extends",
+            "source": "8aba398e-3954-48b2-b641-68b2774d2b58",
+            "target": "a4453580-7aff-4f0d-93dd-b9def876276b",
+            "name": "MarkerSeries -> CartesianSeries"
+        },
+        {
+            "id": "50f4ed85-a046-4747-b2d2-b35e0cab92a8",
+            "relationship": "uses",
+            "source": "6cb352fb-c55d-4483-a558-22f696730e2a",
+            "target": "ac305f2e-ac50-49e6-b467-dc24bdd064c5",
+            "name": "BarSeries -> Histogram"
+        },
+        {
+            "id": "fb331fff-de1e-4136-bc65-6bf19cf867ff",
+            "relationship": "extends",
+            "source": "6cb352fb-c55d-4483-a558-22f696730e2a",
+            "target": "8aba398e-3954-48b2-b641-68b2774d2b58",
+            "name": "BarSeries -> MarkerSeries"
+        },
+        {
+            "id": "08701d7c-3f71-4d00-ad45-6bdca67a6bf5",
+            "relationship": "extends",
+            "source": "3cd2f9bc-ddb4-409f-ade6-38efe2c22ab7",
+            "target": "a4453580-7aff-4f0d-93dd-b9def876276b",
+            "name": "RangeSeries -> CartesianSeries"
+        },
+        {
+            "id": "befb366b-0be3-49db-90cf-1331e8d14ce1",
+            "relationship": "extends",
+            "source": "53443bb7-036e-4ce7-91aa-5fb2f07825c8",
+            "target": "3cd2f9bc-ddb4-409f-ade6-38efe2c22ab7",
+            "name": "CandlestickSeries -> RangeSeries"
+        },
+        {
+            "id": "f7bf393a-1270-4518-b2ef-d7be6a00b707",
+            "relationship": "extends",
+            "source": "df7e2443-d763-4d34-a840-a9374f38b6db",
+            "target": "1a5cd7b7-8805-4f6f-98b4-9a248b00899b",
+            "name": "CartesianChart -> ChartBase"
+        },
+        {
+            "id": "5ed5b273-1ce9-45d9-86d4-ed86e0521231",
+            "relationship": "uses",
+            "source": "396381e2-5b4a-4b54-b787-f0ff771d4d89",
+            "target": "4752b617-541d-487c-9852-3830546e839d",
+            "name": "SeriesBase -> Renderer"
+        },
+        {
+            "id": "cddf5f56-4c30-4080-8cfd-95f7e46887e3",
+            "relationship": "extends",
+            "source": "396381e2-5b4a-4b54-b787-f0ff771d4d89",
+            "target": "e1311a57-2e26-49a9-b704-62e87af7bace",
+            "name": "SeriesBase -> Base"
+        },
+        {
+            "id": "35ceff01-8e28-4099-9665-f71e46c59b97",
+            "relationship": "uses",
+            "source": "d5fc5be3-3d3f-47d1-abe5-ccbff595e408",
+            "target": "30a6aee4-d8f6-4ecb-9e99-596a97612628",
+            "name": "CategoryAxis -> CategoryImpl"
+        },
+        {
+            "id": "cdd4cb72-799e-4fcf-bec6-f00c7ae30f63",
+            "relationship": "extends",
+            "source": "d5fc5be3-3d3f-47d1-abe5-ccbff595e408",
+            "target": "3e723164-6a01-4a6a-87ca-f7b6d388d8db",
+            "name": "CategoryAxis -> Axis"
+        },
+        {
+            "id": "991f5986-7fb6-4102-aec2-a49fe52356f0",
+            "relationship": "uses",
+            "source": "a2e1a79a-c67e-4338-9fe0-ce7a50115314",
+            "target": "30a6aee4-d8f6-4ecb-9e99-596a97612628",
+            "name": "CategoryAxisBase -> CategoryImpl"
+        },
+        {
+            "id": "7f3fa606-e94b-4889-ba8c-6007f6a73183",
+            "relationship": "extends",
+            "source": "a2e1a79a-c67e-4338-9fe0-ce7a50115314",
+            "target": "9911b55d-4e31-4b76-a281-616e7e12a525",
+            "name": "CategoryAxisBase -> AxisBase"
+        },
+        {
+            "id": "38537127-e24d-4c69-9ebd-ba9d80795a03",
+            "relationship": "extends",
+            "source": "42441d58-bf78-45fe-ad53-901b31070079",
+            "target": "c5aa8028-b44c-491d-beed-2f914c74c056",
+            "name": "ChartLegend -> Widget"
+        },
+        {
+            "id": "1d3820d6-ff63-470a-a872-47a33c333fa9",
+            "relationship": "uses",
+            "source": "2edce479-e9d9-4d25-b911-c83e8fb56c49",
+            "target": "ac305f2e-ac50-49e6-b467-dc24bdd064c5",
+            "name": "ColumnSeries -> Histogram"
+        },
+        {
+            "id": "ce32fb39-c7a9-41e4-accf-bbea5a00c2b0",
+            "relationship": "extends",
+            "source": "2edce479-e9d9-4d25-b911-c83e8fb56c49",
+            "target": "8aba398e-3954-48b2-b641-68b2774d2b58",
+            "name": "ColumnSeries -> MarkerSeries"
+        },
+        {
+            "id": "b662e060-4fe5-4264-a500-e9c539929204",
+            "relationship": "uses",
+            "source": "55c67a9f-33c7-434d-8996-f32f13ff0aad",
+            "target": "8b2827d9-bfe8-4c6b-8076-e11aabd9f5f2",
+            "name": "ComboSeries -> Fills"
+        },
+        {
+            "id": "27bc0e8a-9934-4532-94e0-cb2b4871cd2a",
+            "relationship": "uses",
+            "source": "55c67a9f-33c7-434d-8996-f32f13ff0aad",
+            "target": "9f89f1cf-e6b5-41aa-96ee-2a0e1a8bf222",
+            "name": "ComboSeries -> Lines"
+        },
+        {
+            "id": "1c72dcf7-dad5-49ef-ad73-a0e59fdb67b0",
+            "relationship": "uses",
+            "source": "55c67a9f-33c7-434d-8996-f32f13ff0aad",
+            "target": "633214a5-21e5-4bf8-92c8-3ec8f0d40eaf",
+            "name": "ComboSeries -> Plots"
+        },
+        {
+            "id": "1c14ffc7-2ed2-4194-9c3d-a15ba6bfddbb",
+            "relationship": "extends",
+            "source": "55c67a9f-33c7-434d-8996-f32f13ff0aad",
+            "target": "a4453580-7aff-4f0d-93dd-b9def876276b",
+            "name": "ComboSeries -> CartesianSeries"
+        },
+        {
+            "id": "7708da7b-072f-4a28-bd46-19d19f9601ea",
+            "relationship": "uses",
+            "source": "22c46e00-af5f-4570-966e-aa9f646b97d8",
+            "target": "65013beb-7220-4fc5-86a9-83d6d013c9df",
+            "name": "ComboSplineSeries -> CurveUtil"
+        },
+        {
+            "id": "911b4ece-b345-4287-9deb-3e748f053463",
+            "relationship": "extends",
+            "source": "22c46e00-af5f-4570-966e-aa9f646b97d8",
+            "target": "55c67a9f-33c7-434d-8996-f32f13ff0aad",
+            "name": "ComboSplineSeries -> ComboSeries"
+        },
+        {
+            "id": "06bb8567-1a37-4db7-90f4-5a7ae36966b2",
+            "relationship": "uses",
+            "source": "6cfba0cf-0a08-41c3-b5b1-70b5419eeaba",
+            "target": "4752b617-541d-487c-9852-3830546e839d",
+            "name": "Graph -> Renderer"
+        },
+        {
+            "id": "acbd38d0-c894-451d-b0ab-ae980bd8e2bd",
+            "relationship": "extends",
+            "source": "6cfba0cf-0a08-41c3-b5b1-70b5419eeaba",
+            "target": "c5aa8028-b44c-491d-beed-2f914c74c056",
+            "name": "Graph -> Widget"
+        },
+        {
+            "id": "1891ec98-cf4e-4e35-9e96-0d45ee1e32c2",
+            "relationship": "uses",
+            "source": "7c9203ef-d3c9-450a-a9c0-1c0eda5e1eed",
+            "target": "4752b617-541d-487c-9852-3830546e839d",
+            "name": "Gridlines -> Renderer"
+        },
+        {
+            "id": "144a48ee-d22b-4c0e-9dc1-974445185223",
+            "relationship": "extends",
+            "source": "7c9203ef-d3c9-450a-a9c0-1c0eda5e1eed",
+            "target": "e1311a57-2e26-49a9-b704-62e87af7bace",
+            "name": "Gridlines -> Base"
+        },
+        {
+            "id": "81cdb3c7-5943-445a-be51-81930c3de84c",
+            "relationship": "uses",
+            "source": "2502eaba-85eb-41f8-bf89-5e03c84ae159",
+            "target": "9f89f1cf-e6b5-41aa-96ee-2a0e1a8bf222",
+            "name": "LineSeries -> Lines"
+        },
+        {
+            "id": "2355af4c-6426-4dc1-a62e-7df58f242017",
+            "relationship": "extends",
+            "source": "2502eaba-85eb-41f8-bf89-5e03c84ae159",
+            "target": "a4453580-7aff-4f0d-93dd-b9def876276b",
+            "name": "LineSeries -> CartesianSeries"
+        },
+        {
+            "id": "946934b5-1c7a-4a58-9816-97db228b47b4",
+            "relationship": "uses",
+            "source": "10a1208e-21de-4db1-b925-f54528b61c8b",
+            "target": "8b5fbecd-6d78-45f4-b973-e22c43a1f68f",
+            "name": "NumericAxis -> NumericImpl"
+        },
+        {
+            "id": "250c0719-294f-42da-9db9-ec50bb5694f3",
+            "relationship": "extends",
+            "source": "10a1208e-21de-4db1-b925-f54528b61c8b",
+            "target": "3e723164-6a01-4a6a-87ca-f7b6d388d8db",
+            "name": "NumericAxis -> Axis"
+        },
+        {
+            "id": "10962592-93b2-4805-91a9-1bdf6677639b",
+            "relationship": "uses",
+            "source": "ce54dcbc-6ffa-4596-b80a-bb4c99cc5718",
+            "target": "8b5fbecd-6d78-45f4-b973-e22c43a1f68f",
+            "name": "NumericAxisBase -> NumericImpl"
+        },
+        {
+            "id": "0cc960a8-8160-45fe-84d2-1d04d07b0b42",
+            "relationship": "extends",
+            "source": "ce54dcbc-6ffa-4596-b80a-bb4c99cc5718",
+            "target": "9911b55d-4e31-4b76-a281-616e7e12a525",
+            "name": "NumericAxisBase -> AxisBase"
+        },
+        {
+            "id": "6baebdb1-34c2-4462-ac86-3e71304f3f22",
+            "relationship": "extends",
+            "source": "581a3911-b66a-466a-9cfd-9ef17040ad2c",
+            "target": "3cd2f9bc-ddb4-409f-ade6-38efe2c22ab7",
+            "name": "OHLCSeries -> RangeSeries"
+        },
+        {
+            "id": "485783be-0a79-47cd-b3b0-8058d14dad44",
+            "relationship": "extends",
+            "source": "5f530282-8432-4aaa-95dc-7d80afed091b",
+            "target": "1a5cd7b7-8805-4f6f-98b4-9a248b00899b",
+            "name": "PieChart -> ChartBase"
+        },
+        {
+            "id": "962fa3a6-6d7f-4847-b0f5-06d1c1ccd760",
+            "relationship": "uses",
+            "source": "131fd537-9b74-454e-8bf7-26d384ed90ed",
+            "target": "633214a5-21e5-4bf8-92c8-3ec8f0d40eaf",
+            "name": "PieSeries -> Plots"
+        },
+        {
+            "id": "7d72529d-77e5-43fa-b975-a02dbb49d5c6",
+            "relationship": "extends",
+            "source": "131fd537-9b74-454e-8bf7-26d384ed90ed",
+            "target": "396381e2-5b4a-4b54-b787-f0ff771d4d89",
+            "name": "PieSeries -> SeriesBase"
+        },
+        {
+            "id": "83a46e94-3e6b-4564-af65-08da85e4ff76",
+            "relationship": "uses",
+            "source": "846d2afd-1bff-4481-95cd-989dded45c57",
+            "target": "65013beb-7220-4fc5-86a9-83d6d013c9df",
+            "name": "SplineSeries -> CurveUtil"
+        },
+        {
+            "id": "44decda6-3e49-405a-ab4e-7a86a62e53ad",
+            "relationship": "uses",
+            "source": "846d2afd-1bff-4481-95cd-989dded45c57",
+            "target": "9f89f1cf-e6b5-41aa-96ee-2a0e1a8bf222",
+            "name": "SplineSeries -> Lines"
+        },
+        {
+            "id": "078d059b-a972-415c-812a-3782bc0ac874",
+            "relationship": "extends",
+            "source": "846d2afd-1bff-4481-95cd-989dded45c57",
+            "target": "2502eaba-85eb-41f8-bf89-5e03c84ae159",
+            "name": "SplineSeries -> LineSeries"
+        },
+        {
+            "id": "371af4fe-a825-46f4-a443-4728d8f83e0e",
+            "relationship": "uses",
+            "source": "42b1265e-0d74-4b2b-8e54-ab28fbb4ffea",
+            "target": "93bc5541-8ec6-4de9-9206-f526f2e5d425",
+            "name": "StackedAreaSeries -> StackingUtil"
+        },
+        {
+            "id": "f1f859f0-3631-406f-b289-1d319bf71c22",
+            "relationship": "extends",
+            "source": "42b1265e-0d74-4b2b-8e54-ab28fbb4ffea",
+            "target": "4ff2790d-3ba5-4789-811e-119ac0e99975",
+            "name": "StackedAreaSeries -> AreaSeries"
+        },
+        {
+            "id": "e6fd55ee-037c-4777-a9f8-f2f16e273c4b",
+            "relationship": "uses",
+            "source": "c680bd4b-fd5f-4aa8-acde-d1d4ceb55619",
+            "target": "65013beb-7220-4fc5-86a9-83d6d013c9df",
+            "name": "StackedAreaSplineSeries -> CurveUtil"
+        },
+        {
+            "id": "2ca04cf8-859e-43f4-9de4-686768f6a110",
+            "relationship": "uses",
+            "source": "c680bd4b-fd5f-4aa8-acde-d1d4ceb55619",
+            "target": "93bc5541-8ec6-4de9-9206-f526f2e5d425",
+            "name": "StackedAreaSplineSeries -> StackingUtil"
+        },
+        {
+            "id": "29721f19-305f-46f0-ba1c-afccd96d55b8",
+            "relationship": "extends",
+            "source": "c680bd4b-fd5f-4aa8-acde-d1d4ceb55619",
+            "target": "4ff2790d-3ba5-4789-811e-119ac0e99975",
+            "name": "StackedAreaSplineSeries -> AreaSeries"
+        },
+        {
+            "id": "f746c250-2c5b-49fe-b0b5-acd5ea2f1d8d",
+            "relationship": "uses",
+            "source": "a670bad2-eada-4a17-9abf-dee3ba6874e7",
+            "target": "8d3eca0e-8e4f-4bdf-be77-26854fd671df",
+            "name": "StackedAxis -> StackedImpl"
+        },
+        {
+            "id": "8f57971f-c7a2-4c56-9054-a229226926e2",
+            "relationship": "extends",
+            "source": "a670bad2-eada-4a17-9abf-dee3ba6874e7",
+            "target": "10a1208e-21de-4db1-b925-f54528b61c8b",
+            "name": "StackedAxis -> NumericAxis"
+        },
+        {
+            "id": "a01c3bf8-f607-4a8a-b7dd-bae877604e67",
+            "relationship": "uses",
+            "source": "2ac57f76-15c5-4704-b1f6-292dfe550d58",
+            "target": "8d3eca0e-8e4f-4bdf-be77-26854fd671df",
+            "name": "StackedAxisBase -> StackedImpl"
+        },
+        {
+            "id": "3a00e239-d6f2-4cb4-9a7c-fb07b8739ef1",
+            "relationship": "extends",
+            "source": "2ac57f76-15c5-4704-b1f6-292dfe550d58",
+            "target": "9911b55d-4e31-4b76-a281-616e7e12a525",
+            "name": "StackedAxisBase -> AxisBase"
+        },
+        {
+            "id": "06aae60d-99eb-47db-aeaa-507d481b811b",
+            "relationship": "uses",
+            "source": "81d5a0f0-a8e2-4bb0-8750-894dc5c310f5",
+            "target": "93bc5541-8ec6-4de9-9206-f526f2e5d425",
+            "name": "StackedBarSeries -> StackingUtil"
+        },
+        {
+            "id": "1c8f1ebb-b0a8-40b8-b375-0a9ed75b5f24",
+            "relationship": "extends",
+            "source": "81d5a0f0-a8e2-4bb0-8750-894dc5c310f5",
+            "target": "6cb352fb-c55d-4483-a558-22f696730e2a",
+            "name": "StackedBarSeries -> BarSeries"
+        },
+        {
+            "id": "0b61c5d4-1ae4-4180-9102-b659d0356a85",
+            "relationship": "uses",
+            "source": "c26d15cb-1b95-46bd-afd5-431d72b3be6d",
+            "target": "93bc5541-8ec6-4de9-9206-f526f2e5d425",
+            "name": "StackedColumnSeries -> StackingUtil"
+        },
+        {
+            "id": "cfda4cb2-f88d-4d4f-9c7a-88b40e3a15b7",
+            "relationship": "extends",
+            "source": "c26d15cb-1b95-46bd-afd5-431d72b3be6d",
+            "target": "2edce479-e9d9-4d25-b911-c83e8fb56c49",
+            "name": "StackedColumnSeries -> ColumnSeries"
+        },
+        {
+            "id": "fcdfdb0c-e22c-4d8d-9e20-614a4fb5a9e3",
+            "relationship": "uses",
+            "source": "2e66a394-1ef2-4a8f-b5e6-57ca2d496541",
+            "target": "93bc5541-8ec6-4de9-9206-f526f2e5d425",
+            "name": "StackedComboSeries -> StackingUtil"
+        },
+        {
+            "id": "68ed2dcb-24ea-4b3e-9e0c-407f91c1a75b",
+            "relationship": "extends",
+            "source": "2e66a394-1ef2-4a8f-b5e6-57ca2d496541",
+            "target": "55c67a9f-33c7-434d-8996-f32f13ff0aad",
+            "name": "StackedComboSeries -> ComboSeries"
+        },
+        {
+            "id": "afc437e9-acd1-4d46-97fb-93490e22f4d3",
+            "relationship": "uses",
+            "source": "193a5e7b-0924-49b5-93bf-640ef77e6739",
+            "target": "65013beb-7220-4fc5-86a9-83d6d013c9df",
+            "name": "StackedComboSplineSeries -> CurveUtil"
+        },
+        {
+            "id": "24c37e8d-e4c1-4388-b9a0-ba1bb9912e5f",
+            "relationship": "extends",
+            "source": "193a5e7b-0924-49b5-93bf-640ef77e6739",
+            "target": "2e66a394-1ef2-4a8f-b5e6-57ca2d496541",
+            "name": "StackedComboSplineSeries -> StackedComboSeries"
+        },
+        {
+            "id": "481962c0-0a5d-4d4a-94bc-6d400c2d7b18",
+            "relationship": "uses",
+            "source": "9c4dfd8e-40d4-459f-82c2-7c55ac20f9f4",
+            "target": "93bc5541-8ec6-4de9-9206-f526f2e5d425",
+            "name": "StackedLineSeries -> StackingUtil"
+        },
+        {
+            "id": "ca00ee5e-c7df-4a95-b7ef-e14307858018",
+            "relationship": "extends",
+            "source": "9c4dfd8e-40d4-459f-82c2-7c55ac20f9f4",
+            "target": "2502eaba-85eb-41f8-bf89-5e03c84ae159",
+            "name": "StackedLineSeries -> LineSeries"
+        },
+        {
+            "id": "fc7dd332-11ce-45c9-a354-ee07430f95ce",
+            "relationship": "uses",
+            "source": "40a3f524-82ee-437d-ad10-1327d87d15ab",
+            "target": "93bc5541-8ec6-4de9-9206-f526f2e5d425",
+            "name": "StackedMarkerSeries -> StackingUtil"
+        },
+        {
+            "id": "1bdc2c25-980b-471c-b624-9e6234aa2fc4",
+            "relationship": "extends",
+            "source": "40a3f524-82ee-437d-ad10-1327d87d15ab",
+            "target": "8aba398e-3954-48b2-b641-68b2774d2b58",
+            "name": "StackedMarkerSeries -> MarkerSeries"
+        },
+        {
+            "id": "1b3766d7-e260-4e1a-b425-e5a360b01665",
+            "relationship": "uses",
+            "source": "7edd8515-6f3a-45c9-855f-fea773e9d99f",
+            "target": "93bc5541-8ec6-4de9-9206-f526f2e5d425",
+            "name": "StackedSplineSeries -> StackingUtil"
+        },
+        {
+            "id": "4de28cf2-8f4f-4243-869f-d1795f01cb4e",
+            "relationship": "extends",
+            "source": "7edd8515-6f3a-45c9-855f-fea773e9d99f",
+            "target": "846d2afd-1bff-4481-95cd-989dded45c57",
+            "name": "StackedSplineSeries -> SplineSeries"
+        },
+        {
+            "id": "e2143c07-bb37-4c6b-bc38-139d2fc3efa6",
+            "relationship": "uses",
+            "source": "20f98743-9844-498f-92fe-66071ffe75b3",
+            "target": "b1ab67b1-2c7f-42c8-af8e-985bf8f2ebaa",
+            "name": "TimeAxis -> TimeImpl"
+        },
+        {
+            "id": "67ff7d20-aedc-42b6-8431-1761186d75d0",
+            "relationship": "extends",
+            "source": "20f98743-9844-498f-92fe-66071ffe75b3",
+            "target": "3e723164-6a01-4a6a-87ca-f7b6d388d8db",
+            "name": "TimeAxis -> Axis"
+        },
+        {
+            "id": "fb62318b-0af7-4eb4-896b-f168c545efc4",
+            "relationship": "uses",
+            "source": "17c1de74-9810-4573-9bc2-a62eac18d234",
+            "target": "b1ab67b1-2c7f-42c8-af8e-985bf8f2ebaa",
+            "name": "TimeAxisBase -> TimeImpl"
+        },
+        {
+            "id": "db0f2458-1fa4-4214-a109-06f8592a87c0",
+            "relationship": "extends",
+            "source": "17c1de74-9810-4573-9bc2-a62eac18d234",
+            "target": "9911b55d-4e31-4b76-a281-616e7e12a525",
+            "name": "TimeAxisBase -> AxisBase"
+        },
+        {
+            "id": "730810f5-ebb0-4adf-b19b-2018898f1c70",
+            "relationship": "dependencies",
+            "source": "8b99c253-6de6-4392-99e5-05ff62daddba",
+            "target": "05c98c97-d00f-472c-9af0-4eaafc2d6f30",
+            "name": "Color.Harmony -> Color.HSL"
+        },
+        {
+            "id": "0a66d70e-707c-40e7-8d43-93cac0303c0d",
+            "relationship": "dependencies",
+            "source": "05c98c97-d00f-472c-9af0-4eaafc2d6f30",
+            "target": "fa8d7218-92db-44e5-bd1a-ffe22c6ae86a",
+            "name": "Color.HSL -> Color"
+        },
+        {
+            "id": "8fae94b3-340b-4d4b-b18f-f2226f6b910f",
+            "relationship": "dependencies",
+            "source": "94154f2d-9cee-47f5-ac56-aaef90c7ea54",
+            "target": "fa8d7218-92db-44e5-bd1a-ffe22c6ae86a",
+            "name": "Color.HSV -> Color"
+        },
+        {
+            "id": "8c587a94-0c90-44a9-973d-83776bb0b254",
+            "relationship": "extends",
+            "source": "f80367b8-89f3-4743-a9fd-6a4244f8b1bd",
+            "target": "c5aa8028-b44c-491d-beed-2f914c74c056",
+            "name": "Console -> Widget"
+        },
+        {
+            "id": "1e7ad3b1-afd2-4046-8a61-a4991f3dcb83",
+            "relationship": "dependencies",
+            "source": "b1ce2de5-a126-4241-83ef-fcd7f8810837",
+            "target": "f80367b8-89f3-4743-a9fd-6a4244f8b1bd",
+            "name": "Plugin.ConsoleFilters -> Console"
+        },
+        {
+            "id": "92ebd6c5-4b84-4749-b3d0-66f02d6d2c59",
+            "relationship": "dependencies",
+            "source": "b1ce2de5-a126-4241-83ef-fcd7f8810837",
+            "target": "44bd6986-c289-4d95-8c7f-f24c21d47846",
+            "name": "Plugin.ConsoleFilters -> Plugin"
+        },
+        {
+            "id": "65c3575b-fd5c-4f49-9300-83fa51b5d6c5",
+            "relationship": "dependencies",
+            "source": "548697d4-3e8e-458c-8ac4-56a42c05cf6f",
+            "target": "e1311a57-2e26-49a9-b704-62e87af7bace",
+            "name": "DataSchema.Base -> Base"
+        },
+        {
+            "id": "5d748ba6-e73f-4a03-bb84-de0248d916bd",
+            "relationship": "dependencies",
+            "source": "bae22eb1-97b1-45f3-a1ad-0befbfeebe4a",
+            "target": "548697d4-3e8e-458c-8ac4-56a42c05cf6f",
+            "name": "DataSchema.Array -> DataSchema.Base"
+        },
+        {
+            "id": "cdde1dbf-8c0e-4a37-85b3-bc41818db8af",
+            "relationship": "extends",
+            "source": "bae22eb1-97b1-45f3-a1ad-0befbfeebe4a",
+            "target": "548697d4-3e8e-458c-8ac4-56a42c05cf6f",
+            "name": "DataSchema.Array -> DataSchema.Base"
+        },
+        {
+            "id": "509a592f-73de-4bbd-89e9-4c2ae7abb8b8",
+            "relationship": "dependencies",
+            "source": "a083c903-bfe0-4b67-8957-bc61adcdd56a",
+            "target": "548697d4-3e8e-458c-8ac4-56a42c05cf6f",
+            "name": "DataSchema.JSON -> DataSchema.Base"
+        },
+        {
+            "id": "96e930ed-0825-4a90-ab16-b69c0a432e6d",
+            "relationship": "extends",
+            "source": "a083c903-bfe0-4b67-8957-bc61adcdd56a",
+            "target": "548697d4-3e8e-458c-8ac4-56a42c05cf6f",
+            "name": "DataSchema.JSON -> DataSchema.Base"
+        },
+        {
+            "id": "a97c06b1-c712-4646-a7de-c79a84611cac",
+            "relationship": "dependencies",
+            "source": "d760eec8-e456-4388-9f8a-b0a8fe9be4c7",
+            "target": "548697d4-3e8e-458c-8ac4-56a42c05cf6f",
+            "name": "DataSchema.Text -> DataSchema.Base"
+        },
+        {
+            "id": "e83478ba-1e5c-4b81-81d6-88f7aeae8424",
+            "relationship": "extends",
+            "source": "d760eec8-e456-4388-9f8a-b0a8fe9be4c7",
+            "target": "548697d4-3e8e-458c-8ac4-56a42c05cf6f",
+            "name": "DataSchema.Text -> DataSchema.Base"
+        },
+        {
+            "id": "f0be348b-7592-4f13-96d7-c4065f8eb943",
+            "relationship": "dependencies",
+            "source": "88ce357c-3379-4e1d-bfa1-f519786a9621",
+            "target": "548697d4-3e8e-458c-8ac4-56a42c05cf6f",
+            "name": "DataSchema.XML -> DataSchema.Base"
+        },
+        {
+            "id": "9485f87d-28d4-4e76-b5f4-8e3d544ccb14",
+            "relationship": "extends",
+            "source": "88ce357c-3379-4e1d-bfa1-f519786a9621",
+            "target": "548697d4-3e8e-458c-8ac4-56a42c05cf6f",
+            "name": "DataSchema.XML -> DataSchema.Base"
+        },
+        {
+            "id": "72169e00-46f7-444e-859e-e40204ad39a6",
+            "relationship": "dependencies",
+            "source": "704f0052-9afa-426c-b7dc-24e64c0b93ce",
+            "target": "bae22eb1-97b1-45f3-a1ad-0befbfeebe4a",
+            "name": "DataSourceArraySchema -> DataSchema.Array"
+        },
+        {
+            "id": "f8eb94c9-ebe0-4c69-b5cf-6476df059e3f",
+            "relationship": "dependencies",
+            "source": "704f0052-9afa-426c-b7dc-24e64c0b93ce",
+            "target": "44bd6986-c289-4d95-8c7f-f24c21d47846",
+            "name": "DataSourceArraySchema -> Plugin"
+        },
+        {
+            "id": "20461cd3-a721-4772-a377-e3e40f99f858",
+            "relationship": "dependencies",
+            "source": "704f0052-9afa-426c-b7dc-24e64c0b93ce",
+            "target": "120a9c57-7725-47c8-8f29-b38704bf9a38",
+            "name": "DataSourceArraySchema -> DataSource.Local"
+        },
+        {
+            "id": "e3423beb-82ec-487a-8590-17dbee9376a4",
+            "relationship": "extends",
+            "source": "704f0052-9afa-426c-b7dc-24e64c0b93ce",
+            "target": "b1e0336d-a3f0-4980-88ba-3eeb467e1cbd",
+            "name": "DataSourceArraySchema -> Plugin.Base"
+        },
+        {
+            "id": "b50c5476-4db2-4354-bf86-7dad1d5cca0c",
+            "relationship": "dependencies",
+            "source": "7f9acb3e-8c05-410e-b1ff-df6f0a513c22",
+            "target": "4b71cd31-153d-4b18-93cd-5d249eb3be67",
+            "name": "DataSourceCacheExtension -> Cache"
+        },
+        {
+            "id": "7e6577a1-0c8c-4b20-a1d1-d15e8ae738cc",
+            "relationship": "dependencies",
+            "source": "7f9acb3e-8c05-410e-b1ff-df6f0a513c22",
+            "target": "44bd6986-c289-4d95-8c7f-f24c21d47846",
+            "name": "DataSourceCacheExtension -> Plugin"
+        },
+        {
+            "id": "4ed30de3-64e1-4145-9ecb-c74c06224bbf",
+            "relationship": "dependencies",
+            "source": "7f9acb3e-8c05-410e-b1ff-df6f0a513c22",
+            "target": "120a9c57-7725-47c8-8f29-b38704bf9a38",
+            "name": "DataSourceCacheExtension -> DataSource.Local"
+        },
+        {
+            "id": "22c51ac0-4aa3-46b4-8552-f7e4aa8ca433",
+            "relationship": "uses",
+            "source": "55e3713b-b3be-4859-a972-7a6b8dea293e",
+            "target": "b1e0336d-a3f0-4980-88ba-3eeb467e1cbd",
+            "name": "DataSourceCache -> Plugin.Base"
+        },
+        {
+            "id": "056c5d78-76f0-4d48-bf65-f3a8b909b9ea",
+            "relationship": "uses",
+            "source": "55e3713b-b3be-4859-a972-7a6b8dea293e",
+            "target": "94ad1161-f7ed-48e3-a071-6e0e3831a951",
+            "name": "DataSourceCache -> DataSourceCachePlugin"
+        },
+        {
+            "id": "a79ce66a-38ce-43be-a734-f2d6f441e7f8",
+            "relationship": "dependencies",
+            "source": "55e3713b-b3be-4859-a972-7a6b8dea293e",
+            "target": "4b71cd31-153d-4b18-93cd-5d249eb3be67",
+            "name": "DataSourceCache -> Cache"
+        },
+        {
+            "id": "78c8d076-8c90-45a1-9200-beca8520061b",
+            "relationship": "dependencies",
+            "source": "55e3713b-b3be-4859-a972-7a6b8dea293e",
+            "target": "44bd6986-c289-4d95-8c7f-f24c21d47846",
+            "name": "DataSourceCache -> Plugin"
+        },
+        {
+            "id": "51f23896-2e1d-4ecb-a8db-894a82aa231b",
+            "relationship": "dependencies",
+            "source": "55e3713b-b3be-4859-a972-7a6b8dea293e",
+            "target": "120a9c57-7725-47c8-8f29-b38704bf9a38",
+            "name": "DataSourceCache -> DataSource.Local"
+        },
+        {
+            "id": "a0afade4-2d8d-4187-a9fe-608ea0a384a8",
+            "relationship": "extends",
+            "source": "55e3713b-b3be-4859-a972-7a6b8dea293e",
+            "target": "4b71cd31-153d-4b18-93cd-5d249eb3be67",
+            "name": "DataSourceCache -> Cache"
+        },
+        {
+            "id": "3dfcdff7-5dc2-4bcf-a84d-f3e0c3f58398",
+            "relationship": "dependencies",
+            "source": "120a9c57-7725-47c8-8f29-b38704bf9a38",
+            "target": "e1311a57-2e26-49a9-b704-62e87af7bace",
+            "name": "DataSource.Local -> Base"
+        },
+        {
+            "id": "cb4720e4-6750-4040-93f5-31ae27f61514",
+            "relationship": "extends",
+            "source": "120a9c57-7725-47c8-8f29-b38704bf9a38",
+            "target": "e1311a57-2e26-49a9-b704-62e87af7bace",
+            "name": "DataSource.Local -> Base"
+        },
+        {
+            "id": "21a892b5-32c7-4f2b-8a22-f63c571b384c",
+            "relationship": "dependencies",
+            "source": "df252ad2-00f7-4a0b-8cf5-abdaecdfca34",
+            "target": "120a9c57-7725-47c8-8f29-b38704bf9a38",
+            "name": "DataSource.Function -> DataSource.Local"
+        },
+        {
+            "id": "c9ec3a57-f2f2-4e4e-98bd-055f9feaec90",
+            "relationship": "extends",
+            "source": "df252ad2-00f7-4a0b-8cf5-abdaecdfca34",
+            "target": "120a9c57-7725-47c8-8f29-b38704bf9a38",
+            "name": "DataSource.Function -> DataSource.Local"
+        },
+        {
+            "id": "6e438550-e2a3-434c-8e26-f25356f43983",
+            "relationship": "dependencies",
+            "source": "69941911-9315-461f-b6a4-0a7c0eca8297",
+            "target": "460b3397-01e3-49d1-aa06-25747d00a925",
+            "name": "DataSource.Get -> Get"
+        },
+        {
+            "id": "171e3534-dc1c-414f-8905-06ca3e856940",
+            "relationship": "dependencies",
+            "source": "69941911-9315-461f-b6a4-0a7c0eca8297",
+            "target": "bdc7d500-8756-4e43-9bf8-04e6959993ac",
+            "name": "DataSource.Get -> Get.Transaction"
+        },
+        {
+            "id": "087c738a-7fcf-4895-a322-42d75fac0cc9",
+            "relationship": "dependencies",
+            "source": "69941911-9315-461f-b6a4-0a7c0eca8297",
+            "target": "120a9c57-7725-47c8-8f29-b38704bf9a38",
+            "name": "DataSource.Get -> DataSource.Local"
+        },
+        {
+            "id": "401a8764-75ab-450f-b8ba-dbc0afbde8c5",
+            "relationship": "extends",
+            "source": "69941911-9315-461f-b6a4-0a7c0eca8297",
+            "target": "120a9c57-7725-47c8-8f29-b38704bf9a38",
+            "name": "DataSource.Get -> DataSource.Local"
+        },
+        {
+            "id": "10d8a1ac-27cc-4779-b39e-2404cce83c77",
+            "relationship": "dependencies",
+            "source": "5dd0c911-8e29-4266-9c25-48028d3c87aa",
+            "target": "f4d60084-d075-4aac-9dd3-6515aa40a6b7",
+            "name": "DataSource.IO -> IO"
+        },
+        {
+            "id": "7d3e51b1-b904-4c5e-895c-abf70693a518",
+            "relationship": "dependencies",
+            "source": "5dd0c911-8e29-4266-9c25-48028d3c87aa",
+            "target": "120a9c57-7725-47c8-8f29-b38704bf9a38",
+            "name": "DataSource.IO -> DataSource.Local"
+        },
+        {
+            "id": "cf82612f-b9d5-4e1b-a847-a81bbc829c29",
+            "relationship": "extends",
+            "source": "5dd0c911-8e29-4266-9c25-48028d3c87aa",
+            "target": "120a9c57-7725-47c8-8f29-b38704bf9a38",
+            "name": "DataSource.IO -> DataSource.Local"
+        },
+        {
+            "id": "6c353aea-f7ee-45ea-99ec-77f5d9f5e403",
+            "relationship": "dependencies",
+            "source": "6b9f5458-3224-44d7-9138-e02574ba5912",
+            "target": "a083c903-bfe0-4b67-8957-bc61adcdd56a",
+            "name": "DataSourceJSONSchema -> DataSchema.JSON"
+        },
+        {
+            "id": "6aec4a68-4e82-4e3f-b73c-091a58a1db2f",
+            "relationship": "dependencies",
+            "source": "6b9f5458-3224-44d7-9138-e02574ba5912",
+            "target": "44bd6986-c289-4d95-8c7f-f24c21d47846",
+            "name": "DataSourceJSONSchema -> Plugin"
+        },
+        {
+            "id": "d8afbbbc-83ba-4bc7-a661-83b516ece1dd",
+            "relationship": "dependencies",
+            "source": "6b9f5458-3224-44d7-9138-e02574ba5912",
+            "target": "120a9c57-7725-47c8-8f29-b38704bf9a38",
+            "name": "DataSourceJSONSchema -> DataSource.Local"
+        },
+        {
+            "id": "7453ef0f-c450-4444-b680-447f75af8fca",
+            "relationship": "extends",
+            "source": "6b9f5458-3224-44d7-9138-e02574ba5912",
+            "target": "b1e0336d-a3f0-4980-88ba-3eeb467e1cbd",
+            "name": "DataSourceJSONSchema -> Plugin.Base"
+        },
+        {
+            "id": "d5f03d9b-87c8-4d2c-935c-3d7cd0433380",
+            "relationship": "dependencies",
+            "source": "bc631821-91df-4f38-858b-70d27b8b9f01",
+            "target": "120a9c57-7725-47c8-8f29-b38704bf9a38",
+            "name": "Pollable -> DataSource.Local"
+        },
+        {
+            "id": "e04dcff3-aec6-4516-96e1-2be954d88b2b",
+            "relationship": "extends",
+            "source": "bc631821-91df-4f38-858b-70d27b8b9f01",
+            "target": "120a9c57-7725-47c8-8f29-b38704bf9a38",
+            "name": "Pollable -> DataSource.Local"
+        },
+        {
+            "id": "522f49dd-2169-4f8f-9ab3-2a6e89eb11cd",
+            "relationship": "dependencies",
+            "source": "e1838aa6-ddf2-444e-bec4-f22a46f48cdb",
+            "target": "d760eec8-e456-4388-9f8a-b0a8fe9be4c7",
+            "name": "DataSourceTextSchema -> DataSchema.Text"
+        },
+        {
+            "id": "cd203ee0-8ee5-4424-8785-512194da171f",
+            "relationship": "dependencies",
+            "source": "e1838aa6-ddf2-444e-bec4-f22a46f48cdb",
+            "target": "44bd6986-c289-4d95-8c7f-f24c21d47846",
+            "name": "DataSourceTextSchema -> Plugin"
+        },
+        {
+            "id": "ede9a5c0-7970-4483-ba1b-1c93fa8b65d7",
+            "relationship": "dependencies",
+            "source": "e1838aa6-ddf2-444e-bec4-f22a46f48cdb",
+            "target": "120a9c57-7725-47c8-8f29-b38704bf9a38",
+            "name": "DataSourceTextSchema -> DataSource.Local"
+        },
+        {
+            "id": "1edc731a-3a7f-4dc1-a713-9aaa8ede26fb",
+            "relationship": "extends",
+            "source": "e1838aa6-ddf2-444e-bec4-f22a46f48cdb",
+            "target": "b1e0336d-a3f0-4980-88ba-3eeb467e1cbd",
+            "name": "DataSourceTextSchema -> Plugin.Base"
+        },
+        {
+            "id": "df856726-eef8-42ad-a2e5-c64ddb1c21d0",
+            "relationship": "dependencies",
+            "source": "757b9c3f-13c3-439a-adad-a3c9808d1591",
+            "target": "88ce357c-3379-4e1d-bfa1-f519786a9621",
+            "name": "DataSourceXMLSchema -> DataSchema.XML"
+        },
+        {
+            "id": "6e687320-771d-486f-becc-1d3ad312a444",
+            "relationship": "dependencies",
+            "source": "757b9c3f-13c3-439a-adad-a3c9808d1591",
+            "target": "44bd6986-c289-4d95-8c7f-f24c21d47846",
+            "name": "DataSourceXMLSchema -> Plugin"
+        },
+        {
+            "id": "6d48c70c-a1ed-4d95-83de-1a6f6ca6b5d1",
+            "relationship": "dependencies",
+            "source": "757b9c3f-13c3-439a-adad-a3c9808d1591",
+            "target": "120a9c57-7725-47c8-8f29-b38704bf9a38",
+            "name": "DataSourceXMLSchema -> DataSource.Local"
+        },
+        {
+            "id": "82bbcaf0-8a19-4881-b524-d63c565265ca",
+            "relationship": "extends",
+            "source": "757b9c3f-13c3-439a-adad-a3c9808d1591",
+            "target": "b1e0336d-a3f0-4980-88ba-3eeb467e1cbd",
+            "name": "DataSourceXMLSchema -> Plugin.Base"
+        },
+        {
+            "id": "978bfecb-daff-4af0-9f62-3ddbd82bbd08",
+            "relationship": "uses",
+            "source": "1f07f067-ca34-4d8d-a861-09433bf72e7e",
+            "target": "aa0c0f4c-c180-4157-a173-163b11cb131d",
+            "name": "DataTable.Base -> DataTable.Core"
+        },
+        {
+            "id": "d87d59cb-7f03-44cc-836c-dd1d702f02a2",
+            "relationship": "extends",
+            "source": "1f07f067-ca34-4d8d-a861-09433bf72e7e",
+            "target": "c5aa8028-b44c-491d-beed-2f914c74c056",
+            "name": "DataTable.Base -> Widget"
+        },
+        {
+            "id": "e13b6d16-3ac7-41b4-9c77-5d93fbdd8a80",
+            "relationship": "extends",
+            "source": "06bb35e7-0790-4f82-b362-384cd6fb62c7",
+            "target": "1f07f067-ca34-4d8d-a861-09433bf72e7e",
+            "name": "DataTable -> DataTable.Base"
+        },
+        {
+            "id": "a1ddcb18-1473-431a-8f2a-3803a896820f",
+            "relationship": "extends",
+            "source": "30a065b1-08e0-41b2-b816-4649a30cd9dd",
+            "target": "7a7817c7-1f09-49d5-b915-e8dcc9cc253d",
+            "name": "DataTable.BodyView -> View"
+        },
+        {
+            "id": "fb59c79e-e815-4719-9c05-9a17a875541b",
+            "relationship": "dependencies",
+            "source": "660d2fb7-3448-4d79-9af8-ee7270df98f8",
+            "target": "120a9c57-7725-47c8-8f29-b38704bf9a38",
+            "name": "Plugin.DataTableDataSource -> DataSource.Local"
+        },
+        {
+            "id": "8f3fa1bf-143e-440b-a500-9280dd8ec5bd",
+            "relationship": "dependencies",
+            "source": "660d2fb7-3448-4d79-9af8-ee7270df98f8",
+            "target": "44bd6986-c289-4d95-8c7f-f24c21d47846",
+            "name": "Plugin.DataTableDataSource -> Plugin"
+        },
+        {
+            "id": "e31f91a8-5494-486c-9bb2-258bd79ed6cd",
+            "relationship": "extends",
+            "source": "660d2fb7-3448-4d79-9af8-ee7270df98f8",
+            "target": "b1e0336d-a3f0-4980-88ba-3eeb467e1cbd",
+            "name": "Plugin.DataTableDataSource -> Plugin.Base"
+        },
+        {
+            "id": "d118e4c2-866a-42eb-af14-0a07d09c98ef",
+            "relationship": "extends",
+            "source": "94c1a764-05bb-4010-8a30-472415258c69",
+            "target": "7a7817c7-1f09-49d5-b915-e8dcc9cc253d",
+            "name": "DataTable.HeaderView -> View"
+        },
+        {
+            "id": "7f118c45-78eb-41f6-b0cf-af10e774bf8b",
+            "relationship": "extends",
+            "source": "98dd4cc5-bfdf-4ec8-be1c-bd75b1082249",
+            "target": "ce704ba8-0c2b-453a-8103-ca035673763a",
+            "name": "DataTable.Paginator.Model -> Model"
+        },
+        {
+            "id": "ebbcc99b-3d36-4cd7-b295-3c00763c0c20",
+            "relationship": "extends",
+            "source": "644e7da9-b4b8-4ccb-99da-5531844ab67f",
+            "target": "7a7817c7-1f09-49d5-b915-e8dcc9cc253d",
+            "name": "DataTable.Paginator.View -> View"
+        },
+        {
+            "id": "170829d0-48c2-4fff-b448-00b6804a7118",
+            "relationship": "extends",
+            "source": "7bf66e61-7f4c-44af-b7a0-e1250139e4ce",
+            "target": "7a7817c7-1f09-49d5-b915-e8dcc9cc253d",
+            "name": "DataTable.TableView -> View"
+        },
+        {
+            "id": "b8404716-da0a-4981-9190-221aefb9f9d9",
+            "relationship": "extends",
+            "source": "807fbdfa-db32-45b8-a76f-52ff9a167698",
+            "target": "e1311a57-2e26-49a9-b704-62e87af7bace",
+            "name": "Plugin.DDConstrained -> Base"
+        },
+        {
+            "id": "abcb4bf4-c997-4824-9eeb-04f6a0236f95",
+            "relationship": "extends",
+            "source": "a1cc1b06-021a-405d-b936-acdaf54e8edc",
+            "target": "e1311a57-2e26-49a9-b704-62e87af7bace",
+            "name": "DD.DDM -> Base"
+        },
+        {
+            "id": "33e84206-3b9b-4f46-b1f7-b9cb8522fc57",
+            "relationship": "extends",
+            "source": "f403e276-c428-4de2-9461-fc2c82448706",
+            "target": "e1311a57-2e26-49a9-b704-62e87af7bace",
+            "name": "DD.Drop -> Base"
+        },
+        {
+            "id": "ca0ebf68-8156-46b6-be5e-ddf02b5a3288",
+            "relationship": "extends",
+            "source": "ff36b794-cf1c-4bc8-ba5b-21f2e6a3bfd1",
+            "target": "f403e276-c428-4de2-9461-fc2c82448706",
+            "name": "Plugin.Drop -> DD.Drop"
+        },
+        {
+            "id": "1a7b9536-40f2-4d62-b682-fa739772e2bf",
+            "relationship": "extends",
+            "source": "6af46da7-38c1-41f9-b4cd-95ded8fcf583",
+            "target": "e1311a57-2e26-49a9-b704-62e87af7bace",
+            "name": "DD.Drag -> Base"
+        },
+        {
+            "id": "172391a7-6f42-46dc-9ffa-c56c5097671b",
+            "relationship": "extends",
+            "source": "94155b28-bb01-4334-adc5-ba218443605c",
+            "target": "6af46da7-38c1-41f9-b4cd-95ded8fcf583",
+            "name": "Plugin.Drag -> DD.Drag"
+        },
+        {
+            "id": "7ac4bf8f-5159-453b-b0df-1d8b32c6bc0b",
+            "relationship": "extends",
+            "source": "4eefe9b4-38ce-4a14-b1f8-ceb7bb050b15",
+            "target": "e1311a57-2e26-49a9-b704-62e87af7bace",
+            "name": "DD.Delegate -> Base"
+        },
+        {
+            "id": "6958a462-e800-4bc9-90bc-81556d7c91d0",
+            "relationship": "extends",
+            "source": "3ddd9035-6afc-481b-a13d-d2f559f31a90",
+            "target": "e1311a57-2e26-49a9-b704-62e87af7bace",
+            "name": "Plugin.DDProxy -> Base"
+        },
+        {
+            "id": "2083fd6a-bc38-4c43-af71-282979756ff5",
+            "relationship": "extends",
+            "source": "864f6624-d728-4b5c-a9a1-0911b9c614ac",
+            "target": "e1311a57-2e26-49a9-b704-62e87af7bace",
+            "name": "DD.Scroll -> Base"
+        },
+        {
+            "id": "75d1e63b-9e16-4fe5-9d43-35f23c0ff796",
+            "relationship": "extends",
+            "source": "5ac683c5-f977-4975-a2d2-6ea237011672",
+            "target": "a842e5c6-0023-4ec1-b575-50eae00a2dd1",
+            "name": "Plugin.DDWindowScroll -> Scroll"
+        },
+        {
+            "id": "0f337b89-1d3c-47fe-acd4-ff64e5c508d7",
+            "relationship": "extends",
+            "source": "5b849366-7170-4dc2-b277-3f2efad47a45",
+            "target": "a842e5c6-0023-4ec1-b575-50eae00a2dd1",
+            "name": "Plugin.DDNodeScroll -> Scroll"
+        },
+        {
+            "id": "112d9b5f-6cb1-4f1c-8b91-85ca747c66b6",
+            "relationship": "extends",
+            "source": "8616e2e6-9247-4162-a57b-7e345c2d0ebb",
+            "target": "c5aa8028-b44c-491d-beed-2f914c74c056",
+            "name": "Dial -> Widget"
+        },
+        {
+            "id": "58b9c30a-ed1e-497c-ab7b-85887062fb80",
+            "relationship": "dependencies",
+            "source": "8f49de9e-5738-4efb-8b81-91c9769cad2c",
+            "target": "ce0d6f3f-18c3-4a5f-b79b-ae2091a1eea5",
+            "name": "DOM -> Features"
+        },
+        {
+            "id": "47393963-51a2-4fb1-ac8c-38c6e28ae873",
+            "relationship": "uses",
+            "source": "cf7e2f4a-6a8c-43e5-88d1-c721922fbf96",
+            "target": "84978e2e-aae2-4196-9aae-2a6ab6c6463e",
+            "name": "YUI -> EventTarget"
+        },
+        {
+            "id": "69b89087-9846-456c-b3e2-ae5fb95faef9",
+            "relationship": "dependencies",
+            "source": "5127e14e-677e-40ce-9bcb-b054d25097be",
+            "target": "44bd6986-c289-4d95-8c7f-f24c21d47846",
+            "name": "ContentEditable -> Plugin"
+        },
+        {
+            "id": "dac1d354-3e25-492d-b4de-a7bbac0d89e8",
+            "relationship": "dependencies",
+            "source": "5127e14e-677e-40ce-9bcb-b054d25097be",
+            "target": "6c729bfb-3afc-4875-a576-c1ae5ab21896",
+            "name": "ContentEditable -> StyleSheet"
+        },
+        {
+            "id": "e6fa7be1-ed8f-4b60-b862-a2dcda2c6208",
+            "relationship": "dependencies",
+            "source": "5127e14e-677e-40ce-9bcb-b054d25097be",
+            "target": "d4abfecb-1f1e-4524-8c7d-b05652be207b",
+            "name": "ContentEditable -> EditorSelection"
+        },
+        {
+            "id": "12388d78-e031-4b0a-b4a7-ef4c8bbcff26",
+            "relationship": "extends",
+            "source": "5127e14e-677e-40ce-9bcb-b054d25097be",
+            "target": "b1e0336d-a3f0-4980-88ba-3eeb467e1cbd",
+            "name": "ContentEditable -> Plugin.Base"
+        },
+        {
+            "id": "eae66c60-47c9-47f2-b52f-55fa7cd27496",
+            "relationship": "dependencies",
+            "source": "90e2195e-bbac-4d7d-a182-09c5b0272bab",
+            "target": "029de246-e3c0-4f92-9185-1a189c1f70c1",
+            "name": "Plugin.CreateLinkBase -> EditorBase"
+        },
+        {
+            "id": "aa75b107-f41d-4e02-a843-3b12dc6d1ceb",
+            "relationship": "dependencies",
+            "source": "4f3db510-7f66-4d90-a3a6-48ba83dde22e",
+            "target": "39fd4671-3b5d-4162-b262-f9be75d01ff9",
+            "name": "Plugin.ExecCommand.COMMANDS -> Frame"
+        },
+        {
+            "id": "0caa9c15-317d-4054-9f42-404732a67c4f",
+            "relationship": "dependencies",
+            "source": "029de246-e3c0-4f92-9185-1a189c1f70c1",
+            "target": "d4abfecb-1f1e-4524-8c7d-b05652be207b",
+            "name": "EditorBase -> EditorSelection"
+        },
+        {
+            "id": "eb5bc85d-6b79-4c67-a013-dd9eee12940c",
+            "relationship": "dependencies",
+            "source": "029de246-e3c0-4f92-9185-1a189c1f70c1",
+            "target": "4f3db510-7f66-4d90-a3a6-48ba83dde22e",
+            "name": "EditorBase -> Plugin.ExecCommand.COMMANDS"
+        },
+        {
+            "id": "b85ee188-4c41-4104-8a3a-091143f76e5c",
+            "relationship": "dependencies",
+            "source": "029de246-e3c0-4f92-9185-1a189c1f70c1",
+            "target": "edd530be-dba8-45a3-b4e3-0f277d7a753f",
+            "name": "EditorBase -> Plugin.ExecCommand"
+        },
+        {
+            "id": "b4bf3637-2b6e-497f-96e0-da94f4f69549",
+            "relationship": "dependencies",
+            "source": "029de246-e3c0-4f92-9185-1a189c1f70c1",
+            "target": "39fd4671-3b5d-4162-b262-f9be75d01ff9",
+            "name": "EditorBase -> Frame"
+        },
+        {
+            "id": "42d42a5e-3494-4104-99b2-7ac6508d4d02",
+            "relationship": "dependencies",
+            "source": "029de246-e3c0-4f92-9185-1a189c1f70c1",
+            "target": "e1311a57-2e26-49a9-b704-62e87af7bace",
+            "name": "EditorBase -> Base"
+        },
+        {
+            "id": "cf83527b-ee33-461a-a4f7-67a92cc25c96",
+            "relationship": "extends",
+            "source": "029de246-e3c0-4f92-9185-1a189c1f70c1",
+            "target": "e1311a57-2e26-49a9-b704-62e87af7bace",
+            "name": "EditorBase -> Base"
+        },
+        {
+            "id": "dcd1fa3f-e53c-4b2f-a207-c6fd2c85b453",
+            "relationship": "dependencies",
+            "source": "c33d615b-2a7f-4236-9aa7-26660503ce06",
+            "target": "029de246-e3c0-4f92-9185-1a189c1f70c1",
+            "name": "Plugin.EditorBidi -> EditorBase"
+        },
+        {
+            "id": "30a3ab6f-4cdf-4cb7-b1d8-82ec0f6de8f2",
+            "relationship": "extends",
+            "source": "c33d615b-2a7f-4236-9aa7-26660503ce06",
+            "target": "e1311a57-2e26-49a9-b704-62e87af7bace",
+            "name": "Plugin.EditorBidi -> Base"
+        },
+        {
+            "id": "2e5bf4d3-a323-4496-acdb-00fa3671774d",
+            "relationship": "dependencies",
+            "source": "edd530be-dba8-45a3-b4e3-0f277d7a753f",
+            "target": "39fd4671-3b5d-4162-b262-f9be75d01ff9",
+            "name": "Plugin.ExecCommand -> Frame"
+        },
+        {
+            "id": "95c82cc0-095f-418c-8cb6-d5c135ee6f35",
+            "relationship": "extends",
+            "source": "edd530be-dba8-45a3-b4e3-0f277d7a753f",
+            "target": "e1311a57-2e26-49a9-b704-62e87af7bace",
+            "name": "Plugin.ExecCommand -> Base"
+        },
+        {
+            "id": "02ecc87b-e7fd-4fd4-9eac-42b03328bd56",
+            "relationship": "dependencies",
+            "source": "24b881d1-6a4c-4767-af69-e66196a8a3fc",
+            "target": "029de246-e3c0-4f92-9185-1a189c1f70c1",
+            "name": "Plugin.EditorBR -> EditorBase"
+        },
+        {
+            "id": "9d8b4ff1-4225-4fc1-b325-950936f94297",
+            "relationship": "extends",
+            "source": "24b881d1-6a4c-4767-af69-e66196a8a3fc",
+            "target": "e1311a57-2e26-49a9-b704-62e87af7bace",
+            "name": "Plugin.EditorBR -> Base"
+        },
+        {
+            "id": "4a038cd6-6164-4730-989a-01132a98764a",
+            "relationship": "dependencies",
+            "source": "62133428-f707-4470-a3f8-07b773d0cfb8",
+            "target": "5127e14e-677e-40ce-9bcb-b054d25097be",
+            "name": "InlineEditor -> ContentEditable"
+        },
+        {
+            "id": "73709dd3-7d0c-4b2c-bb3d-d2137e6f9c38",
+            "relationship": "dependencies",
+            "source": "62133428-f707-4470-a3f8-07b773d0cfb8",
+            "target": "029de246-e3c0-4f92-9185-1a189c1f70c1",
+            "name": "InlineEditor -> EditorBase"
+        },
+        {
+            "id": "e2520b35-7851-46cc-bdf1-1cbdc95f172e",
+            "relationship": "extends",
+            "source": "62133428-f707-4470-a3f8-07b773d0cfb8",
+            "target": "029de246-e3c0-4f92-9185-1a189c1f70c1",
+            "name": "InlineEditor -> EditorBase"
+        },
+        {
+            "id": "4b728fce-7ac5-4713-b5cd-0289363df48c",
+            "relationship": "dependencies",
+            "source": "11fd69a6-c4d0-4b06-bc42-9e420b96a0a8",
+            "target": "029de246-e3c0-4f92-9185-1a189c1f70c1",
+            "name": "Plugin.EditorParaBase -> EditorBase"
+        },
+        {
+            "id": "3ef023f1-67cb-44b8-9bb4-24d93059a042",
+            "relationship": "extends",
+            "source": "11fd69a6-c4d0-4b06-bc42-9e420b96a0a8",
+            "target": "e1311a57-2e26-49a9-b704-62e87af7bace",
+            "name": "Plugin.EditorParaBase -> Base"
+        },
+        {
+            "id": "231e9767-3e92-46e5-aca9-3bf24d200a5d",
+            "relationship": "dependencies",
+            "source": "49272601-a89e-4adc-a012-af47a980960f",
+            "target": "11fd69a6-c4d0-4b06-bc42-9e420b96a0a8",
+            "name": "Plugin.EditorParaIE -> Plugin.EditorParaBase"
+        },
+        {
+            "id": "1bb5e28a-9a7b-42ef-a68d-6145c838ac21",
+            "relationship": "extends",
+            "source": "49272601-a89e-4adc-a012-af47a980960f",
+            "target": "11fd69a6-c4d0-4b06-bc42-9e420b96a0a8",
+            "name": "Plugin.EditorParaIE -> Plugin.EditorParaBase"
+        },
+        {
+            "id": "1fe59aaf-06d9-45ba-88b3-4ce567c232d1",
+            "relationship": "dependencies",
+            "source": "78ae467e-7d8a-4478-bed9-d435aadcfb42",
+            "target": "11fd69a6-c4d0-4b06-bc42-9e420b96a0a8",
+            "name": "Plugin.EditorPara -> Plugin.EditorParaBase"
+        },
+        {
+            "id": "8b109ebf-b9fc-4748-8e84-326dcd41cc89",
+            "relationship": "extends",
+            "source": "78ae467e-7d8a-4478-bed9-d435aadcfb42",
+            "target": "11fd69a6-c4d0-4b06-bc42-9e420b96a0a8",
+            "name": "Plugin.EditorPara -> Plugin.EditorParaBase"
+        },
+        {
+            "id": "d331f5a1-b493-499b-be1d-27d8517441bb",
+            "relationship": "dependencies",
+            "source": "4e30b805-7e8f-4ec9-9c82-a28d18f9ce31",
+            "target": "029de246-e3c0-4f92-9185-1a189c1f70c1",
+            "name": "Plugin.EditorTab -> EditorBase"
+        },
+        {
+            "id": "b683f832-f244-4bd5-8f17-3c0d85246e00",
+            "relationship": "extends",
+            "source": "4e30b805-7e8f-4ec9-9c82-a28d18f9ce31",
+            "target": "e1311a57-2e26-49a9-b704-62e87af7bace",
+            "name": "Plugin.EditorTab -> Base"
+        },
+        {
+            "id": "523b8787-7b31-4079-8801-5ff8e95bf62f",
+            "relationship": "dependencies",
+            "source": "39fd4671-3b5d-4162-b262-f9be75d01ff9",
+            "target": "44bd6986-c289-4d95-8c7f-f24c21d47846",
+            "name": "Frame -> Plugin"
+        },
+        {
+            "id": "4dd740e6-fcb4-480b-aadc-e7ef4e962b4d",
+            "relationship": "dependencies",
+            "source": "39fd4671-3b5d-4162-b262-f9be75d01ff9",
+            "target": "e1311a57-2e26-49a9-b704-62e87af7bace",
+            "name": "Frame -> Base"
+        },
+        {
+            "id": "ad996ba8-f9d7-4c45-9598-1702f6083f9a",
+            "relationship": "extends",
+            "source": "39fd4671-3b5d-4162-b262-f9be75d01ff9",
+            "target": "e1311a57-2e26-49a9-b704-62e87af7bace",
+            "name": "Frame -> Base"
+        },
+        {
+            "id": "3550dc8d-49b6-4e47-ad44-415623e18a50",
+            "relationship": "extends",
+            "source": "55ce9cb5-6dbf-44bd-b20f-6a36d5a138be",
+            "target": "e1311a57-2e26-49a9-b704-62e87af7bace",
+            "name": "Plugin.EditorLists -> Base"
+        },
+        {
+            "id": "f861bd53-d5a0-40ca-8305-e7f1dafee89e",
+            "relationship": "dependencies",
+            "source": "d25fba4f-e91e-4001-aa5e-1c46364579c6",
+            "target": "e1311a57-2e26-49a9-b704-62e87af7bace",
+            "name": "FileFlash -> Base"
+        },
+        {
+            "id": "375c77d1-2397-4094-a5ec-c6a56b8599c9",
+            "relationship": "extends",
+            "source": "d25fba4f-e91e-4001-aa5e-1c46364579c6",
+            "target": "e1311a57-2e26-49a9-b704-62e87af7bace",
+            "name": "FileFlash -> Base"
+        },
+        {
+            "id": "b286664c-c887-4a85-a34a-7dd6efdb35c2",
+            "relationship": "dependencies",
+            "source": "523e5e72-a380-4886-9256-ad8ddcd71867",
+            "target": "e1311a57-2e26-49a9-b704-62e87af7bace",
+            "name": "FileHTML5 -> Base"
+        },
+        {
+            "id": "ea22ad3f-9c10-419a-bccf-61901fd0ce92",
+            "relationship": "extends",
+            "source": "523e5e72-a380-4886-9256-ad8ddcd71867",
+            "target": "e1311a57-2e26-49a9-b704-62e87af7bace",
+            "name": "FileHTML5 -> Base"
+        },
+        {
+            "id": "75893db5-1079-4748-8356-e1b2926f0bed",
+            "relationship": "dependencies",
+            "source": "cab1a69c-79c5-4ce4-ad71-89289cdc3b78",
+            "target": "523e5e72-a380-4886-9256-ad8ddcd71867",
+            "name": "File -> FileHTML5"
+        },
+        {
+            "id": "3ce14eb5-a91b-4351-96f3-f79d6dc7cf2e",
+            "relationship": "dependencies",
+            "source": "cab1a69c-79c5-4ce4-ad71-89289cdc3b78",
+            "target": "d25fba4f-e91e-4001-aa5e-1c46364579c6",
+            "name": "File -> FileFlash"
+        },
+        {
+            "id": "8e4332a1-c5cd-4363-a06e-401cbb8bf355",
+            "relationship": "extends",
+            "source": "ef5682be-8b95-4e6a-bf34-a67611299800",
+            "target": "f3bb5ae5-29de-46a7-a1f4-4675c13c50ba",
+            "name": "Circle -> Shape"
+        },
+        {
+            "id": "e662ae4d-5da0-4489-a766-887db44a14a3",
+            "relationship": "extends",
+            "source": "1c5fc5d4-ec0e-4c02-a164-d92ae80c3652",
+            "target": "f3bb5ae5-29de-46a7-a1f4-4675c13c50ba",
+            "name": "Ellipse -> Shape"
+        },
+        {
+            "id": "8704edbe-da59-4354-9b02-e44d60a3d4e2",
+            "relationship": "extends",
+            "source": "4bc51f9b-5b6d-48b0-a771-05348d3e411d",
+            "target": "f3bb5ae5-29de-46a7-a1f4-4675c13c50ba",
+            "name": "Rect -> Shape"
+        },
+        {
+            "id": "c9ffe3dd-2164-4ca9-950d-efcd5fdd1474",
+            "relationship": "uses",
+            "source": "5717f75a-621a-4349-8593-a48f38066046",
+            "target": "49d1c7c2-33af-4bb1-b71e-992576e6b02b",
+            "name": "Path -> Drawing"
+        },
+        {
+            "id": "bb179243-d84c-46f5-819a-aa1eefa8a452",
+            "relationship": "extends",
+            "source": "5717f75a-621a-4349-8593-a48f38066046",
+            "target": "f3bb5ae5-29de-46a7-a1f4-4675c13c50ba",
+            "name": "Path -> Shape"
+        },
+        {
+            "id": "e750511e-44a4-4042-ba5c-2d4058fbd048",
+            "relationship": "dependencies",
+            "source": "e5950b52-32c5-4bc8-ac22-c74189ded67b",
+            "target": "13596d59-b583-4411-b84e-497d17bd4286",
+            "name": "Highlight -> Text.WordBreak"
+        },
+        {
+            "id": "7b8fd329-65c6-4149-9606-e79f05987442",
+            "relationship": "dependencies",
+            "source": "e5950b52-32c5-4bc8-ac22-c74189ded67b",
+            "target": "40d3bd87-3889-4c08-a0d8-2faf4264a6d4",
+            "name": "Highlight -> Escape"
+        },
+        {
+            "id": "a500bbf2-5974-4b08-8451-72b06f5ea866",
+            "relationship": "dependencies",
+            "source": "e5950b52-32c5-4bc8-ac22-c74189ded67b",
+            "target": "067af72a-5ae6-463c-b221-2420e4e29464",
+            "name": "Highlight -> ClassNameManager"
+        },
+        {
+            "id": "24441a9c-9a96-4df1-8b4d-ac74ca03b5b7",
+            "relationship": "dependencies",
+            "source": "5f66c312-5a34-425b-86eb-a2b31e9046bc",
+            "target": "dde86f93-ce1d-46ce-a03e-eaf4d2c9169c",
+            "name": "HistoryHash -> HistoryBase"
+        },
+        {
+            "id": "23bb8a79-731a-43a5-bc12-0955d1d5e900",
+            "relationship": "dependencies",
+            "source": "fc3c51b0-2dec-44c5-82e8-ecc1476b60a1",
+            "target": "dde86f93-ce1d-46ce-a03e-eaf4d2c9169c",
+            "name": "HistoryHTML5 -> HistoryBase"
+        },
+        {
+            "id": "7b0c6361-a735-43c0-8f70-ce092cf4bc12",
+            "relationship": "extends",
+            "source": "fc3c51b0-2dec-44c5-82e8-ecc1476b60a1",
+            "target": "dde86f93-ce1d-46ce-a03e-eaf4d2c9169c",
+            "name": "HistoryHTML5 -> HistoryBase"
+        },
+        {
+            "id": "3b6251c6-2010-4b9f-a28d-2acf018afe6b",
+            "relationship": "extends",
+            "source": "f4194165-04e4-4038-b5e4-89b6577ec0e5",
+            "target": "e1311a57-2e26-49a9-b704-62e87af7bace",
+            "name": "ImgLoadGroup -> Base"
+        },
+        {
+            "id": "985d1bcd-a243-44d2-9f5f-47511bd33b92",
+            "relationship": "extends",
+            "source": "13816fd7-120b-40cc-b7b4-4e3eb71f3e95",
+            "target": "e1311a57-2e26-49a9-b704-62e87af7bace",
+            "name": "ImgLoadImgObj -> Base"
+        },
+        {
+            "id": "868aad57-9304-4a65-918a-8531441f75a2",
+            "relationship": "uses",
+            "source": "e850d9d2-3ba7-4688-959f-18629508a0d0",
+            "target": "84978e2e-aae2-4196-9aae-2a6ab6c6463e",
+            "name": "Intl -> EventTarget"
+        },
+        {
+            "id": "4e2ce5dc-dd7c-4da1-8f22-7ee253a646d4",
+            "relationship": "dependencies",
+            "source": "d77e040b-dc7e-4557-b974-68e048678b00",
+            "target": "460b3397-01e3-49d1-aa06-25747d00a925",
+            "name": "JSONPRequest -> Get"
+        },
+        {
+            "id": "f518909b-1f15-47c0-84b6-f812ea8266b8",
+            "relationship": "dependencies",
+            "source": "d77e040b-dc7e-4557-b974-68e048678b00",
+            "target": "bdc7d500-8756-4e43-9bf8-04e6959993ac",
+            "name": "JSONPRequest -> Get.Transaction"
+        },
+        {
+            "id": "cc3b61e9-5aed-43cd-b887-91bc05b7a419",
+            "relationship": "uses",
+            "source": "3b75238d-a7e7-4e5c-9c4f-8e0bab0912f0",
+            "target": "84978e2e-aae2-4196-9aae-2a6ab6c6463e",
+            "name": "Node -> EventTarget"
+        },
+        {
+            "id": "e0f2ca6b-f517-49a2-8964-60305c02875e",
+            "relationship": "dependencies",
+            "source": "3b75238d-a7e7-4e5c-9c4f-8e0bab0912f0",
+            "target": "8f49de9e-5738-4efb-8b81-91c9769cad2c",
+            "name": "Node -> DOM"
+        },
+        {
+            "id": "df81e732-c553-4c3b-9763-99d4c107c1d3",
+            "relationship": "dependencies",
+            "source": "0ca745cb-9cc3-4e74-b733-35f4c09ae5f2",
+            "target": "44bd6986-c289-4d95-8c7f-f24c21d47846",
+            "name": "plugin.NodeFocusManager -> Plugin"
+        },
+        {
+            "id": "5ca005b9-1011-45db-87a7-acba8f03b04e",
+            "relationship": "dependencies",
+            "source": "952d7cab-5d82-4930-8bbc-04a5e3b73c2d",
+            "target": "0ca745cb-9cc3-4e74-b733-35f4c09ae5f2",
+            "name": "plugin.NodeMenuNav -> plugin.NodeFocusManager"
+        },
+        {
+            "id": "d7284db4-95bb-413a-be53-b72b8f38aa7e",
+            "relationship": "dependencies",
+            "source": "952d7cab-5d82-4930-8bbc-04a5e3b73c2d",
+            "target": "44bd6986-c289-4d95-8c7f-f24c21d47846",
+            "name": "plugin.NodeMenuNav -> Plugin"
+        },
+        {
+            "id": "d0b5a736-8913-4567-9506-87cef1b5af20",
+            "relationship": "dependencies",
+            "source": "952d7cab-5d82-4930-8bbc-04a5e3b73c2d",
+            "target": "067af72a-5ae6-463c-b221-2420e4e29464",
+            "name": "plugin.NodeMenuNav -> ClassNameManager"
+        },
+        {
+            "id": "db421b60-776f-4c0e-bc12-f822edb6ad24",
+            "relationship": "dependencies",
+            "source": "0a6ba9ad-b0ef-4381-aa66-5815c3ccf433",
+            "target": "44bd6986-c289-4d95-8c7f-f24c21d47846",
+            "name": "Plugin.ScrollInfo -> Plugin"
+        },
+        {
+            "id": "83bcd894-0175-4b5c-bba1-2bd29ce00c8d",
+            "relationship": "extends",
+            "source": "0a6ba9ad-b0ef-4381-aa66-5815c3ccf433",
+            "target": "b1e0336d-a3f0-4980-88ba-3eeb467e1cbd",
+            "name": "Plugin.ScrollInfo -> Plugin.Base"
+        },
+        {
+            "id": "dbec5fd1-9faa-43c7-a59f-07bb7f7569ed",
+            "relationship": "uses",
+            "source": "5e2867c4-51f4-4e5c-957d-c94726c3bc7a",
+            "target": "de56e78f-b757-44a7-81fe-d8627b8f2a18",
+            "name": "Overlay -> WidgetStdMod"
+        },
+        {
+            "id": "9fbf4a0f-0550-4fe7-bfa1-bc8f066880c8",
+            "relationship": "uses",
+            "source": "5e2867c4-51f4-4e5c-957d-c94726c3bc7a",
+            "target": "7772c23d-7d8e-457e-bdda-abbecd8daa39",
+            "name": "Overlay -> WidgetPosition"
+        },
+        {
+            "id": "77a346e3-de0a-4f56-9b1c-9e6279715f65",
+            "relationship": "uses",
+            "source": "5e2867c4-51f4-4e5c-957d-c94726c3bc7a",
+            "target": "b22333d3-5045-4cbe-b3d9-9559541645d3",
+            "name": "Overlay -> WidgetStack"
+        },
+        {
+            "id": "36e7e31f-13d4-4f3d-9613-e2507907f2d2",
+            "relationship": "uses",
+            "source": "5e2867c4-51f4-4e5c-957d-c94726c3bc7a",
+            "target": "e9984602-9de6-4ce9-9594-5d1bf9608012",
+            "name": "Overlay -> WidgetPositionAlign"
+        },
+        {
+            "id": "5ffbf02a-a34a-4cd8-afd7-3d3b3c5845b9",
+            "relationship": "uses",
+            "source": "5e2867c4-51f4-4e5c-957d-c94726c3bc7a",
+            "target": "8b5d5018-00d3-4f13-96ab-a81e7e36b58b",
+            "name": "Overlay -> WidgetPositionConstrain"
+        },
+        {
+            "id": "bdfd9964-54bf-4bb5-b0dd-117b79f480e8",
+            "relationship": "extends",
+            "source": "5e2867c4-51f4-4e5c-957d-c94726c3bc7a",
+            "target": "c5aa8028-b44c-491d-beed-2f914c74c056",
+            "name": "Overlay -> Widget"
+        },
+        {
+            "id": "e9a41186-0532-400a-b8ed-7bceef9468b2",
+            "relationship": "dependencies",
+            "source": "2c04f90c-5a2e-4075-b39d-7305bfe3d231",
+            "target": "e1311a57-2e26-49a9-b704-62e87af7bace",
+            "name": "Paginator.Core -> Base"
+        },
+        {
+            "id": "45a40b41-dae2-4a65-a927-fc85126b1390",
+            "relationship": "dependencies",
+            "source": "9960cde2-8ab7-40e5-83bc-989505fc8d18",
+            "target": "2c04f90c-5a2e-4075-b39d-7305bfe3d231",
+            "name": "Paginator -> Paginator.Core"
+        },
+        {
+            "id": "32928441-e59a-44c2-af0d-e9209e5ea4f3",
+            "relationship": "dependencies",
+            "source": "81e615a4-998c-4097-adaa-b509211442d6",
+            "target": "9960cde2-8ab7-40e5-83bc-989505fc8d18",
+            "name": "Paginator.Url -> Paginator"
+        },
+        {
+            "id": "960abb36-795d-4da1-8edf-7d83e47ff824",
+            "relationship": "uses",
+            "source": "e99369a0-2794-43e5-8092-7ff855ac3d76",
+            "target": "486c7555-5180-46a1-bbf5-b148e378424d",
+            "name": "Panel -> WidgetAutohide"
+        },
+        {
+            "id": "61550dea-2ff2-47fb-a5b7-6edd719144d1",
+            "relationship": "uses",
+            "source": "e99369a0-2794-43e5-8092-7ff855ac3d76",
+            "target": "975d06bc-0a8b-4634-84b6-195b7f0740e6",
+            "name": "Panel -> WidgetButtons"
+        },
+        {
+            "id": "75d699bf-1541-42b0-ab10-d5d5653f0703",
+            "relationship": "uses",
+            "source": "e99369a0-2794-43e5-8092-7ff855ac3d76",
+            "target": "6cf59ffa-9282-4517-9d16-327eb3ea30cc",
+            "name": "Panel -> WidgetModality"
+        },
+        {
+            "id": "669adf3d-2a3e-4deb-8d39-804ae43f5433",
+            "relationship": "uses",
+            "source": "e99369a0-2794-43e5-8092-7ff855ac3d76",
+            "target": "7772c23d-7d8e-457e-bdda-abbecd8daa39",
+            "name": "Panel -> WidgetPosition"
+        },
+        {
+            "id": "9338b033-7bbe-4d2a-8943-b11f5749fb28",
+            "relationship": "uses",
+            "source": "e99369a0-2794-43e5-8092-7ff855ac3d76",
+            "target": "e9984602-9de6-4ce9-9594-5d1bf9608012",
+            "name": "Panel -> WidgetPositionAlign"
+        },
+        {
+            "id": "12c25036-86dc-42e5-bd2f-10c97d7f4a1f",
+            "relationship": "uses",
+            "source": "e99369a0-2794-43e5-8092-7ff855ac3d76",
+            "target": "8b5d5018-00d3-4f13-96ab-a81e7e36b58b",
+            "name": "Panel -> WidgetPositionConstrain"
+        },
+        {
+            "id": "ea4eadc4-4c54-4838-8cd5-46c4ba615722",
+            "relationship": "uses",
+            "source": "e99369a0-2794-43e5-8092-7ff855ac3d76",
+            "target": "b22333d3-5045-4cbe-b3d9-9559541645d3",
+            "name": "Panel -> WidgetStack"
+        },
+        {
+            "id": "21d8d260-043e-4f2c-a73d-af0c3eec2784",
+            "relationship": "uses",
+            "source": "e99369a0-2794-43e5-8092-7ff855ac3d76",
+            "target": "de56e78f-b757-44a7-81fe-d8627b8f2a18",
+            "name": "Panel -> WidgetStdMod"
+        },
+        {
+            "id": "918b2489-0cee-478c-b6d6-2ee8ea727631",
+            "relationship": "dependencies",
+            "source": "e99369a0-2794-43e5-8092-7ff855ac3d76",
+            "target": "975d06bc-0a8b-4634-84b6-195b7f0740e6",
+            "name": "Panel -> WidgetButtons"
+        },
+        {
+            "id": "469a4683-d082-4c06-bd06-e7620bdef5cb",
+            "relationship": "extends",
+            "source": "e99369a0-2794-43e5-8092-7ff855ac3d76",
+            "target": "c5aa8028-b44c-491d-beed-2f914c74c056",
+            "name": "Panel -> Widget"
+        },
+        {
+            "id": "bfa7768e-59f1-4e0b-bd13-999a27082851",
+            "relationship": "uses",
+            "source": "64107f07-cf65-4023-aed9-614bae55fa67",
+            "target": "0cec1769-794c-4e2e-b8f2-3de567fcef87",
+            "name": "Pjax -> PjaxBase"
+        },
+        {
+            "id": "f251c228-7ef0-4904-8b7f-09c0b1b218fb",
+            "relationship": "uses",
+            "source": "64107f07-cf65-4023-aed9-614bae55fa67",
+            "target": "742940fc-4bc0-418d-b01a-ccf30113bba5",
+            "name": "Pjax -> PjaxContent"
+        },
+        {
+            "id": "7550a795-3f87-43df-a1da-68c3c0baa1f8",
+            "relationship": "dependencies",
+            "source": "64107f07-cf65-4023-aed9-614bae55fa67",
+            "target": "742940fc-4bc0-418d-b01a-ccf30113bba5",
+            "name": "Pjax -> PjaxContent"
+        },
+        {
+            "id": "ffd7e6de-716e-42d7-b7db-3e7a00158c77",
+            "relationship": "dependencies",
+            "source": "64107f07-cf65-4023-aed9-614bae55fa67",
+            "target": "0cec1769-794c-4e2e-b8f2-3de567fcef87",
+            "name": "Pjax -> PjaxBase"
+        },
+        {
+            "id": "40e27390-32a5-4a71-a4f5-516292dffb42",
+            "relationship": "extends",
+            "source": "64107f07-cf65-4023-aed9-614bae55fa67",
+            "target": "3a42ab7d-8fe5-4449-adce-cae34a934677",
+            "name": "Pjax -> Router"
+        },
+        {
+            "id": "f1b2271d-8232-4fbc-8b49-19b3367eab6f",
+            "relationship": "dependencies",
+            "source": "f39993ef-4f3c-4ce9-8898-001ff7d6315a",
+            "target": "44bd6986-c289-4d95-8c7f-f24c21d47846",
+            "name": "Plugin.Pjax -> Plugin"
+        },
+        {
+            "id": "dfab1915-c6d1-4bc5-91e1-1007370e1457",
+            "relationship": "dependencies",
+            "source": "f39993ef-4f3c-4ce9-8898-001ff7d6315a",
+            "target": "64107f07-cf65-4023-aed9-614bae55fa67",
+            "name": "Plugin.Pjax -> Pjax"
+        },
+        {
+            "id": "c88903e7-5a08-4d57-9b0f-b902e833d5be",
+            "relationship": "extends",
+            "source": "f39993ef-4f3c-4ce9-8898-001ff7d6315a",
+            "target": "64107f07-cf65-4023-aed9-614bae55fa67",
+            "name": "Plugin.Pjax -> Pjax"
+        },
+        {
+            "id": "ae5699ee-6b9a-47ab-ac7a-a4c5229b715f",
+            "relationship": "uses",
+            "source": "933c371c-83e7-4aca-81a5-321bc1dacab7",
+            "target": "2fd904bb-fb16-4a8e-a678-c31425d10724",
+            "name": "Recordset -> ArrayList"
+        },
+        {
+            "id": "e9d9404c-1de7-4328-a085-0deca1b55476",
+            "relationship": "dependencies",
+            "source": "933c371c-83e7-4aca-81a5-321bc1dacab7",
+            "target": "2fd904bb-fb16-4a8e-a678-c31425d10724",
+            "name": "Recordset -> ArrayList"
+        },
+        {
+            "id": "257597dd-3569-45de-b68f-d415849bc7e7",
+            "relationship": "dependencies",
+            "source": "933c371c-83e7-4aca-81a5-321bc1dacab7",
+            "target": "e1311a57-2e26-49a9-b704-62e87af7bace",
+            "name": "Recordset -> Base"
+        },
+        {
+            "id": "ea2bdaa2-d7f0-48ad-b10d-a0e2d428074a",
+            "relationship": "extends",
+            "source": "933c371c-83e7-4aca-81a5-321bc1dacab7",
+            "target": "e1311a57-2e26-49a9-b704-62e87af7bace",
+            "name": "Recordset -> Base"
+        },
+        {
+            "id": "ee265ea6-bac0-43da-b12e-83159e9644ee",
+            "relationship": "dependencies",
+            "source": "8416171a-a4b0-43cd-9ae3-56734f34e9af",
+            "target": "44bd6986-c289-4d95-8c7f-f24c21d47846",
+            "name": "RecordsetFilter -> Plugin"
+        },
+        {
+            "id": "257f6b67-b740-4b24-b22f-11a87f100f58",
+            "relationship": "dependencies",
+            "source": "8416171a-a4b0-43cd-9ae3-56734f34e9af",
+            "target": "933c371c-83e7-4aca-81a5-321bc1dacab7",
+            "name": "RecordsetFilter -> Recordset"
+        },
+        {
+            "id": "a56b222f-3554-409f-b8c8-5c84ec594249",
+            "relationship": "dependencies",
+            "source": "0c51407d-f15d-45bb-9e47-231ee3fc9efc",
+            "target": "44bd6986-c289-4d95-8c7f-f24c21d47846",
+            "name": "RecordsetIndexer -> Plugin"
+        },
+        {
+            "id": "d493a64c-c6c0-4768-9bb0-a788e9fe16c2",
+            "relationship": "dependencies",
+            "source": "0c51407d-f15d-45bb-9e47-231ee3fc9efc",
+            "target": "933c371c-83e7-4aca-81a5-321bc1dacab7",
+            "name": "RecordsetIndexer -> Recordset"
+        },
+        {
+            "id": "fe600a56-a826-4653-8d74-4c4a42624a82",
+            "relationship": "dependencies",
+            "source": "41797301-d1b3-4b9e-9f21-1e9605182774",
+            "target": "44bd6986-c289-4d95-8c7f-f24c21d47846",
+            "name": "RecordsetSort -> Plugin"
+        },
+        {
+            "id": "b23962ac-a6d8-4753-b296-90bcea63bcd9",
+            "relationship": "dependencies",
+            "source": "41797301-d1b3-4b9e-9f21-1e9605182774",
+            "target": "933c371c-83e7-4aca-81a5-321bc1dacab7",
+            "name": "RecordsetSort -> Recordset"
+        },
+        {
+            "id": "539b81cc-51a6-48a8-872e-7a5601427189",
+            "relationship": "dependencies",
+            "source": "41797301-d1b3-4b9e-9f21-1e9605182774",
+            "target": "4ca7993d-1eeb-4401-9a8d-ea7107a2c3ef",
+            "name": "RecordsetSort -> ArraySort"
+        },
+        {
+            "id": "19ecbfdf-6b24-4953-a0be-527d6adc38ce",
+            "relationship": "dependencies",
+            "source": "6701f6f6-6cff-4b17-8dc1-050882265d3a",
+            "target": "e1311a57-2e26-49a9-b704-62e87af7bace",
+            "name": "Resize -> Base"
+        },
+        {
+            "id": "f92fd3c0-1be9-4ac5-aa6d-43d2dca15341",
+            "relationship": "extends",
+            "source": "6701f6f6-6cff-4b17-8dc1-050882265d3a",
+            "target": "e1311a57-2e26-49a9-b704-62e87af7bace",
+            "name": "Resize -> Base"
+        },
+        {
+            "id": "e978b121-ad96-48bd-8eed-770384c2ac14",
+            "relationship": "dependencies",
+            "source": "3774a03e-20fe-45a4-a586-e52f8cd6ff2d",
+            "target": "6701f6f6-6cff-4b17-8dc1-050882265d3a",
+            "name": "Plugin.ResizeConstrained -> Resize"
+        },
+        {
+            "id": "a194dd53-7215-4531-911a-ab25f73fa898",
+            "relationship": "dependencies",
+            "source": "3774a03e-20fe-45a4-a586-e52f8cd6ff2d",
+            "target": "44bd6986-c289-4d95-8c7f-f24c21d47846",
+            "name": "Plugin.ResizeConstrained -> Plugin"
+        },
+        {
+            "id": "4e13d829-b598-4b0b-9237-1d289e8564e2",
+            "relationship": "dependencies",
+            "source": "3b4574ad-375b-4ab4-a3ab-7458581945a8",
+            "target": "44bd6986-c289-4d95-8c7f-f24c21d47846",
+            "name": "Plugin.Resize -> Plugin"
+        },
+        {
+            "id": "b4907f52-19d8-4d69-8a79-5461b74969a5",
+            "relationship": "dependencies",
+            "source": "3b4574ad-375b-4ab4-a3ab-7458581945a8",
+            "target": "6701f6f6-6cff-4b17-8dc1-050882265d3a",
+            "name": "Plugin.Resize -> Resize"
+        },
+        {
+            "id": "10c15a92-8039-43ba-b9f3-111a1dce9782",
+            "relationship": "extends",
+            "source": "3b4574ad-375b-4ab4-a3ab-7458581945a8",
+            "target": "6701f6f6-6cff-4b17-8dc1-050882265d3a",
+            "name": "Plugin.Resize -> Resize"
+        },
+        {
+            "id": "bd753a44-cad2-4967-8b5d-3191f4bc3f25",
+            "relationship": "dependencies",
+            "source": "1a25fbae-a2d1-4af6-b312-4dd77a613e11",
+            "target": "6701f6f6-6cff-4b17-8dc1-050882265d3a",
+            "name": "Plugin.ResizeProxy -> Resize"
+        },
+        {
+            "id": "ad48046c-799f-4f49-afc6-6b9382b54d08",
+            "relationship": "dependencies",
+            "source": "1a25fbae-a2d1-4af6-b312-4dd77a613e11",
+            "target": "44bd6986-c289-4d95-8c7f-f24c21d47846",
+            "name": "Plugin.ResizeProxy -> Plugin"
+        },
+        {
+            "id": "454e988d-dad4-498f-94fb-d4bff198f3e6",
+            "relationship": "extends",
+            "source": "1a25fbae-a2d1-4af6-b312-4dd77a613e11",
+            "target": "b1e0336d-a3f0-4980-88ba-3eeb467e1cbd",
+            "name": "Plugin.ResizeProxy -> Plugin.Base"
+        },
+        {
+            "id": "c0ac66a5-0d42-4acf-922c-b7a0b51113f9",
+            "relationship": "dependencies",
+            "source": "2e72a433-46db-4ccc-8836-44fabe5b70a1",
+            "target": "6e9962f9-713e-470f-8ffe-d941108295ac",
+            "name": "ScrollView -> Transition"
+        },
+        {
+            "id": "f679a548-0c4e-4641-ab02-a9663417ecc1",
+            "relationship": "extends",
+            "source": "2e72a433-46db-4ccc-8836-44fabe5b70a1",
+            "target": "c5aa8028-b44c-491d-beed-2f914c74c056",
+            "name": "ScrollView -> Widget"
+        },
+        {
+            "id": "8efe7657-ac4a-425e-92cd-d5c4537f16b7",
+            "relationship": "extends",
+            "source": "7010fe52-7bb9-42f1-a9ae-9ea115494b0f",
+            "target": "b1e0336d-a3f0-4980-88ba-3eeb467e1cbd",
+            "name": "Plugin.ScrollViewList -> Plugin.Base"
+        },
+        {
+            "id": "f5958649-e1cb-42c6-adce-a54c002e442b",
+            "relationship": "extends",
+            "source": "abe412d6-f1bf-40f3-be75-47c9af7654c0",
+            "target": "b1e0336d-a3f0-4980-88ba-3eeb467e1cbd",
+            "name": "Plugin.ScrollViewPaginator -> Plugin.Base"
+        },
+        {
+            "id": "cefc9dfc-7664-497b-9e93-6bbc878a1eb5",
+            "relationship": "extends",
+            "source": "17d8837c-c74c-41a8-a205-e8e1b6fec1cb",
+            "target": "b1e0336d-a3f0-4980-88ba-3eeb467e1cbd",
+            "name": "Plugin.ScrollViewScrollbars -> Plugin.Base"
+        },
+        {
+            "id": "0d1e63ee-b299-449f-8344-282c096dac1d",
+            "relationship": "dependencies",
+            "source": "f409fe3e-77a1-431d-94f9-51f7f0ea29c1",
+            "target": "6733ca2f-f944-4dcb-9025-3bd9f384ad87",
+            "name": "ClickableRail -> SliderBase"
+        },
+        {
+            "id": "9005d614-51a3-4741-a494-6b9454cac031",
+            "relationship": "extends",
+            "source": "6733ca2f-f944-4dcb-9025-3bd9f384ad87",
+            "target": "c5aa8028-b44c-491d-beed-2f914c74c056",
+            "name": "SliderBase -> Widget"
+        },
+        {
+            "id": "2a5ebf20-80d5-4ee1-b4a1-021e4a5b16a5",
+            "relationship": "uses",
+            "source": "ea0de901-0e16-42c6-927b-596d3de34daf",
+            "target": "110a95e6-be04-4264-ac53-88ff434729b5",
+            "name": "Slider -> SliderValueRange"
+        },
+        {
+            "id": "e81beb73-f80f-4259-917c-7ba11061d8fd",
+            "relationship": "uses",
+            "source": "ea0de901-0e16-42c6-927b-596d3de34daf",
+            "target": "f409fe3e-77a1-431d-94f9-51f7f0ea29c1",
+            "name": "Slider -> ClickableRail"
+        },
+        {
+            "id": "6489feb2-4ea7-4945-b802-282bd6c66b73",
+            "relationship": "dependencies",
+            "source": "ea0de901-0e16-42c6-927b-596d3de34daf",
+            "target": "f409fe3e-77a1-431d-94f9-51f7f0ea29c1",
+            "name": "Slider -> ClickableRail"
+        },
+        {
+            "id": "fbfda15a-1bb9-4115-bb6b-81e088404715",
+            "relationship": "dependencies",
+            "source": "ea0de901-0e16-42c6-927b-596d3de34daf",
+            "target": "6733ca2f-f944-4dcb-9025-3bd9f384ad87",
+            "name": "Slider -> SliderBase"
+        },
+        {
+            "id": "cb841cc3-c243-4596-95d1-02b784d79778",
+            "relationship": "extends",
+            "source": "ea0de901-0e16-42c6-927b-596d3de34daf",
+            "target": "6733ca2f-f944-4dcb-9025-3bd9f384ad87",
+            "name": "Slider -> SliderBase"
+        },
+        {
+            "id": "26e35a81-df7e-4a37-b181-d7c192afb6b8",
+            "relationship": "dependencies",
+            "source": "2c1bbabf-611b-46c7-9ba7-9fb19c8984d8",
+            "target": "10ea1b7a-e32e-464d-857f-f71b32e65786",
+            "name": "Plugin.SortScroll -> Sortable"
+        },
+        {
+            "id": "b9806ea1-7837-4580-8949-834b97a255ca",
+            "relationship": "extends",
+            "source": "2c1bbabf-611b-46c7-9ba7-9fb19c8984d8",
+            "target": "e1311a57-2e26-49a9-b704-62e87af7bace",
+            "name": "Plugin.SortScroll -> Base"
+        },
+        {
+            "id": "8e30eda4-414a-4f5b-8863-e95fea983d55",
+            "relationship": "dependencies",
+            "source": "10ea1b7a-e32e-464d-857f-f71b32e65786",
+            "target": "ff36b794-cf1c-4bc8-ba5b-21f2e6a3bfd1",
+            "name": "Sortable -> Plugin.Drop"
+        },
+        {
+            "id": "06ac644b-48e3-47cb-9a80-a1a3cedbb0bc",
+            "relationship": "extends",
+            "source": "10ea1b7a-e32e-464d-857f-f71b32e65786",
+            "target": "e1311a57-2e26-49a9-b704-62e87af7bace",
+            "name": "Sortable -> Base"
+        }
+    ]
+}

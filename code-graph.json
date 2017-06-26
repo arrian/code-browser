@@ -1,0 +1,362 @@
+{
+  "name": "Code Graph",
+  "src": "../client/src",
+  "version": "x.x",
+  "nodes": [
+    {
+      "id": "dd23772a-1392-4879-9959-c586f0691cff",
+      "name": "../client/src/index",
+      "type": "js"
+    },
+    {
+      "id": "8856c083-8680-46f7-ac98-f2d1f3be95b3",
+      "name": "redux-thunk"
+    },
+    {
+      "id": "f261f20f-a46b-435a-98c2-fcc2dbd3532a",
+      "name": "react"
+    },
+    {
+      "id": "f22184ec-a460-4f95-ba81-214a576cd2fc",
+      "name": "react-dom"
+    },
+    {
+      "id": "7bce8bf7-1087-4d72-b1ad-09a82574d54b",
+      "name": "redux"
+    },
+    {
+      "id": "f55415e0-2180-4b5a-bbe0-aa6fe7bff3e7",
+      "name": "redux-devtools-extension"
+    },
+    {
+      "id": "7fe5b5cd-3902-48c4-9433-ff905169e055",
+      "name": "react-redux"
+    },
+    {
+      "id": "fd1074a9-93cc-44a1-aaa4-9db17f47fe1d",
+      "name": "../client/src/components/App",
+      "type": "js"
+    },
+    {
+      "id": "9c13e15b-2044-46b9-99b1-21f46dde3075",
+      "name": "../client/src/reducers"
+    },
+    {
+      "id": "0b4a8b81-2995-42ef-90ff-8046cd41f0bf",
+      "name": "../client/src/actions"
+    },
+    {
+      "id": "91434467-fe9e-463e-aea0-b90af8045b7a",
+      "name": "../client/src/reducers/configuration",
+      "type": "js"
+    },
+    {
+      "id": "a677e873-6054-4d2a-8ce3-317cd5a115b3",
+      "name": "../client/src/reducers/graph",
+      "type": "js"
+    },
+    {
+      "id": "fbc4dcc3-04fd-4836-a043-ccef08f4ea6e",
+      "name": "../client/src/reducers/index",
+      "type": "js"
+    },
+    {
+      "id": "2eacb1cc-7ae7-4b1e-9abe-c5892db4e5c7",
+      "name": "../client/src/components/Graph",
+      "type": "js"
+    },
+    {
+      "id": "88d466bb-b907-4325-a727-ee8fece0ba07",
+      "name": "../client/src/components/Search",
+      "type": "js"
+    },
+    {
+      "id": "675abd37-067f-47c6-9cd4-f3162bcfac7c",
+      "name": "../client/src/components/Options",
+      "type": "js"
+    },
+    {
+      "id": "9edce1d2-d40d-4fb5-bc8c-cf541b89be25",
+      "name": "semantic-ui-react"
+    },
+    {
+      "id": "d3654719-c3d3-4f56-bec5-553998a317b7",
+      "name": "d3"
+    },
+    {
+      "id": "bcc44579-b7a4-4c14-8c44-d74a03168349",
+      "name": "lodash"
+    },
+    {
+      "id": "600b2f44-b8a5-4a93-8bc0-60a110a27055",
+      "name": "rc-slider"
+    },
+    {
+      "id": "46bd6a36-9042-4c4d-8a21-6644193f67dc",
+      "name": "rc-slider/assets/index"
+    },
+    {
+      "id": "e360ca52-3d8a-4a06-89a4-6593385e68b4",
+      "name": "../client/src/actions/index",
+      "type": "js"
+    },
+    {
+      "id": "faefd429-059e-471a-a593-449d162ce640",
+      "name": "elasticlunr"
+    }
+  ],
+  "links": [
+    {
+      "id": "75062a56-d0ec-44aa-b0ed-3406ec848975",
+      "relationship": "uses",
+      "source": "dd23772a-1392-4879-9959-c586f0691cff",
+      "target": "8856c083-8680-46f7-ac98-f2d1f3be95b3",
+      "name": "../client/src/index -> redux-thunk"
+    },
+    {
+      "id": "4aa5bef8-0a52-40fa-9364-de048b648a58",
+      "relationship": "uses",
+      "source": "dd23772a-1392-4879-9959-c586f0691cff",
+      "target": "f261f20f-a46b-435a-98c2-fcc2dbd3532a",
+      "name": "../client/src/index -> react"
+    },
+    {
+      "id": "6c570b5e-8f45-4dd6-9b71-1e366cd50047",
+      "relationship": "uses",
+      "source": "dd23772a-1392-4879-9959-c586f0691cff",
+      "target": "f22184ec-a460-4f95-ba81-214a576cd2fc",
+      "name": "../client/src/index -> react-dom"
+    },
+    {
+      "id": "2d286bbf-c4c8-4b51-8c62-e3cc8af44238",
+      "relationship": "uses",
+      "source": "dd23772a-1392-4879-9959-c586f0691cff",
+      "target": "7bce8bf7-1087-4d72-b1ad-09a82574d54b",
+      "name": "../client/src/index -> redux"
+    },
+    {
+      "id": "55e53e99-2ee1-4832-9281-2f4cde591c04",
+      "relationship": "uses",
+      "source": "dd23772a-1392-4879-9959-c586f0691cff",
+      "target": "f55415e0-2180-4b5a-bbe0-aa6fe7bff3e7",
+      "name": "../client/src/index -> redux-devtools-extension"
+    },
+    {
+      "id": "c99ccb6b-47c5-411e-895f-248a759b99d1",
+      "relationship": "uses",
+      "source": "dd23772a-1392-4879-9959-c586f0691cff",
+      "target": "7fe5b5cd-3902-48c4-9433-ff905169e055",
+      "name": "../client/src/index -> react-redux"
+    },
+    {
+      "id": "7cc22c2c-f2d0-46ca-b4ca-b3e383af50d4",
+      "relationship": "uses",
+      "source": "dd23772a-1392-4879-9959-c586f0691cff",
+      "target": "fd1074a9-93cc-44a1-aaa4-9db17f47fe1d",
+      "name": "../client/src/index -> ../client/src/components/App"
+    },
+    {
+      "id": "1aac11e6-7fb8-432e-acfc-f1efe97380a0",
+      "relationship": "uses",
+      "source": "dd23772a-1392-4879-9959-c586f0691cff",
+      "target": "9c13e15b-2044-46b9-99b1-21f46dde3075",
+      "name": "../client/src/index -> ../client/src/reducers"
+    },
+    {
+      "id": "56774ca5-abb6-470c-8283-f0f9d3f61130",
+      "relationship": "uses",
+      "source": "dd23772a-1392-4879-9959-c586f0691cff",
+      "target": "0b4a8b81-2995-42ef-90ff-8046cd41f0bf",
+      "name": "../client/src/index -> ../client/src/actions"
+    },
+    {
+      "id": "7bd558d9-1c6f-4ced-b9da-50a5add5dd62",
+      "relationship": "uses",
+      "source": "fd1074a9-93cc-44a1-aaa4-9db17f47fe1d",
+      "target": "f261f20f-a46b-435a-98c2-fcc2dbd3532a",
+      "name": "../client/src/components/App -> react"
+    },
+    {
+      "id": "da1ba65d-9637-4c43-a3b7-ce829313ced7",
+      "relationship": "uses",
+      "source": "fd1074a9-93cc-44a1-aaa4-9db17f47fe1d",
+      "target": "2eacb1cc-7ae7-4b1e-9abe-c5892db4e5c7",
+      "name": "../client/src/components/App -> ../client/src/components/Graph"
+    },
+    {
+      "id": "aa3d349d-0507-4fce-bc09-8a0623b441b8",
+      "relationship": "uses",
+      "source": "fd1074a9-93cc-44a1-aaa4-9db17f47fe1d",
+      "target": "88d466bb-b907-4325-a727-ee8fece0ba07",
+      "name": "../client/src/components/App -> ../client/src/components/Search"
+    },
+    {
+      "id": "e32488de-55fe-4545-81a3-ae97b493b623",
+      "relationship": "uses",
+      "source": "fd1074a9-93cc-44a1-aaa4-9db17f47fe1d",
+      "target": "675abd37-067f-47c6-9cd4-f3162bcfac7c",
+      "name": "../client/src/components/App -> ../client/src/components/Options"
+    },
+    {
+      "id": "cf173161-0f5e-4e7f-bb56-a32cdc2c3bf8",
+      "relationship": "uses",
+      "source": "fd1074a9-93cc-44a1-aaa4-9db17f47fe1d",
+      "target": "9edce1d2-d40d-4fb5-bc8c-cf541b89be25",
+      "name": "../client/src/components/App -> semantic-ui-react"
+    },
+    {
+      "id": "002edbe9-0607-49d0-9151-6f3a7418a8cf",
+      "relationship": "uses",
+      "source": "fbc4dcc3-04fd-4836-a043-ccef08f4ea6e",
+      "target": "7bce8bf7-1087-4d72-b1ad-09a82574d54b",
+      "name": "../client/src/reducers/index -> redux"
+    },
+    {
+      "id": "4e72c386-63a4-4634-a3e8-9b4a9e8f7ac8",
+      "relationship": "uses",
+      "source": "fbc4dcc3-04fd-4836-a043-ccef08f4ea6e",
+      "target": "a677e873-6054-4d2a-8ce3-317cd5a115b3",
+      "name": "../client/src/reducers/index -> ../client/src/reducers/graph"
+    },
+    {
+      "id": "0578d83e-fe0c-43af-b18c-71cd67379ef5",
+      "relationship": "uses",
+      "source": "fbc4dcc3-04fd-4836-a043-ccef08f4ea6e",
+      "target": "91434467-fe9e-463e-aea0-b90af8045b7a",
+      "name": "../client/src/reducers/index -> ../client/src/reducers/configuration"
+    },
+    {
+      "id": "013b9cb7-c01e-470a-acf1-22a2aeafc6eb",
+      "relationship": "uses",
+      "source": "2eacb1cc-7ae7-4b1e-9abe-c5892db4e5c7",
+      "target": "f261f20f-a46b-435a-98c2-fcc2dbd3532a",
+      "name": "../client/src/components/Graph -> react"
+    },
+    {
+      "id": "9ef757c6-1823-4d71-a5a7-bdd2a11bf1ce",
+      "relationship": "uses",
+      "source": "2eacb1cc-7ae7-4b1e-9abe-c5892db4e5c7",
+      "target": "7fe5b5cd-3902-48c4-9433-ff905169e055",
+      "name": "../client/src/components/Graph -> react-redux"
+    },
+    {
+      "id": "813e6e86-d423-4fd0-bc62-b65765cf7b38",
+      "relationship": "uses",
+      "source": "2eacb1cc-7ae7-4b1e-9abe-c5892db4e5c7",
+      "target": "0b4a8b81-2995-42ef-90ff-8046cd41f0bf",
+      "name": "../client/src/components/Graph -> ../client/src/actions"
+    },
+    {
+      "id": "070a4723-e8e7-4032-b5e4-c21d3578b5a1",
+      "relationship": "uses",
+      "source": "2eacb1cc-7ae7-4b1e-9abe-c5892db4e5c7",
+      "target": "9edce1d2-d40d-4fb5-bc8c-cf541b89be25",
+      "name": "../client/src/components/Graph -> semantic-ui-react"
+    },
+    {
+      "id": "a97b9441-8a6a-4ea8-b441-0fd1bc68ff02",
+      "relationship": "uses",
+      "source": "2eacb1cc-7ae7-4b1e-9abe-c5892db4e5c7",
+      "target": "d3654719-c3d3-4f56-bec5-553998a317b7",
+      "name": "../client/src/components/Graph -> d3"
+    },
+    {
+      "id": "a9ced351-8bb1-47f1-a023-899c852e3501",
+      "relationship": "uses",
+      "source": "2eacb1cc-7ae7-4b1e-9abe-c5892db4e5c7",
+      "target": "bcc44579-b7a4-4c14-8c44-d74a03168349",
+      "name": "../client/src/components/Graph -> lodash"
+    },
+    {
+      "id": "a3a1e0ba-8975-47b6-897f-e03be3808129",
+      "relationship": "uses",
+      "source": "88d466bb-b907-4325-a727-ee8fece0ba07",
+      "target": "f261f20f-a46b-435a-98c2-fcc2dbd3532a",
+      "name": "../client/src/components/Search -> react"
+    },
+    {
+      "id": "b63d7e82-0d4e-45f6-a087-945732c2fe79",
+      "relationship": "uses",
+      "source": "88d466bb-b907-4325-a727-ee8fece0ba07",
+      "target": "7fe5b5cd-3902-48c4-9433-ff905169e055",
+      "name": "../client/src/components/Search -> react-redux"
+    },
+    {
+      "id": "7a30021e-9522-463c-9832-1de09c3d885a",
+      "relationship": "uses",
+      "source": "88d466bb-b907-4325-a727-ee8fece0ba07",
+      "target": "0b4a8b81-2995-42ef-90ff-8046cd41f0bf",
+      "name": "../client/src/components/Search -> ../client/src/actions"
+    },
+    {
+      "id": "22f53f18-72e7-4cbd-9577-7495a5d3251e",
+      "relationship": "uses",
+      "source": "88d466bb-b907-4325-a727-ee8fece0ba07",
+      "target": "9edce1d2-d40d-4fb5-bc8c-cf541b89be25",
+      "name": "../client/src/components/Search -> semantic-ui-react"
+    },
+    {
+      "id": "7d90a727-b77d-4dd0-bfa2-688416efa62a",
+      "relationship": "uses",
+      "source": "88d466bb-b907-4325-a727-ee8fece0ba07",
+      "target": "600b2f44-b8a5-4a93-8bc0-60a110a27055",
+      "name": "../client/src/components/Search -> rc-slider"
+    },
+    {
+      "id": "aa3a985c-5398-4bb5-b1d5-19a6bc27062f",
+      "relationship": "uses",
+      "source": "88d466bb-b907-4325-a727-ee8fece0ba07",
+      "target": "46bd6a36-9042-4c4d-8a21-6644193f67dc",
+      "name": "../client/src/components/Search -> rc-slider/assets/index"
+    },
+    {
+      "id": "f586a40c-50dc-4807-afdd-818e1d6d1e76",
+      "relationship": "uses",
+      "source": "675abd37-067f-47c6-9cd4-f3162bcfac7c",
+      "target": "f261f20f-a46b-435a-98c2-fcc2dbd3532a",
+      "name": "../client/src/components/Options -> react"
+    },
+    {
+      "id": "aaf3f448-cdeb-4c07-ac98-d51767b31e8e",
+      "relationship": "uses",
+      "source": "675abd37-067f-47c6-9cd4-f3162bcfac7c",
+      "target": "7fe5b5cd-3902-48c4-9433-ff905169e055",
+      "name": "../client/src/components/Options -> react-redux"
+    },
+    {
+      "id": "92ee7ff2-f22d-481f-b4d1-8e80f94378ce",
+      "relationship": "uses",
+      "source": "675abd37-067f-47c6-9cd4-f3162bcfac7c",
+      "target": "0b4a8b81-2995-42ef-90ff-8046cd41f0bf",
+      "name": "../client/src/components/Options -> ../client/src/actions"
+    },
+    {
+      "id": "da9db7a5-3130-4187-bdf8-edb284eb376b",
+      "relationship": "uses",
+      "source": "675abd37-067f-47c6-9cd4-f3162bcfac7c",
+      "target": "9edce1d2-d40d-4fb5-bc8c-cf541b89be25",
+      "name": "../client/src/components/Options -> semantic-ui-react"
+    },
+    {
+      "id": "83019f0c-12c0-46b5-9081-d21822e84d03",
+      "relationship": "uses",
+      "source": "675abd37-067f-47c6-9cd4-f3162bcfac7c",
+      "target": "600b2f44-b8a5-4a93-8bc0-60a110a27055",
+      "name": "../client/src/components/Options -> rc-slider"
+    },
+    {
+      "id": "62f481fe-7361-48a3-83c2-08047e4adfa5",
+      "relationship": "uses",
+      "source": "675abd37-067f-47c6-9cd4-f3162bcfac7c",
+      "target": "46bd6a36-9042-4c4d-8a21-6644193f67dc",
+      "name": "../client/src/components/Options -> rc-slider/assets/index"
+    },
+    {
+      "id": "9523e0e5-2630-4f3c-bae6-02e2abc2f301",
+      "relationship": "uses",
+      "source": "e360ca52-3d8a-4a06-89a4-6593385e68b4",
+      "target": "faefd429-059e-471a-a593-449d162ce640",
+      "name": "../client/src/actions/index -> elasticlunr"
+    }
+  ]
+}

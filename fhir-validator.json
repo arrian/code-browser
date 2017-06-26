@@ -1,0 +1,111 @@
+{
+    "name": "FHIR Validator",
+    "src": "/Users/arrian/Dev/fhir-validator-js/lib",
+    "version": "0.5",
+    "nodes": [
+        {
+            "id": "e232c6da-686e-4a3a-b6e9-18df63863815",
+            "name": "/Users/arrian/Dev/fhir-validator-js/lib/fhir-validator",
+            "type": "js"
+        },
+        {
+            "id": "2cc118f5-63a7-4099-8331-d92dd80dd730",
+            "name": "lodash"
+        },
+        {
+            "id": "7911a110-1e8b-41fd-a090-08e7f221035e",
+            "name": "ajv"
+        },
+        {
+            "id": "2d267ce6-a31a-4d50-b0ab-334699a136c9",
+            "name": "/Users/arrian/Dev/fhir-validator-js/lib/conformance/3.0.0/fhir-3.0.0",
+            "type": "js"
+        },
+        {
+            "id": "ab6fdd0a-c632-4f70-b4b2-0e19c72bc9d6",
+            "name": "/Users/arrian/Dev/fhir-validator-js/lib/conformance/3.0.0/convert",
+            "type": "js"
+        },
+        {
+            "id": "ae0ae12d-f199-4369-b420-865340e64356",
+            "name": "util"
+        },
+        {
+            "id": "f69b9197-3568-45e5-8c5d-c8bed9a9f179",
+            "name": "/Users/arrian/Dev/fhir-validator-js/lib/conformance/3.0.0/profiles-resources"
+        },
+        {
+            "id": "61baedc0-f5cd-4c42-85ca-fbef54b9a698",
+            "name": "fs"
+        },
+        {
+            "id": "057a183e-e8a3-4a22-adfc-69d4a0999f2f",
+            "name": "/Users/arrian/Dev/fhir-validator-js/lib/conformance/3.0.0/schema"
+        }
+    ],
+    "links": [
+        {
+            "id": "b4b8a471-19ee-4290-b8c9-a150b85abd39",
+            "relationship": "uses",
+            "source": "e232c6da-686e-4a3a-b6e9-18df63863815",
+            "target": "2cc118f5-63a7-4099-8331-d92dd80dd730",
+            "name": "/Users/arrian/Dev/fhir-validator-js/lib/fhir-validator -> lodash"
+        },
+        {
+            "id": "2561e33b-baea-43a0-8af1-08f1e756c9b7",
+            "relationship": "uses",
+            "source": "e232c6da-686e-4a3a-b6e9-18df63863815",
+            "target": "7911a110-1e8b-41fd-a090-08e7f221035e",
+            "name": "/Users/arrian/Dev/fhir-validator-js/lib/fhir-validator -> ajv"
+        },
+        {
+            "id": "b93a8117-468a-47b9-bf8c-f5e3de9b8032",
+            "relationship": "uses",
+            "source": "e232c6da-686e-4a3a-b6e9-18df63863815",
+            "target": "2d267ce6-a31a-4d50-b0ab-334699a136c9",
+            "name": "/Users/arrian/Dev/fhir-validator-js/lib/fhir-validator -> /Users/arrian/Dev/fhir-validator-js/lib/conformance/3.0.0/fhir-3.0.0"
+        },
+        {
+            "id": "b1bb6d97-82ea-402b-96e6-725327cdfecc",
+            "relationship": "uses",
+            "source": "2d267ce6-a31a-4d50-b0ab-334699a136c9",
+            "target": "2cc118f5-63a7-4099-8331-d92dd80dd730",
+            "name": "/Users/arrian/Dev/fhir-validator-js/lib/conformance/3.0.0/fhir-3.0.0 -> lodash"
+        },
+        {
+            "id": "5942b6b5-200f-4bd0-93bf-55cbe1426eaa",
+            "relationship": "uses",
+            "source": "2d267ce6-a31a-4d50-b0ab-334699a136c9",
+            "target": "057a183e-e8a3-4a22-adfc-69d4a0999f2f",
+            "name": "/Users/arrian/Dev/fhir-validator-js/lib/conformance/3.0.0/fhir-3.0.0 -> /Users/arrian/Dev/fhir-validator-js/lib/conformance/3.0.0/schema"
+        },
+        {
+            "id": "3c762b91-4a51-469b-8a5a-9b872c9ac9e5",
+            "relationship": "uses",
+            "source": "ab6fdd0a-c632-4f70-b4b2-0e19c72bc9d6",
+            "target": "2cc118f5-63a7-4099-8331-d92dd80dd730",
+            "name": "/Users/arrian/Dev/fhir-validator-js/lib/conformance/3.0.0/convert -> lodash"
+        },
+        {
+            "id": "abf94ab9-571c-4c62-9402-ec006f45197b",
+            "relationship": "uses",
+            "source": "ab6fdd0a-c632-4f70-b4b2-0e19c72bc9d6",
+            "target": "ae0ae12d-f199-4369-b420-865340e64356",
+            "name": "/Users/arrian/Dev/fhir-validator-js/lib/conformance/3.0.0/convert -> util"
+        },
+        {
+            "id": "17f55c06-996b-4357-a0f6-d545e4cf5a40",
+            "relationship": "uses",
+            "source": "ab6fdd0a-c632-4f70-b4b2-0e19c72bc9d6",
+            "target": "f69b9197-3568-45e5-8c5d-c8bed9a9f179",
+            "name": "/Users/arrian/Dev/fhir-validator-js/lib/conformance/3.0.0/convert -> /Users/arrian/Dev/fhir-validator-js/lib/conformance/3.0.0/profiles-resources"
+        },
+        {
+            "id": "8c508b29-7bd7-47d7-8c2e-eb454861266a",
+            "relationship": "uses",
+            "source": "ab6fdd0a-c632-4f70-b4b2-0e19c72bc9d6",
+            "target": "61baedc0-f5cd-4c42-85ca-fbef54b9a698",
+            "name": "/Users/arrian/Dev/fhir-validator-js/lib/conformance/3.0.0/convert -> fs"
+        }
+    ]
+}
