@@ -48,12 +48,17 @@ export const refreshGraph = (nodes, links) => {
 		nodeMap[node.id] = node;
 	});
 	links.forEach(link => {
-		nodeMap[link.source].linkCount++;
-		nodeMap[link.target].linkCount++;
-		linkMap[link.id] = link;
+		if(nodeMap[link.source] && nodeMap[link.target]) {
+			nodeMap[link.source].linkCount++;
+			nodeMap[link.target].linkCount++;
+			linkMap[link.id] = link;
+		}
 	});
 
-	nodes.forEach(node => index.addDoc(node));
+	nodes.forEach(node => index.addDoc({
+		id: node.id,
+		name: node.name.replace(/\//g, ' ')
+	}));
 
 	return {
 		type: 'REFRESH_GRAPH',
