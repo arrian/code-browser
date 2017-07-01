@@ -17,29 +17,36 @@ class Graph extends React.Component {
       this.updateGraph(props);
     }
     
-    if(this.props.selection && this.props.selection.id) this.nodeElements.select('#node-' + this.props.selection.id + ' circle').attr('fill', this.getNodeColour(this.props.selection)).attr('stroke-width', '0').attr('class', '');
+    if(this.props.selection && this.props.selection.id) this.nodeElements.select('#node-' + this.props.selection.id + ' circle').attr('fill', '').attr('stroke-width', '0').attr('class', '');
     if(props.selection && props.selection.id) this.nodeElements.select('#node-' + props.selection.id + ' circle').attr('fill', 'red').attr('stroke', 'black').attr('stroke-width', '2').attr('class', 'selection');
   }
 
   updateGraph(props) {
-    let oldItem,
-        newItem,
+    let node,
+        oldItem,
         oldNodeMap = this.nodeMap || {},
-        oldLinkMap = this.linkMap || {};
+        oldLinkMap = this.linkMap || {},
+        resultNodes = [];
 
     this.nodeMap = {};
     this.linkMap = {};
 
-    const resultNodes = props.results.map(key => {
-      oldItem = oldNodeMap[key] || {};
-      newItem = props.nodes[key];
-      this.nodeMap[key] = Object.assign({}, newItem, {
-        x: oldItem.x,
-        y: oldItem.y,
-        vx: oldItem.vx,
-        vy: oldItem.vy
-      });
-      return this.nodeMap[key];
+    props.results.secondary.forEach(key => {
+      node = this.collectNodes(oldNodeMap, props.nodes, key, 'secondary');
+      this.nodeMap[key] = node;
+      resultNodes.push(node);
+    });
+
+    props.results.primary.forEach(key => {
+      node = this.collectNodes(oldNodeMap, props.nodes, key, 'primary');
+      this.nodeMap[key] = node;
+      resultNodes.push(node);
+    });
+
+    props.results.errors.forEach(key => {
+      node = this.collectNodes(oldNodeMap, props.nodes, key, 'error');
+      this.nodeMap[key] = node;
+      resultNodes.push(node);
     });
 
     const resultLinks = Object.keys(props.links).map(key => props.links[key]).filter(link => this.nodeMap[link.source] && this.nodeMap[link.target]).map(link => {
@@ -54,6 +61,22 @@ class Graph extends React.Component {
     this.updateSimulation(resultNodes, resultLinks, props.selectNode);
   }
 
+  collectNodes(oldNodeMap, newNodeMap, id, colour) {
+      const oldItem = oldNodeMap[id] || {};
+      const newItem = newNodeMap[id];
+      return this.createNode(oldItem, newItem, colour);
+  }
+
+  createNode(oldNode, newNode, colour) {
+    return Object.assign({}, newNode, {
+      x: oldNode.x,
+      y: oldNode.y,
+      vx: oldNode.vx,
+      vy: oldNode.vy,
+      colour
+    });
+  }
+
   updateSimulation(nodes, links, selectNode) {
     let entering;
 
@@ -61,11 +84,13 @@ class Graph extends React.Component {
     this.links = links;
 
     this.nodeElements = this.nodeElements.data(nodes, d => d.id);
+    this.nodeElements.attr('class', d => 'node ' + d.colour);
+
     this.nodeElements.exit().remove();
     entering = this.nodeElements.enter().append('g');
 
     entering
-      .attr('class', 'node')
+      .attr('class', d => 'node ' + d.colour)
       .attr('title', d => d.name)
       .attr('id', d => 'node-' + d.id);
 
@@ -77,7 +102,6 @@ class Graph extends React.Component {
 
     entering
       .append('circle')
-      .attr('fill', d => this.getNodeColour(d))
       .attr('r', d => 10)//d.linkCount * 2 + 1)
       .attr('cursor', 'pointer')
       .on('click', selectNode);
@@ -98,7 +122,7 @@ class Graph extends React.Component {
 
     this.simulation.nodes(nodes);
     this.simulation.force('link').links(links);
-    this.simulation.alpha(1).restart();
+    this.simulation.alpha(0.4).restart();
   }
 
   dragStart(d) {
@@ -116,10 +140,6 @@ class Graph extends React.Component {
     if (!d3.event.active) this.simulation.alphaTarget(0);
     d.fx = null;
     d.fy = null;
-  }
-
-  getNodeColour(node) {
-    return this.colour(node.name);
   }
 
   componentDidMount() {
@@ -176,7 +196,7 @@ class Graph extends React.Component {
 Graph.propTypes = {
   nodes: PropTypes.object,
   links: PropTypes.object,
-  results: PropTypes.array
+  results: PropTypes.object
 }
 
 const mapStateToProps = (state) => ({

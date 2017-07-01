@@ -1,10 +1,14 @@
+import { SearchMethod } from '../actions'
 
-const graph = (state = { project: {}, nodes: {}, links: {}, query: '', results: [], error: false, loading: true, selection: null, scale: 1.0, colourMethod: null, zoom: 1.0, x: 0, y: 0 }, action) => {
+const DEFAULT_RESULTS = { primary: [], secondary: [], errors: [] };
+
+
+const graph = (state = { project: {}, nodes: {}, links: {}, query: '', results: DEFAULT_RESULTS, error: false, loading: true, selection: null, scale: 1.0, searchMethod: SearchMethod.NEIGHBOURS, zoom: 1.0, x: 0, y: 0 }, action) => {
 	switch(action.type) {
 	case 'SELECT_PROJECT':
 		return Object.assign({}, state, { project: action.project });
 	case 'REFRESH_GRAPH':
-		return Object.assign({}, state, { nodes: action.nodes, links: action.links, results: [], loading: false });
+		return Object.assign({}, state, { nodes: action.nodes, links: action.links, results: DEFAULT_RESULTS, loading: false });
 	case 'QUERY_GRAPH':
 		return Object.assign({}, state, { query: action.query, loading: true });
 	case 'RESULT_GRAPH':
@@ -24,8 +28,8 @@ const graph = (state = { project: {}, nodes: {}, links: {}, query: '', results: 
 		return state;
 	case 'SCALE_NODES':
 		return Object.assign({}, state, { scale: action.scale });
-	case 'COLOUR_NODES':
-		return Object.assign({}, state, { colourMethod: action.method });
+	case 'SEARCH_METHOD':
+		return Object.assign({}, state, { searchMethod: action.method });
 	default:
 		return state;
 	}
